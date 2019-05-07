@@ -1,5 +1,5 @@
 # Blender MTL File: 'Aria_Hiro_Adult.blend'
-# Material Count: 86
+# Material Count: 88
 
 newmtl Bow_String
 Ns 96.078431
@@ -61,6 +61,54 @@ d 1.000000
 illum 2
 map_Kd textures\04000000.tga
 texgen on
+
+newmtl Material_ZZDECAL
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.090807 0.000000 0.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd textures\nip.png
+uprop c
+vprop c
+
+newmtl a_ZZNOCULL
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd textures\HAIR.PNG
+
+newmtl a_ZZNOCULL_060096E8.tga.002
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd D:\zzconvert-Blender-Link-Templates-master\templates\object_link_boy\textures\060096E8.tga
+
+newmtl a_ZZNOCULL_string.png.001
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd textures\String.png
+uprop c
+vprop c
 
 newmtl all:lambert4SG
 Ns 94.117647
@@ -169,19 +217,6 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 0.000000
 illum 6
-map_Kd textures\String.png
-uprop c
-vprop c
-
-newmtl lambert8SG.000_unknown.png
-Ns 96.078431
-Ka 0.000000 0.000000 0.000000
-Kd 1.000000 1.000000 1.000000
-Ks 0.500000 0.500000 0.500000
-Ke 0.000000 0.000000 0.000000
-Ni 1.000000
-d 0.000000
-illum 6
 map_Kd textures\unknown.png
 uprop c
 vprop c
@@ -233,7 +268,7 @@ Ni 1.000000
 d 1.000000
 illum 2
 
-newmtl m_TEXGEN
+newmtl m_TEXGEN.001
 Ns 96.078431
 Ka 1.000000 1.000000 1.000000
 Kd 1.000000 0.000000 0.000000
@@ -242,19 +277,8 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd textures\04000000.tga
+map_Kd D:\zzconvert-Blender-Link-Templates-master\templates\object_link_boy\textures\04000000.tga
 texgen on
-
-newmtl m_TEXGEN_060096E8.tga
-Ns 96.078431
-Ka 1.000000 1.000000 1.000000
-Kd 1.000000 0.000000 0.000000
-Ks 1.000000 1.000000 1.000000
-Ke 0.000000 0.000000 0.000000
-Ni 1.000000
-d 1.000000
-illum 2
-map_Kd textures\0600D4B8.tga
 
 newmtl material-01517E87
 Ns 94.117647
@@ -426,19 +450,6 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 0.000000
 illum 2
-map_Kd textures\skin.png
-texgen on
-map_d textures\\04001C40.tga
-
-newmtl mtl_04001C40_04001C40.tga
-Ns 96.078431
-Ka 1.000000 1.000000 1.000000
-Kd 1.000000 1.000000 1.000000
-Ks 0.500000 0.500000 0.500000
-Ke 0.000000 0.000000 0.000000
-Ni 1.000000
-d 0.000000
-illum 2
 map_Kd textures\04001C40.tga
 uprop c
 vprop c
@@ -454,6 +465,19 @@ Ni 1.000000
 d 0.000000
 illum 2
 map_Kd textures\red shine.png
+texgen on
+map_d textures\\04001C40.tga
+
+newmtl mtl_04001C40_skin.png.001
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 0.000000
+illum 2
+map_Kd textures\skin.png
 texgen on
 map_d textures\\04001C40.tga
 
@@ -980,42 +1004,43 @@ illum 2
 map_Kd textures\Gold.png
 texgen on
 
-newmtl sword_TEXGEN_04001800_ZZFORCERGBA16.tga
+newmtl sword_TEXGEN.004
 Ns 0.000000
 Ka 0.200000 0.200000 0.200000
-Kd 0.800000 0.800000 0.800000
+Kd 0.000000 0.128966 0.800000
 Ks 0.201870 0.201870 0.201870
 Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd textures\04001800_ZZFORCERGBA16.tga
+map_Kd textures\04000000.tga
 texgen on
 
-newmtl sword_TEXGEN_06009968.png
+newmtl sword_TEXGEN.004_insignia.png
 Ns 0.000000
 Ka 0.200000 0.200000 0.200000
-Kd 0.800000 0.800000 0.800000
+Kd 0.000000 0.128966 0.800000
 Ks 0.201870 0.201870 0.201870
 Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd textures\06009968.png
+map_Kd textures\insignia.png
 uprop c
 vprop c
 
-newmtl sword_TEXGEN_0600C280.png
+newmtl sword_TEXGEN.004_insignia2.png
 Ns 0.000000
 Ka 0.200000 0.200000 0.200000
-Kd 0.800000 0.800000 0.800000
+Kd 0.000000 0.128966 0.800000
 Ks 0.201870 0.201870 0.201870
 Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd textures\0600C280.png
+map_Kd textures\insignia2.png
 uprop c
+vprop c
 
 newmtl sword_TEXGEN_NONE
 Ns 0.000000

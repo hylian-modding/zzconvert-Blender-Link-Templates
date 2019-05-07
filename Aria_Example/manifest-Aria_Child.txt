@@ -52,6 +52,7 @@ DICTIONARY
   DL_BOOMERANG		    0x019900	"Boomerang"
   DL_SHIELD_DEKU      0x019D58	"Shield.1"
   DL_SHIELD_HYLIAN		0x019FA0	"Shield.2"
+	DL_SHIELD_MIRROR	  0x019D58	"Shield.3"
   DL_SLINGSHOT			  0x01A3C8	"Slingshot"
   DL_OCARINA_FAIRY		0x01A6D0	"Ocarina.1"
   DL_OCARINA_TIME		  0x01A958	"Ocarina.2"
@@ -119,6 +120,18 @@ OBJECT
 		CallMatrix( MATRIX_SHIELD_BACK );
 		CallList( DL_SHIELD_HYLIAN );
 
+				DL_SHIELD_MIRROR_BACK:
+		CallMatrix( MATRIX_SHIELD_BACK );
+		CallList( DL_SHIELD_MIRROR );
+
+			DL_SWORD_SHIELD_MIRROR:
+		CallList( DL_SWORD_SHEATHED );
+		CallList( DL_SHIELD_MIRROR_BACK );
+
+			DL_SHEATH0_MIRROR:
+		CallList( DL_SWORD_SHEATH );
+		CallList( DL_SHIELD_MIRROR_BACK );
+
 
   	DL_LFIST_SWORD: // Left Fist + Kokiri Sword
 		CallList( DL_SWORD_HILT );
@@ -135,6 +148,10 @@ OBJECT
 
 	DL_RFIST_SHIELD_DEKU: // Right Fist + Deku Shield
 		CallList( DL_SHIELD_DEKU );
+		CallList( DL_RFIST );
+
+	DL_RFIST_SHIELD_MIRROR:
+		CallList( DL_SHIELD_MIRROR );
 		CallList( DL_RFIST );
 
 	DL_RFIST_SLINGSHOT: // Right Fist + Fairy Slingshot
@@ -181,16 +198,16 @@ REPOINT
 		Write32( DL_RFIST_SHIELD_DEKU );		  			//	Right Fist + Deku Shield (Low Poly)
 		Write32( DL_RFIST_SHIELD_HYLIAN );		  		//	Right Fist + Hylian Shield (High Poly)
 		Write32( DL_RFIST_SHIELD_HYLIAN );					//	Right Fist + Hylian Shield (Low Poly)
-		Write32( DL_RFIST );						          	//	Right Fist + Mirror Shield (High Poly)
-		Write32( DL_RFIST );					          		//	Right Fist + Mirror Shield (Low Poly)
+		Write32( DL_RFIST_SHIELD_MIRROR );						          	//	Right Fist + Mirror Shield (High Poly)
+		Write32( DL_RFIST_SHIELD_MIRROR );					          		//	Right Fist + Mirror Shield (Low Poly)
 		Write32( DL_SWORD_SHEATHED );		    				//	Sheathed Sword (High Poly)
 		Write32( DL_SWORD_SHEATHED );		    				//	Sheathed Sword (Low Poly)
 		Write32( DL_SWORD_SHIELD_DEKU );		   			//	Deku Shield + Sheathed Sword (High Poly)
 		Write32( DL_SWORD_SHIELD_DEKU );			   		//	Deku Shield + Sheathed Sword (Low Poly)
 		Write32( DL_SWORD_SHIELD_HYLIAN );					//	Hylian Shield + Sheathed Sword (High Poly)
 		Write32( DL_SWORD_SHIELD_HYLIAN );					//	Hylian Shield + Sheathed Sword (Low Poly)
-		Write32( DL_SWORD_SHEATHED );				    		//	Mirror Shield + Sheathed Sword (High Poly)
-		Write32( DL_SWORD_SHEATHED );			    			//	Mirror Shield + Sheathed Sword (Low Poly)
+		Write32( DL_SWORD_SHIELD_MIRROR );				    		//	Mirror Shield + Sheathed Sword (High Poly)
+		Write32( DL_SWORD_SHIELD_MIRROR );			    			//	Mirror Shield + Sheathed Sword (Low Poly)
 		Write32( 0x00000000 );					        		//	? (High Poly)
 		Write32( 0x00000000 );					        		//	? (Low Poly)
 		Write32( DL_SHIELD_DEKU_BACK );			   			//	Deku Shield without Sheath (High Poly)
@@ -201,8 +218,8 @@ REPOINT
 		Write32( DL_SHEATH0_DEKU );			       			//	Deku Shield + Sheath (Low Poly)
 		Write32( DL_SHEATH0_HYLIAN );		    				//	Hylian Shield + Sheath (High Poly)
 		Write32( DL_SHEATH0_HYLIAN );		    				//	Hylian Shield + Sheath (Low Poly)
-		Write32( DL_SWORD_SHEATH );				      		//	Mirror Shield + Sheath (High Poly)
-		Write32( DL_SWORD_SHEATH );				       		//	Mirror Shield + Sheath (Low Poly)
+		Write32( DL_SHEATH0_MIRROR );				      		//	Mirror Shield + Sheath (High Poly)
+		Write32( DL_SHEATH0_MIRROR );				       		//	Mirror Shield + Sheath (Low Poly)
 		Write32( 0x00000000 );						         	//	? (High Poly)
 		Write32( 0x00000000 );				        			//	? (Low Poly)
 		Write32( DL_SHIELD_DEKU_BACK );				   		//	Deku Shield without Sheath (High Poly)

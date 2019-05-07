@@ -1,5 +1,5 @@
 # Blender MTL File: 'Aria_Hiro_Child.blend'
-# Material Count: 55
+# Material Count: 62
 
 newmtl Slingshot_String_NOCULL
 Ns 96.078431
@@ -10,6 +10,17 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
+
+newmtl a_ZZNOCULL
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd D:\zzconvert-Blender-Link-Templates-master\templates\object_link_boy\textures\060096E8.tga
 
 newmtl all:lambert4SG
 Ns 94.117647
@@ -46,7 +57,7 @@ illum 2
 map_Kd textures\Blade.png
 texgen on
 
-newmtl lambert2SG.001
+newmtl lambert2SG
 Ns 96.078431
 Ka 0.000000 0.000000 0.000000
 Kd 1.000000 1.000000 1.000000
@@ -59,7 +70,7 @@ map_Kd textures\top.png
 uprop c
 vprop c
 
-newmtl lambert4SG.001
+newmtl lambert4SG
 Ns 96.078431
 Ka 0.000000 0.000000 0.000000
 Kd 1.000000 1.000000 1.000000
@@ -72,7 +83,7 @@ map_Kd textures\bottom.png
 uprop c
 vprop c
 
-newmtl lambert5SG.001
+newmtl lambert5SG
 Ns 96.078431
 Ka 0.000000 0.000000 0.000000
 Kd 0.900000 0.900000 1.000000
@@ -145,6 +156,18 @@ Ni 1.000000
 d 1.000000
 illum 2
 map_Kd textures\leather.png
+texgen on
+
+newmtl m_TEXGEN.001
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 0.000000 0.000000
+Ks 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd D:\zzconvert-Blender-Link-Templates-master\templates\object_link_boy\textures\04000000.tga
 texgen on
 
 newmtl material-01517E87
@@ -475,7 +498,7 @@ illum 2
 map_Kd textures\leather.png
 texgen on
 
-newmtl shield:lambert2SG2.001
+newmtl shield:lambert2SG2
 Ns 96.078431
 Ka 0.500000 0.500000 0.500000
 Kd 1.000000 1.000000 1.000000
@@ -502,7 +525,7 @@ texgen on
 newmtl skin
 Ns 96.078431
 Ka 1.000000 1.000000 1.000000
-Kd 0.806952 0.672443 0.407240
+Kd 1.000000 1.000000 1.000000
 Ks 0.500000 0.500000 0.500000
 Ke 0.000000 0.000000 0.000000
 Ni 1.000000
@@ -520,7 +543,8 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd textures\fingers.tga
+map_Kd textures\eyes.png
+uprop c
 vprop c
 
 newmtl skin_TEXGEN.001
@@ -536,7 +560,7 @@ map_Kd textures\String.png
 uprop c
 vprop c
 
-newmtl skin_TEXGEN_eyes.png.001
+newmtl skin_TEXGEN.004
 Ns 96.078431
 Ka 1.000000 1.000000 1.000000
 Kd 1.000000 1.000000 1.000000
@@ -545,8 +569,18 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd textures\eyes.png
-uprop c
+map_Kd textures\String.png
+
+newmtl skin_TEXGEN_fingers.tga
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd textures\fingers.tga
 vprop c
 
 newmtl skin_TEXGEN_gold.tga
@@ -621,7 +655,18 @@ d 1.000000
 illum 2
 map_Kd textures\String.png
 uprop c
-vprop c
+
+newmtl skin_skin.png.001
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd textures\skin.png
+texgen on
 
 newmtl sword_TEXGEN
 Ns 0.000000
@@ -670,3 +715,41 @@ d 1.000000
 illum 2
 map_Kd textures\04000000.tga
 texgen on
+
+newmtl sword_TEXGEN.004
+Ns 0.000000
+Ka 0.200000 0.200000 0.200000
+Kd 0.000000 0.128966 0.800000
+Ks 0.201870 0.201870 0.201870
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd textures\04000000.tga
+texgen on
+
+newmtl sword_TEXGEN.004_insignia.png
+Ns 0.000000
+Ka 0.200000 0.200000 0.200000
+Kd 0.000000 0.128966 0.800000
+Ks 0.201870 0.201870 0.201870
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd textures\insignia.png
+uprop c
+vprop c
+
+newmtl sword_TEXGEN.004_insignia2.png
+Ns 0.000000
+Ka 0.200000 0.200000 0.200000
+Kd 0.000000 0.128966 0.800000
+Ks 0.201870 0.201870 0.201870
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd textures\insignia2.png
+uprop c
+vprop c
