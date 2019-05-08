@@ -614,9 +614,11 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd textures\060090E8.tga
+map_Kd textures\060095E8.tga
+uprop c
+vprop c
 
-newmtl mtl_060090E8_060095E8.tga
+newmtl mtl_060090E8_060090E8.tga
 Ns 94.117647
 Ka 1.000000 1.000000 1.000000
 Kd 1.000000 1.000000 1.000000
@@ -625,9 +627,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd textures\060095E8.tga
-uprop c
-vprop c
+map_Kd textures\060090E8.tga
 
 newmtl mtl_060091E0
 Ns 96.078431
@@ -1013,6 +1013,19 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
+map_Kd textures\insignia2.png
+uprop c
+vprop c
+
+newmtl sword_TEXGEN.004_04000000.tga
+Ns 0.000000
+Ka 0.200000 0.200000 0.200000
+Kd 0.000000 0.128966 0.800000
+Ks 0.201870 0.201870 0.201870
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
 map_Kd textures\04000000.tga
 texgen on
 
@@ -1026,19 +1039,6 @@ Ni 1.000000
 d 1.000000
 illum 2
 map_Kd textures\insignia.png
-uprop c
-vprop c
-
-newmtl sword_TEXGEN.004_insignia2.png
-Ns 0.000000
-Ka 0.200000 0.200000 0.200000
-Kd 0.000000 0.128966 0.800000
-Ks 0.201870 0.201870 0.201870
-Ke 0.000000 0.000000 0.000000
-Ni 1.000000
-d 1.000000
-illum 2
-map_Kd textures\insignia2.png
 uprop c
 vprop c
 

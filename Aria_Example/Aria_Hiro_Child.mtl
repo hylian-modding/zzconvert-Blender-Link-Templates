@@ -543,8 +543,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd textures\eyes.png
-uprop c
+map_Kd textures\fingers.tga
 vprop c
 
 newmtl skin_TEXGEN.001
@@ -571,7 +570,7 @@ d 1.000000
 illum 2
 map_Kd textures\String.png
 
-newmtl skin_TEXGEN_fingers.tga
+newmtl skin_TEXGEN_eyes.png.001
 Ns 96.078431
 Ka 1.000000 1.000000 1.000000
 Kd 1.000000 1.000000 1.000000
@@ -580,7 +579,8 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd textures\fingers.tga
+map_Kd textures\eyes.png
+uprop c
 vprop c
 
 newmtl skin_TEXGEN_gold.tga
@@ -689,10 +689,10 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd textures\gold.tga
+map_Kd textures\pants.png
 texgen on
 
-newmtl sword_TEXGEN.001_pants.png
+newmtl sword_TEXGEN.001_gold.tga.001
 Ns 0.000000
 Ka 0.200000 0.200000 0.200000
 Kd 0.800000 0.800000 0.800000
@@ -701,7 +701,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd textures\pants.png
+map_Kd textures\gold.tga
 texgen on
 
 newmtl sword_TEXGEN.002
