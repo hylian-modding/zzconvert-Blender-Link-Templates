@@ -977,10 +977,10 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd textures\gold.tga
+map_Kd textures\pants.png
 texgen on
 
-newmtl sword_TEXGEN.002_pants.png.001
+newmtl sword_TEXGEN.002_gold.tga.001
 Ns 0.000000
 Ka 0.200000 0.200000 0.200000
 Kd 0.800000 0.800000 0.800000
@@ -989,7 +989,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd textures\pants.png
+map_Kd textures\gold.tga
 texgen on
 
 newmtl sword_TEXGEN.003
@@ -1013,10 +1013,11 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd textures\04000000.tga
-texgen on
+map_Kd textures\insignia.png
+uprop c
+vprop c
 
-newmtl sword_TEXGEN.004_insignia.png
+newmtl sword_TEXGEN.004_04000000.tga
 Ns 0.000000
 Ka 0.200000 0.200000 0.200000
 Kd 0.000000 0.128966 0.800000
@@ -1025,9 +1026,8 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd textures\insignia.png
-uprop c
-vprop c
+map_Kd textures\04000000.tga
+texgen on
 
 newmtl sword_TEXGEN.004_insignia2.png
 Ns 0.000000
