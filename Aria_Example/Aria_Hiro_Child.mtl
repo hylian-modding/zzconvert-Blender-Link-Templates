@@ -10,6 +10,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
+map_Kd textures\String_ZZRGBA16.png
 
 newmtl a_ZZNOCULL
 Ns 96.078431
@@ -20,9 +21,22 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd D:\zzconvert-Blender-Link-Templates-master\templates\object_link_boy\textures\060096E8.tga
+map_Kd textures\String_ZZRGBA16.png
+uprop c
 
-newmtl all:lambert4SG
+newmtl a_ZZNOCULL.003
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd textures\String_ZZRGBA16.png
+uprop c
+
+newmtl all:lambert4SG.001
 Ns 94.117647
 Ka 1.000000 1.000000 1.000000
 Kd 1.000000 1.000000 1.000000
@@ -34,7 +48,7 @@ illum 6
 map_Kd textures\Gold.png
 texgen on
 
-newmtl all:lambert4SG_swordbottom.png
+newmtl all:lambert4SG_swordbottom.png.001
 Ns 94.117647
 Ka 1.000000 1.000000 1.000000
 Kd 1.000000 1.000000 1.000000
@@ -95,20 +109,7 @@ illum 6
 map_Kd textures\shine2.png
 texgen on
 
-newmtl lambert8SG.000
-Ns 96.078431
-Ka 0.000000 0.000000 0.000000
-Kd 1.000000 1.000000 1.000000
-Ks 0.500000 0.500000 0.500000
-Ke 0.000000 0.000000 0.000000
-Ni 1.000000
-d 0.000000
-illum 6
-map_Kd textures\String.png
-uprop c
-vprop c
-
-newmtl lambert8SG.000_unknown.png.001
+newmtl lambert8SG.001
 Ns 96.078431
 Ka 0.000000 0.000000 0.000000
 Kd 1.000000 1.000000 1.000000
@@ -121,7 +122,7 @@ map_Kd textures\unknown.png
 uprop c
 vprop c
 
-newmtl lambert8SG.000_unknown_(1).png.001
+newmtl lambert8SG.001_unknown_(1).png
 Ns 96.078431
 Ka 0.000000 0.000000 0.000000
 Kd 1.000000 1.000000 1.000000
@@ -167,7 +168,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd D:\zzconvert-Blender-Link-Templates-master\templates\object_link_boy\textures\04000000.tga
+map_Kd textures\04000000.tga
 texgen on
 
 newmtl material-01517E87
@@ -217,7 +218,8 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd textures\\i_stex02a_0.png
+map_Kd textures\Gold.png
+texgen on
 
 newmtl mtl_04000000_TEXGEN_NOCULL
 Ns 94.117647
@@ -266,7 +268,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 0.000000
 illum 2
-map_Kd textures\String.png
+map_Kd textures\String_ZZRGBA16.png
 map_d textures\\04001A00.tga
 
 newmtl mtl_04001C40.002
@@ -470,7 +472,7 @@ d 0.000000
 illum 2
 map_Kd textures\04000000.tga
 texgen on
-map_d C:\\Dropbox\\Z64\\zzplayas_blender_templates\\object_link_child\\textures\\06008DE0.tga
+map_d textures\\06008DE0.tga
 
 newmtl mtl_060091E0
 Ns 96.078431
@@ -555,9 +557,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd textures\String.png
-uprop c
-vprop c
+map_Kd textures\\skin1.png
 
 newmtl skin_TEXGEN.004
 Ns 96.078431
@@ -568,7 +568,18 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd textures\String.png
+map_Kd textures\String_ZZRGBA16.png
+
+newmtl skin_TEXGEN_String_ZZRGBA16.png
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd textures\String_ZZRGBA16.png
 
 newmtl skin_TEXGEN_eyes.png.001
 Ns 96.078431
@@ -644,18 +655,6 @@ illum 2
 map_Kd textures\skin.png
 texgen on
 
-newmtl skin_TEXGEN_string.png
-Ns 96.078431
-Ka 1.000000 1.000000 1.000000
-Kd 1.000000 1.000000 1.000000
-Ks 0.500000 0.500000 0.500000
-Ke 0.000000 0.000000 0.000000
-Ni 1.000000
-d 1.000000
-illum 2
-map_Kd textures\String.png
-uprop c
-
 newmtl skin_skin.png.001
 Ns 96.078431
 Ka 1.000000 1.000000 1.000000
@@ -725,19 +724,6 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd textures\insignia2.png
-uprop c
-vprop c
-
-newmtl sword_TEXGEN.004_04000000.tga.002
-Ns 0.000000
-Ka 0.200000 0.200000 0.200000
-Kd 0.000000 0.128966 0.800000
-Ks 0.201870 0.201870 0.201870
-Ke 0.000000 0.000000 0.000000
-Ni 1.000000
-d 1.000000
-illum 2
 map_Kd textures\04000000.tga
 texgen on
 
@@ -751,5 +737,18 @@ Ni 1.000000
 d 1.000000
 illum 2
 map_Kd textures\insignia.png
+uprop c
+vprop c
+
+newmtl sword_TEXGEN.004_insignia2.png
+Ns 0.000000
+Ka 0.200000 0.200000 0.200000
+Kd 0.000000 0.128966 0.800000
+Ks 0.201870 0.201870 0.201870
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd textures\insignia2.png
 uprop c
 vprop c
