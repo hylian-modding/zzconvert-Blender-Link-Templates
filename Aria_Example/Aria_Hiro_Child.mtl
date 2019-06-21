@@ -1,5 +1,5 @@
 # Blender MTL File: 'Aria_Hiro_Child.blend'
-# Material Count: 62
+# Material Count: 64
 
 newmtl Slingshot_String_NOCULL
 Ns 96.078431
@@ -147,7 +147,7 @@ illum 2
 map_Kd textures\leather.png
 texgen on
 
-newmtl leather_leather.png.001
+newmtl leather_leather.png
 Ns 96.078431
 Ka 1.000000 1.000000 1.000000
 Kd 0.005605 0.005605 0.005605
@@ -157,6 +157,18 @@ Ni 1.000000
 d 1.000000
 illum 2
 map_Kd textures\leather.png
+texgen on
+
+newmtl leather_skin.png.001
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.005605 0.005605 0.005605
+Ks 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd textures\skin.png
 texgen on
 
 newmtl m_TEXGEN.001
@@ -524,6 +536,18 @@ illum 2
 map_Kd textures\leather.png
 texgen on
 
+newmtl shirt_ZZENV_leather.png
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd textures\leather.png
+texgen on
+
 newmtl skin
 Ns 96.078431
 Ka 1.000000 1.000000 1.000000
@@ -570,6 +594,18 @@ d 1.000000
 illum 2
 map_Kd textures\String_ZZRGBA16.png
 
+newmtl skin_TEXGEN_Gold.png.001
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd textures\Gold.png
+texgen on
+
 newmtl skin_TEXGEN_String_ZZRGBA16.png
 Ns 96.078431
 Ka 1.000000 1.000000 1.000000
@@ -593,18 +629,6 @@ illum 2
 map_Kd textures\eyes.png
 uprop c
 vprop c
-
-newmtl skin_TEXGEN_gold.tga
-Ns 96.078431
-Ka 1.000000 1.000000 1.000000
-Kd 1.000000 1.000000 1.000000
-Ks 0.500000 0.500000 0.500000
-Ke 0.000000 0.000000 0.000000
-Ni 1.000000
-d 1.000000
-illum 2
-map_Kd textures\gold.tga
-texgen on
 
 newmtl skin_TEXGEN_hair.png
 Ns 96.078431
@@ -724,10 +748,11 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd textures\04000000.tga
-texgen on
+map_Kd textures\insignia.png
+uprop c
+vprop c
 
-newmtl sword_TEXGEN.004_insignia.png
+newmtl sword_TEXGEN.004_04000000.tga.002
 Ns 0.000000
 Ka 0.200000 0.200000 0.200000
 Kd 0.000000 0.128966 0.800000
@@ -736,9 +761,8 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd textures\insignia.png
-uprop c
-vprop c
+map_Kd textures\04000000.tga
+texgen on
 
 newmtl sword_TEXGEN.004_insignia2.png
 Ns 0.000000
