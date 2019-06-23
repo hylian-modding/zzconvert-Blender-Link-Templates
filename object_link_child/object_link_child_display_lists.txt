@@ -1,0 +1,60 @@
+***Left and Right are determined from Link's Point of View***
+06011A80 : Waist
+06012128 : Right Thigh
+06012670 : Right Shin
+06012B90 : Right Foot
+06013140 : Left Thigh
+06013688 : Left Shin
+06013BA8 : Left Foot
+060148D8 : Head
+060151E8 : Hat
+060153C0 : Collar
+06015780 : Left Shoulder
+06015BC0 : Left Forearm
+06016090 : Left Hand
+06016458 : Left Fist
+06016A18 : Torso
+06016EB8 : Outstretched Left Hand (Used for holding bottles.)
+06017340 : Right Shoulder
+06017780 : Right Forearm
+06017AD0 : Right Hand
+06017E90 : Right Fist
+060180A0 : Kokiri Sword Sheath
+060183C8 : Kokiri Sword Hilt
+06018678 : Kokiri Sword Blade
+06018FC8 : Master Sword (For Pedestal of Time)
+060194A8 : Empty Bottle
+06019900 : Boomerang
+06019D58 : Deku Shield
+06019FA0 : Hylian Shield (on Back)
+0601A3C8 : Fairy Slingshot
+0601A6D0 : Fairy Ocarina
+0601A958 : Ocarina of Time
+0601B998 : FPS Right Arm
+0601BF30 : Deku Stick
+0601C208 : Goron's Bracelet
+0601C3C8 : Fairy Slingshot String
+0601C878 : Skull Mask
+0601CC68 : Spooky Mask
+0601D108 : Keaton Mask
+0601D538 : Mask of Truth
+0601D9F8 : Goron Mask
+0601DF48 : Zora Mask
+0601E990 : Gerudo Mask
+0601F290 : Bunny Hood
+0601F670 : Hilt Matrix ; Hilt T(-440, -211, 0) R(0, 0, 0)
+0601F6B0 : Shield Matrix ; Shield T(545, 0, 0) R(180, 0, 180)
+0601F6F0 : Sheathed Kokiri Sword
+0601F718 : Rotated Deku Shield
+0601F738 : Hylian Shield + Sheathed Kokiri Sword
+0601F748 : Hylian Shield + Kokiri Sword Sheath
+0601F758 : Deku Shield + Sheathed Kokiri Sword
+0601F768 : Deku Shield + Kokiri Sword Sheath
+0601F778 : Left Fist + Kokiri Sword
+0601F790 : Left Hand + Master Sword
+0601F7A0 : Left Fist + Boomerang
+0601F7B0 : Right Fist + Deku Shield
+0601F7C0 : Right Fist + Fairy Slingshot
+0601F7D0 : Right Hand + Fairy Ocarina
+0601F7E0 : Right Hand + Ocarina of Time
+0601F7F0 : FPS Right Arm + Fairy Slingshot
