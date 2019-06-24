@@ -10,9 +10,9 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 0.000000
 illum 6
-map_Kd textures\glove.png
+map_Kd textures\fingers.png
 
-newmtl Belt:white_fingers.png.001
+newmtl Belt:white_glove.png
 Ns 96.078431
 Ka 0.000000 0.000000 0.000000
 Kd 1.000000 1.000000 1.000000
@@ -21,7 +21,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 0.000000
 illum 6
-map_Kd textures\fingers.png
+map_Kd textures\glove.png
 
 newmtl Belt:white_glove_top.png
 Ns 96.078431
@@ -77,9 +77,9 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd textures\Hat.png
+map_Kd textures\Shirt.png
 
-newmtl Tunic_color_ZZENVl_Shirt.png
+newmtl Tunic_color_ZZENVl_Hat.png
 Ns 96.078431
 Ka 1.000000 1.000000 1.000000
 Kd 0.800000 0.800000 0.800000
@@ -88,7 +88,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd textures\Shirt.png
+map_Kd textures\Hat.png
 
 newmtl White
 Ns 94.117647
@@ -99,7 +99,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd textures\glove.png
+map_Kd textures\fingers.png
 
 newmtl White_Belt_buckle.png
 Ns 94.117647
@@ -250,7 +250,7 @@ map_Kd textures\Adult\eyes.png
 uprop c
 vprop c
 
-newmtl White_fingers.png
+newmtl White_glove.png
 Ns 94.117647
 Ka 1.000000 1.000000 1.000000
 Kd 0.640000 0.640000 0.640000
@@ -259,7 +259,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd textures\fingers.png
+map_Kd textures\glove.png
 
 newmtl White_glove_top.png
 Ns 94.117647
@@ -449,11 +449,11 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 0.000000
 illum 6
-map_Kd textures\unknown (1).png
+map_Kd textures\unknown.png
 uprop c
 vprop c
 
-newmtl lambert8SG.000_unknown.png
+newmtl lambert8SG.000_unknown_(1).png
 Ns 96.078431
 Ka 0.000000 0.000000 0.000000
 Kd 1.000000 1.000000 1.000000
@@ -462,7 +462,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 0.000000
 illum 6
-map_Kd textures\unknown.png
+map_Kd textures\unknown (1).png
 uprop c
 vprop c
 
@@ -487,11 +487,10 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd textures\i_stex02a_0.png
-uprop c
-vprop c
+map_Kd textures\red shine.png
+texgen on
 
-newmtl material-01517E87_red_shine.png
+newmtl material-01517E87_boomerang.png
 Ns 94.117647
 Ka 0.000000 0.000000 0.000000
 Kd 0.640000 0.640000 0.640000
@@ -500,8 +499,9 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd textures\red shine.png
-texgen on
+map_Kd textures\i_stex02a_0.png
+uprop c
+vprop c
 
 newmtl material-017AD52B
 Ns 94.117647
