@@ -1,14 +1,14 @@
 # Blender MTL File: 'Neo_Link_Child.blend'
-# Material Count: 50
+# Material Count: 49
 
-newmtl Bottle_NOCULL_ZZDECAL
+newmtl Bottle_NOCULL
 Ns 96.078431
 Ka 1.000000 1.000000 1.000000
-Kd 0.550982 0.911372 0.911372
+Kd 1.000000 1.000000 1.000000
 Ks 0.500000 0.500000 0.500000
 Ke 0.000000 0.000000 0.000000
 Ni 1.000000
-d 0.567073
+d 0.800000
 illum 2
 map_Kd textures\3DFAB164_c.png
 texgen on
@@ -32,7 +32,7 @@ d 1.000000
 illum 2
 map_Kd textures\String_ZZRGBA16.png
 
-newmtl a_ZZNOCULL.002
+newmtl a_ZZNOCULL_String_ZZRGBA16.png
 Ns 96.078431
 Ka 1.000000 1.000000 1.000000
 Kd 0.800000 0.800000 0.800000
@@ -51,9 +51,10 @@ Kd 0.640000 0.640000 0.640000
 Ks 0.500000 0.500000 0.500000
 Ke 0.000000 0.000000 0.000000
 Ni 1.000000
-d 1.000000
+d 0.800000
 illum 2
-map_Kd textures\2AF4EB1E_c.bmp
+map_Kd textures\3DFAB164_c.png
+texgen on
 
 newmtl lambert2SG
 Ns 96.078431
@@ -93,7 +94,7 @@ illum 6
 map_Kd textures\shine2.png
 texgen on
 
-newmtl lambert8SG.000
+newmtl lambert8SG
 Ns 96.078431
 Ka 0.000000 0.000000 0.000000
 Kd 1.000000 1.000000 1.000000
@@ -106,7 +107,7 @@ map_Kd textures\unknown (1).png
 uprop c
 vprop c
 
-newmtl lambert8SG.000_unknown.png
+newmtl lambert8SG_unknown.png
 Ns 96.078431
 Ka 0.000000 0.000000 0.000000
 Kd 1.000000 1.000000 1.000000
@@ -119,7 +120,7 @@ map_Kd textures\unknown.png
 uprop c
 vprop c
 
-newmtl m_TEXGEN.001
+newmtl m_TEXGEN
 Ns 96.078431
 Ka 1.000000 1.000000 1.000000
 Kd 1.000000 0.000000 0.000000
@@ -140,10 +141,11 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd textures\red shine.png
-texgen on
+map_Kd textures\i_stex02a_0.png
+uprop c
+vprop c
 
-newmtl material-01517E87_boomerang.png
+newmtl material-01517E87_red_shine.png
 Ns 94.117647
 Ka 0.000000 0.000000 0.000000
 Kd 0.640000 0.640000 0.640000
@@ -152,9 +154,8 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd textures\i_stex02a_0.png
-uprop c
-vprop c
+map_Kd textures\red shine.png
+texgen on
 
 newmtl material-017AD52B
 Ns 94.117647
@@ -181,7 +182,7 @@ illum 2
 map_Kd textures\Gold.png
 texgen on
 
-newmtl mtl_04000000_TEXGEN.001
+newmtl mtl_04000000_TEXGEN
 Ns 96.078431
 Ka 1.000000 1.000000 1.000000
 Kd 1.000000 1.000000 1.000000
@@ -208,7 +209,7 @@ uprop c
 vprop c
 map_d textures\\04001400.tga
 
-newmtl mtl_04001A00.001
+newmtl mtl_04001A00
 Ns 96.078431
 Ka 1.000000 1.000000 1.000000
 Kd 0.078187 0.000000 0.000000
@@ -446,19 +447,6 @@ map_Kd textures\texture_0600DB08_ZZPAL0.png
 uprop c
 vprop c
 
-newmtl mtl_06006480.001
-Ns 96.078431
-Ka 1.000000 1.000000 1.000000
-Kd 1.000000 1.000000 1.000000
-Ks 0.500000 0.500000 0.500000
-Ke 0.000000 0.000000 0.000000
-Ni 1.000000
-d 1.000000
-illum 2
-map_Kd textures\texture_0600DB08_ZZPAL0.png
-uprop c
-vprop c
-
 newmtl mtl_06006A00
 Ns 96.078431
 Ka 1.000000 1.000000 1.000000
@@ -538,7 +526,21 @@ map_Kd textures\0601A280.tga
 uprop c
 vprop c
 
-newmtl mtl_0601BF80.001
+newmtl mtl_0601BF80
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 0.000000
+illum 2
+map_Kd textures\0601BF80.tga
+uprop c
+vprop c
+map_d textures\\0601BF80.tga
+
+newmtl mtl_0601BF80_Gold.png
 Ns 96.078431
 Ka 1.000000 1.000000 1.000000
 Kd 0.640000 0.640000 0.640000
@@ -549,19 +551,6 @@ d 0.000000
 illum 2
 map_Kd textures\Gold.png
 texgen on
-map_d textures\\0601BF80.tga
-
-newmtl mtl_0601BF80.001_0601BF80.tga.001
-Ns 96.078431
-Ka 1.000000 1.000000 1.000000
-Kd 0.640000 0.640000 0.640000
-Ks 0.500000 0.500000 0.500000
-Ke 0.000000 0.000000 0.000000
-Ni 1.000000
-d 0.000000
-illum 2
-map_Kd textures\0601BF80.tga
-vprop c
 map_d textures\\0601BF80.tga
 
 newmtl mtl_08000000
@@ -601,10 +590,22 @@ illum 6
 map_Kd textures\Back.png
 uprop c
 
-newmtl sword_TEXGEN.004
+newmtl sword_TEXGEN
 Ns 0.000000
 Ka 0.200000 0.200000 0.200000
-Kd 0.000000 0.128966 0.800000
+Kd 1.000000 1.000000 1.000000
+Ks 0.201870 0.201870 0.201870
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd textures\04000000.tga
+texgen on
+
+newmtl sword_TEXGEN_insignia.png
+Ns 0.000000
+Ka 0.200000 0.200000 0.200000
+Kd 1.000000 1.000000 1.000000
 Ks 0.201870 0.201870 0.201870
 Ke 0.000000 0.000000 0.000000
 Ni 1.000000
@@ -614,22 +615,10 @@ map_Kd textures\insignia.png
 uprop c
 vprop c
 
-newmtl sword_TEXGEN.004_04000000.tga.002
+newmtl sword_TEXGEN_insignia2.png
 Ns 0.000000
 Ka 0.200000 0.200000 0.200000
-Kd 0.000000 0.128966 0.800000
-Ks 0.201870 0.201870 0.201870
-Ke 0.000000 0.000000 0.000000
-Ni 1.000000
-d 1.000000
-illum 2
-map_Kd textures\04000000.tga
-texgen on
-
-newmtl sword_TEXGEN.004_insignia2.png
-Ns 0.000000
-Ka 0.200000 0.200000 0.200000
-Kd 0.000000 0.128966 0.800000
+Kd 1.000000 1.000000 1.000000
 Ks 0.201870 0.201870 0.201870
 Ke 0.000000 0.000000 0.000000
 Ni 1.000000
