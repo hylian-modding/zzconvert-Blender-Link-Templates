@@ -77,9 +77,9 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd textures\Hat.png
+map_Kd textures\Shirt.png
 
-newmtl Tunic_color_ZZENVl_Shirt.png
+newmtl Tunic_color_ZZENVl_Hat.png
 Ns 96.078431
 Ka 1.000000 1.000000 1.000000
 Kd 0.800000 0.800000 0.800000
@@ -88,7 +88,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd textures\Shirt.png
+map_Kd textures\Hat.png
 
 newmtl White
 Ns 94.117647
