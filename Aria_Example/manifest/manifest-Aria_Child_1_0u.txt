@@ -198,7 +198,7 @@ REPOINT
   // code
 	GoTo( VROM_CODE+0xE671C );
 	SetAdvance( 8 );
-		WWrite32( DL_RFIST );					           		//	Right Fist (High Poly)
+		Write32( DL_RFIST );					           		//	Right Fist (High Poly)
 		Write32( DL_RFIST );					          		//	Right Fist (Low Poly)
 		Write32( DL_RFIST_SHIELD_DEKU );	  				//	Right Fist + Deku Shield (High Poly)
 		Write32( DL_RFIST_SHIELD_DEKU );		  			//	Right Fist + Deku Shield (Low Poly)

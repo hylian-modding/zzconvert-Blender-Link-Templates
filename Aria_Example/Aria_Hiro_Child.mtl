@@ -1,7 +1,7 @@
 # Blender MTL File: 'Aria_Hiro_Child.blend'
 # Material Count: 50
 
-newmtl Bottle_ZZNOCULL_ZZDECAL
+newmtl Bottle_NOCULL
 Ns 96.078431
 Ka 1.000000 1.000000 1.000000
 Kd 1.000000 1.000000 1.000000
@@ -70,7 +70,7 @@ illum 2
 map_Kd textures\Blade.png
 texgen on
 
-newmtl drink_ZZENV_ZZNOCULL
+newmtl drink_ZZENV_NOCULL
 Ns 96.078431
 Ka 1.000000 1.000000 1.000000
 Kd 0.640000 0.640000 0.640000
@@ -155,10 +155,11 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd textures\leather.png
-texgen on
+map_Kd textures\skin.png
+uprop c
+vprop c
 
-newmtl leather_skin.png
+newmtl leather_leather.png
 Ns 96.078431
 Ka 1.000000 1.000000 1.000000
 Kd 0.005605 0.005605 0.005605
@@ -167,9 +168,8 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd textures\skin.png
-uprop c
-vprop c
+map_Kd textures\leather.png
+texgen on
 
 newmtl m_TEXGEN
 Ns 96.078431
@@ -431,8 +431,9 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd textures\leather.png
-texgen on
+map_Kd textures\skin.png
+uprop c
+vprop c
 
 newmtl skin_TEXGEN
 Ns 96.078431
@@ -513,7 +514,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd textures\mouth.png
+map_Kd textures\Child\mouth.png
 uprop c
 vprop c
 
@@ -541,7 +542,7 @@ d 1.000000
 illum 2
 map_Kd textures\skin1.png
 
-newmtl skin_skin.png
+newmtl skin_leather.png
 Ns 96.078431
 Ka 1.000000 1.000000 1.000000
 Kd 1.000000 1.000000 1.000000
@@ -550,9 +551,8 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd textures\skin.png
-uprop c
-vprop c
+map_Kd textures\leather.png
+texgen on
 
 newmtl sword_TEXGEN
 Ns 0.000000
