@@ -1,5 +1,5 @@
 # Blender MTL File: 'Aria_Hiro_Adult.blend'
-# Material Count: 70
+# Material Count: 65
 
 newmtl Boomerang
 Ns 94.117647
@@ -146,8 +146,8 @@ illum 2
 map_Kd textures\lining.tga
 vprop c
 
-newmtl generic.004
-Ns 94.117647
+newmtl generic_String_ZZRGBA16
+Ns 96.078431
 Ka 1.000000 1.000000 1.000000
 Kd 1.000000 1.000000 1.000000
 Ks 0.500000 0.500000 0.500000
@@ -326,31 +326,20 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
+map_Kd textures\hilt.tga
+
+newmtl hilt_sword_gem
+Ns 94.117647
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
 map_Kd textures\gem_ZZPAL2.tga
 uprop c
 vprop c
-
-newmtl hilt.001
-Ns 94.117647
-Ka 1.000000 1.000000 1.000000
-Kd 1.000000 1.000000 1.000000
-Ks 0.500000 0.500000 0.500000
-Ke 0.000000 0.000000 0.000000
-Ni 1.000000
-d 1.000000
-illum 2
-map_Kd textures\wood.png
-
-newmtl hilt_hilt
-Ns 94.117647
-Ka 1.000000 1.000000 1.000000
-Kd 1.000000 1.000000 1.000000
-Ks 0.500000 0.500000 0.500000
-Ke 0.000000 0.000000 0.000000
-Ni 1.000000
-d 1.000000
-illum 2
-map_Kd textures\hilt.tga
 
 newmtl hilt_wood
 Ns 94.117647
@@ -375,7 +364,7 @@ illum 2
 map_Kd textures\leather.png
 texgen on
 
-newmtl leather.005
+newmtl leather_NONE
 Ns 96.078431
 Ka 1.000000 1.000000 1.000000
 Kd 0.005605 0.005605 0.005605
@@ -431,7 +420,7 @@ d 1.000000
 illum 2
 map_Kd textures\String_ZZRGBA16.png
 
-newmtl leather_red_skin.png.001
+newmtl leather_red_skin.png
 Ns 96.078431
 Ka 1.000000 1.000000 1.000000
 Kd 1.000000 1.000000 1.000000
@@ -445,18 +434,7 @@ uprop c
 vprop c
 texgen on
 
-newmtl leather_red_string.001
-Ns 96.078431
-Ka 1.000000 1.000000 1.000000
-Kd 1.000000 1.000000 1.000000
-Ks 0.500000 0.500000 0.500000
-Ke 0.000000 0.000000 0.000000
-Ni 1.000000
-d 1.000000
-illum 2
-map_Kd textures\String_ZZRGBA16.png
-
-newmtl navel_ZZDECAL.ZZENV.001
+newmtl navel_ZZDECAL.ZZENV
 Ns 96.078431
 Ka 1.000000 1.000000 1.000000
 Kd 1.000000 1.000000 1.000000
@@ -490,11 +468,11 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd textures\mamory.png
+map_Kd textures\groove.png
 uprop c
 vprop c
 
-newmtl seam_ZZDECAL_ZZENV.001_groove.001
+newmtl seam_ZZDECAL_ZZENV.001_mamary.001
 Ns 96.078431
 Ka 1.000000 1.000000 1.000000
 Kd 0.014444 0.014444 0.014444
@@ -503,7 +481,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd textures\groove.png
+map_Kd textures\mamory.png
 uprop c
 vprop c
 
@@ -614,30 +592,6 @@ illum 3
 map_Kd textures\shine_ZZFORCERGBA16.tga
 texgen on
 
-newmtl shine_gold.001
-Ns 94.117647
-Ka 1.000000 1.000000 1.000000
-Kd 1.000000 1.000000 0.000000
-Ks 0.500000 0.500000 0.500000
-Ke 0.000000 0.000000 0.000000
-Ni 1.000000
-d 0.000000
-illum 3
-map_Kd textures\shine_ZZFORCERGBA16.tga
-texgen on
-
-newmtl shine_gold.004
-Ns 94.117647
-Ka 1.000000 1.000000 1.000000
-Kd 1.000000 1.000000 0.000000
-Ks 0.500000 0.500000 0.500000
-Ke 0.000000 0.000000 0.000000
-Ni 1.000000
-d 0.000000
-illum 3
-map_Kd textures\shine_ZZFORCERGBA16.tga
-texgen on
-
 newmtl shine_red_TEXGEN
 Ns 94.117647
 Ka 1.000000 1.000000 1.000000
@@ -671,19 +625,6 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-
-newmtl skin_TEXGEN.001
-Ns 96.078431
-Ka 1.000000 1.000000 1.000000
-Kd 1.000000 1.000000 1.000000
-Ks 0.500000 0.500000 0.500000
-Ke 0.000000 0.000000 0.000000
-Ni 1.000000
-d 1.000000
-illum 2
-map_Kd textures\fingers.tga
-uprop c
-vprop c
 
 newmtl skin_TEXGEN_ear
 Ns 96.078431
