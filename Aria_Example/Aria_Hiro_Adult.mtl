@@ -326,9 +326,11 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd textures\hilt.tga
+map_Kd textures\gem_ZZPAL2.tga
+uprop c
+vprop c
 
-newmtl hilt_sword_gem
+newmtl hilt_hilt
 Ns 94.117647
 Ka 1.000000 1.000000 1.000000
 Kd 1.000000 1.000000 1.000000
@@ -337,9 +339,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd textures\gem_ZZPAL2.tga
-uprop c
-vprop c
+map_Kd textures\hilt.tga
 
 newmtl hilt_wood
 Ns 94.117647
@@ -468,11 +468,11 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd textures\groove.png
+map_Kd textures\mamory.png
 uprop c
 vprop c
 
-newmtl seam_ZZDECAL_ZZENV.001_mamary.001
+newmtl seam_ZZDECAL_ZZENV.001_groove.001
 Ns 96.078431
 Ka 1.000000 1.000000 1.000000
 Kd 0.014444 0.014444 0.014444
@@ -481,7 +481,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd textures\mamory.png
+map_Kd textures\groove.png
 uprop c
 vprop c
 
