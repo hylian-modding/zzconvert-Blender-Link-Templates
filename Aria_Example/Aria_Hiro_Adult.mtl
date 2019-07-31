@@ -1,5 +1,5 @@
 # Blender MTL File: 'Aria_Hiro_Adult.blend'
-# Material Count: 65
+# Material Count: 67
 
 newmtl Boomerang
 Ns 94.117647
@@ -35,6 +35,19 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
+
+newmtl Material
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 0
+map_Kd manifest\crosshair.png
+uprop c
+vprop c
 
 newmtl dark_metal.001
 Ns 96.078431
@@ -326,11 +339,9 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd textures\gem_ZZPAL2.tga
-uprop c
-vprop c
+map_Kd textures\hilt.tga
 
-newmtl hilt_hilt
+newmtl hilt_sword_gem
 Ns 94.117647
 Ka 1.000000 1.000000 1.000000
 Kd 1.000000 1.000000 1.000000
@@ -339,7 +350,9 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd textures\hilt.tga
+map_Kd textures\gem_ZZPAL2.tga
+uprop c
+vprop c
 
 newmtl hilt_wood
 Ns 94.117647
@@ -462,7 +475,20 @@ texgen on
 newmtl seam_ZZDECAL_ZZENV.001
 Ns 96.078431
 Ka 1.000000 1.000000 1.000000
-Kd 0.014444 0.014444 0.014444
+Kd 0.367228 0.367228 0.367228
+Ks 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd textures\groove.png
+uprop c
+vprop c
+
+newmtl seam_ZZDECAL_ZZENV.001_mamary.001
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.367228 0.367228 0.367228
 Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.000000
@@ -472,18 +498,17 @@ map_Kd textures\mamory.png
 uprop c
 vprop c
 
-newmtl seam_ZZDECAL_ZZENV.001_groove.001
+newmtl seam_ZZDECAL_ZZENV.001_shine
 Ns 96.078431
 Ka 1.000000 1.000000 1.000000
-Kd 0.014444 0.014444 0.014444
+Kd 0.367228 0.367228 0.367228
 Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd textures\groove.png
-uprop c
-vprop c
+map_Kd textures\shine_ZZFORCERGBA16.tga
+texgen on
 
 newmtl shine_TEXGEN
 Ns 0.000000

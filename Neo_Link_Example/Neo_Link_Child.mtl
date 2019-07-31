@@ -1,5 +1,5 @@
 # Blender MTL File: 'Neo_Link_Child.blend'
-# Material Count: 47
+# Material Count: 49
 
 newmtl Boomerang.001
 Ns 94.117647
@@ -118,11 +118,11 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 0.000000
 illum 6
-map_Kd textures\unknown.png
+map_Kd textures\unknown (1).png
 uprop c
 vprop c
 
-newmtl lambert8SG_unknown_(1).png
+newmtl lambert8SG_unknown.png
 Ns 96.078431
 Ka 0.000000 0.000000 0.000000
 Kd 1.000000 1.000000 1.000000
@@ -131,7 +131,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 0.000000
 illum 6
-map_Kd textures\unknown (1).png
+map_Kd textures\unknown.png
 uprop c
 vprop c
 
@@ -356,7 +356,6 @@ Ni 1.000000
 d 0.000000
 illum 2
 map_Kd textures\06005D80.tga
-vprop c
 map_d textures\\06005D80.tga
 
 newmtl mtl_06005E00
@@ -451,6 +450,31 @@ map_Kd textures\06008DE0.tga
 vprop c
 map_d textures\\06008DE0.tga
 
+newmtl mtl_06008DE0_06005D80.tga
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 0.000000
+illum 2
+map_Kd textures\06005D80.tga
+map_d textures\\06008DE0.tga
+
+newmtl mtl_06008DE0_Gold.png
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 0.000000
+illum 2
+map_Kd textures\Gold.png
+texgen on
+map_d textures\\06008DE0.tga
+
 newmtl mtl_060091E0
 Ns 96.078431
 Ka 1.000000 1.000000 1.000000
@@ -488,11 +512,12 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 0.000000
 illum 2
-map_Kd textures\Gold.png
-texgen on
+map_Kd textures\0601BF80.tga
+uprop c
+vprop c
 map_d textures\\0601BF80.tga
 
-newmtl mtl_0601BF80_0601BF80.tga
+newmtl mtl_0601BF80_Gold.png
 Ns 96.078431
 Ka 1.000000 1.000000 1.000000
 Kd 0.640000 0.640000 0.640000
@@ -501,9 +526,8 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 0.000000
 illum 2
-map_Kd textures\0601BF80.tga
-uprop c
-vprop c
+map_Kd textures\Gold.png
+texgen on
 map_d textures\\0601BF80.tga
 
 newmtl mtl_08000000
@@ -577,11 +601,10 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd textures\insignia.png
-uprop c
-vprop c
+map_Kd textures\04000000.tga
+texgen on
 
-newmtl sword_TEXGEN_04000000.tga
+newmtl sword_TEXGEN_insignia.png
 Ns 0.000000
 Ka 0.200000 0.200000 0.200000
 Kd 1.000000 1.000000 1.000000
@@ -590,8 +613,9 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd textures\04000000.tga
-texgen on
+map_Kd textures\insignia.png
+uprop c
+vprop c
 
 newmtl sword_TEXGEN_insignia2.png
 Ns 0.000000

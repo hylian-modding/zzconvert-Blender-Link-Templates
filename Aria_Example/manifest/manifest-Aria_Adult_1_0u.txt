@@ -95,7 +95,6 @@ DICTIONARY
 	DL_HOOKSHOT_AIM		0x020E58		"Hookshot.Aiming.Reticule"
 	DL_BOW_STRING		0x020F20		"Bow.String"
 	DL_BLADEBREAK		0x0212A0		"Blade.3.Break"
-
 END
 
 // Matrix function parameters:
@@ -203,23 +202,23 @@ OBJECT
 
 	DL_SHEATH0_SHIELD_DEKU:
 	  	CallList( DL_SWORD_SHEATH );
-        	CallList( DL_SHIELD_DEKU_BACK );
+        CallList( DL_SHIELD_DEKU_BACK );
 
 	DL_SWORD_SHIELD_DEKU:
 		CallList( DL_SWORD_SHEATHED );
 		CallList( DL_SHIELD_DEKU_BACK );
 
 	DL_LONGSWORD_SHEATHED:
-		CallMatrix( MATRIX_SWORD_BACK );
-		CallList( DL_LONGSWORD_HILT );
-		PopMatrix( 1 );
+		CallList( DL_KNIFE_HILT );
 		CallList( DL_LONGSWORD_SHEATH );
 
 	DL_LONG_SHIELD_HYLIAN_BACK:
+		CallList( DL_LONGSWORD_SHEATH );
 		CallMatrix( MATRIX_SHIELD_BACK );
 		CallList( DL_SHIELD_HYLIAN );
 
 	DL_LONG_SHIELD_MIRROR_BACK:
+		CallList( DL_LONGSWORD_SHEATH );
 		CallMatrix( MATRIX_SHIELD_BACK );
 		CallList( DL_SHIELD_MIRROR );
 
@@ -240,6 +239,7 @@ OBJECT
 		CallList( DL_SHIELD_MIRROR_BACK );
 	
 	DL_LONG_SHIELD_DEKU_BACK:
+		CallList( DL_LONGSWORD_SHEATH );
 		CallMatrix( MATRIX_SHIELD_BACK );
 		CallList( DL_SHIELD_DEKU );
 
@@ -301,8 +301,8 @@ REPOINT
 		Write32( DL_LHAND );					//	Left Hand (Low Poly)
 		Write32( DL_LFIST );					//	Left Fist (High Poly)
 		Write32( DL_LFIST );					//	Left Fist (Low Poly)
-		Write32( DL_LFIST_KNIFE );				//	Left Fist + Kokiri Sword (High Poly)
-		Write32( DL_LFIST_KNIFE );				//	Left Fist + Kokiri Sword (Low Poly)
+		Write32( DL_LFIST_LONGSWORD_BROKEN );				//	Left Fist + Kokiri Sword (High Poly)
+		Write32( DL_LFIST_LONGSWORD_BROKEN );				//	Left Fist + Kokiri Sword (Low Poly)
 		Write32( DL_LFIST_SWORD );				//	Left Fist + Master Sword (High Poly)
 		Write32( DL_LFIST_SWORD );				//	Left Fist + Master Sword (Low Poly)
 		Write32( DL_RHAND );					//	Right Hand (High Poly)
@@ -336,6 +336,7 @@ REPOINT
 		Write32( DL_RSHOULDER );				//	Right Shoulder (High Poly)
 		Write32( DL_FPS_RFOREARM );				//	FPS Right Forearm
 		Write32( DL_FPS_RHAND_BOW );			//	FPS Right Hand + Fairy Bow
+
 
     GoTo( VROM_CODE+0xE6A4C );
     SetAdvance( 4 );
