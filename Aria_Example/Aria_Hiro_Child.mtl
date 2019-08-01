@@ -340,6 +340,18 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
+map_Kd textures\fingers.tga
+vprop c
+
+newmtl skin_TEXGEN_NONE
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
 map_Kd textures\\skin.png
 
 newmtl skin_TEXGEN_String_ZZRGBA16
@@ -375,18 +387,6 @@ d 1.000000
 illum 2
 map_Kd textures\eyes.png
 uprop c
-vprop c
-
-newmtl skin_TEXGEN_fingers.tga
-Ns 96.078431
-Ka 1.000000 1.000000 1.000000
-Kd 1.000000 1.000000 1.000000
-Ks 0.500000 0.500000 0.500000
-Ke 0.000000 0.000000 0.000000
-Ni 1.000000
-d 1.000000
-illum 2
-map_Kd textures\fingers.tga
 vprop c
 
 newmtl skin_TEXGEN_fist.tga
