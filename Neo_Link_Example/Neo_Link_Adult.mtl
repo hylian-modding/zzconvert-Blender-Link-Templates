@@ -389,11 +389,10 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 0.000000
 illum 2
-map_Kd textures\sheath
-uprop c
-vprop c
+map_Kd textures\Gold.png
+texgen on
 
-newmtl all:lambert6SG_Gold.png
+newmtl all:lambert6SG_sheath
 Ns 94.117647
 Ka 1.000000 1.000000 1.000000
 Kd 1.000000 1.000000 1.000000
@@ -402,8 +401,9 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 0.000000
 illum 2
-map_Kd textures\Gold.png
-texgen on
+map_Kd textures\sheath
+uprop c
+vprop c
 
 newmtl drink_ZZENV_TEXGEN_NOCULL
 Ns 96.078431
@@ -464,11 +464,11 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 0.000000
 illum 6
-map_Kd textures\unknown.png
+map_Kd textures\unknown (1).png
 uprop c
 vprop c
 
-newmtl lambert8SG_unknown_(1).png
+newmtl lambert8SG_unknown.png
 Ns 96.078431
 Ka 0.000000 0.000000 0.000000
 Kd 1.000000 1.000000 1.000000
@@ -477,7 +477,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 0.000000
 illum 6
-map_Kd textures\unknown (1).png
+map_Kd textures\unknown.png
 uprop c
 vprop c
 

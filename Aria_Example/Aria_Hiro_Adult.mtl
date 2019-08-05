@@ -45,7 +45,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 0
-map_Kd manifest\crosshair.png
+map_Kd textures\crosshair.png
 uprop c
 vprop c
 
@@ -82,10 +82,8 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd textures\skin.png
-uprop c
+map_Kd textures\fingers.tga
 vprop c
-texgen on
 
 newmtl finger.003
 Ns 94.117647
@@ -111,7 +109,7 @@ illum 2
 map_Kd textures\fingers.tga
 vprop c
 
-newmtl finger_fingers.tga
+newmtl finger_skin.png
 Ns 94.117647
 Ka 1.000000 1.000000 1.000000
 Kd 1.000000 1.000000 1.000000
@@ -120,8 +118,10 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd textures\fingers.tga
+map_Kd textures\skin.png
+uprop c
 vprop c
+texgen on
 
 newmtl gauntlets_ZZENV
 Ns 94.117647
@@ -531,8 +531,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd textures\shine_ZZFORCERGBA16.tga
-texgen on
+map_Kd textures\wood.png
 
 newmtl shine_TEXGEN.001_NONE
 Ns 0.000000
@@ -544,7 +543,7 @@ Ni 1.000000
 d 1.000000
 illum 2
 
-newmtl shine_TEXGEN.001_wood.001
+newmtl shine_TEXGEN.001_shine.001
 Ns 0.000000
 Ka 0.200000 0.200000 0.200000
 Kd 0.800000 0.800000 0.800000
@@ -553,7 +552,8 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd textures\wood.png
+map_Kd textures\shine_ZZFORCERGBA16.tga
+texgen on
 
 newmtl shine_TEXGEN_bottom
 Ns 0.000000
