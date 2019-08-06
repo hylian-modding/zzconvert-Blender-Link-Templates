@@ -1,5 +1,5 @@
 # Blender MTL File: 'Neo_Link_Adult.blend'
-# Material Count: 66
+# Material Count: 67
 
 newmtl Belt:white
 Ns 96.078431
@@ -10,7 +10,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 0.000000
 illum 6
-map_Kd textures\glove.png
+map_Kd textures\glove_top.png
 
 newmtl Belt:white_fingers.png
 Ns 96.078431
@@ -23,7 +23,7 @@ d 0.000000
 illum 6
 map_Kd textures\fingers.png
 
-newmtl Belt:white_glove_top.png
+newmtl Belt:white_glove.png
 Ns 96.078431
 Ka 0.000000 0.000000 0.000000
 Kd 1.000000 1.000000 1.000000
@@ -32,7 +32,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 0.000000
 illum 6
-map_Kd textures\glove_top.png
+map_Kd textures\glove.png
 
 newmtl Boomerang.001
 Ns 94.117647
@@ -464,11 +464,11 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 0.000000
 illum 6
-map_Kd textures\unknown (1).png
+map_Kd textures\unknown.png
 uprop c
 vprop c
 
-newmtl lambert8SG_unknown.png
+newmtl lambert8SG_unknown_(1).png
 Ns 96.078431
 Ka 0.000000 0.000000 0.000000
 Kd 1.000000 1.000000 1.000000
@@ -477,7 +477,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 0.000000
 illum 6
-map_Kd textures\unknown.png
+map_Kd textures\unknown (1).png
 uprop c
 vprop c
 
@@ -665,6 +665,20 @@ illum 2
 map_Kd textures\060095E8.tga
 uprop c
 vprop c
+
+newmtl mtl_060091E0
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 0.000000
+illum 2
+map_Kd textures\060091E0.tga
+uprop c
+vprop c
+map_d textures\\060091E0.tga
 
 newmtl mtl_060095E8
 Ns 94.117647
