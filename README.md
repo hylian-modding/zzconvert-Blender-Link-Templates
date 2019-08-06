@@ -10,7 +10,7 @@ and you should be fine.
 
 If you are looking to use the skins all you need is the .zobj and manifest.txt files (usually aria's)
 if you are looking to play around with the source files be my guest.
-if you want yours added contact me pr make a pull request. (this requires posting the source files or I'm not accepting it)
+if you want yours added contact me or make a pull request. (this requires posting the source files or I'm not accepting it)
 
 Credits:
 crookedpoe/z64.me for the preliminary tools and templates
