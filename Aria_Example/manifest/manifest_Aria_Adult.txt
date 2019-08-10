@@ -4,10 +4,10 @@
 
 DICTIONARY
 	VROM_CODE						0x00A94000				"system/code"															// start of code within rom
-	VROM_SS_STICK				E_16		    																								// ovl_Effect_Ss_Stick is effect 16
+	VROM_SS_STICK				E_16																												// ovl_Effect_Ss_Stick is effect 16
 	VROM_ARMS_HOOK			A_102		 																										// Arms_Hook is actor 102
-	VROM_OBJ						O_0x14		  																								// object to overwrite
-	VROM_PLAYER      		0x00C010B0				"system/ovl_player_actor.zovl"  					// start of ovl_player_actor
+	VROM_OBJ						O_0x14																											// object to overwrite
+	VROM_PLAYER					0x00C010B0				"system/ovl_player_actor.zovl"						// start of ovl_player_actor
 	HIERARCHY_CODE			0x00108D10																									// Relative to the start of code;
 																																									// Link's hierarchy pointer will
 																																									// be written at this address
@@ -15,50 +15,50 @@ DICTIONARY
 	OBJ_BOY							0x0014																											// object_link_boy object number
 
 	// Hierarchy
-	DL_WAIST			  			0x00EBE8		"Limb 1" 																			// this is the name zzconvert automatically uses
+	DL_WAIST							0x00EBE8		"Limb 1" 																			// this is the name zzconvert automatically uses
 	DL_RTHIGH			 				0x00F260		"Limb 3"
 	DL_RSHIN			 			 	0x00F868		"Limb 4"
 	DL_RFOOT			 			 	0x00FDE8		"Limb 5"
-	DL_LTHIGH					  	0x010280		"Limb 6"
+	DL_LTHIGH							0x010280		"Limb 6"
 	DL_LSHIN			 			 	0x010898		"Limb 7"
 	DL_LFOOT			 			 	0x010E18		"Limb 8"
 	DL_HEAD				 			 	0x011D20		"Limb 10"
 	DL_HAT				 			 	0x0126F8		"Limb 11"
-	DL_COLLAR					  	0x012900		"Limb 12"
-	DL_LSHOULDER				  0x012D00		"Limb 13"
-	DL_LFOREARM					  0x013228		"Limb 14"
-	DL_RSHOULDER				  0x014868		"Limb 16"
-	DL_RFOREARM					  0x014D88		"Limb 17"
+	DL_COLLAR							0x012900		"Limb 12"
+	DL_LSHOULDER					0x012D00		"Limb 13"
+	DL_LFOREARM						0x013228		"Limb 14"
+	DL_RSHOULDER					0x014868		"Limb 16"
+	DL_RFOREARM						0x014D88		"Limb 17"
 	DL_TORSO			 			 	0x016188		"Limb 20"
 
 	// Hands
-	DL_LHAND			  			0x013890		"Limb 15"
-	DL_LFIST			  			0x013DF0		"Fist.L"
-	DL_LHAND_BOTTLE	  		0x014310		"Bottle.Hand.L"
-	DL_RHAND			  			0x0153C0		"Limb 18"
-	DL_RFIST			  			0x015928		"Fist.R"
-	DL_RHAND_OCARINA		  0x0153C0		"Ocarina.Hand.R"															//cuffs ocarina properly
+	DL_LHAND							0x013890		"Limb 15"
+	DL_LFIST							0x013DF0		"Fist.L"
+	DL_LHAND_BOTTLE				0x014310		"Bottle.Hand.L"
+	DL_RHAND							0x0153C0		"Limb 18"
+	DL_RFIST							0x015928		"Fist.R"
+	DL_RHAND_OCARINA			0x0153C0		"Ocarina.Hand.R"															//cuffs ocarina properly
 
 	// Items
-	DL_SWORD_SHEATH	  	  0x015D58		"Sheath"																			//be sure to have a dummy polygon on Her
-	DL_LONGSWORD_SHEATH	  0x015D58		"Sheath.1"
-	DL_KNIFE_HILT		  		0x017148		"Hilt.1"																			//broken sword equates to knife
-	DL_KNIFE_BLADE		  	0x017700		"Blade.1"																			//see line 45 comment.
-	DL_SWORD_HILT		  		0x0168E8		"Hilt.2"
-	DL_SWORD_BLADE		  	0x016E48		"Blade.2"
-	DL_LONGSWORD_HILT	  	0x017148		"Hilt.3"
-	DL_LONGSWORD_BLADE	  0x0174E0		"Blade.3"
-	DL_LONGSWORD_BROKEN	  0x017700		"Broken.Blade.3"
-	DL_SHIELD_DEKU        0x013DF0    "Shield.1"
-	DL_SHIELD_HYLIAN	  	0x018BC0		"Shield.2"
-	DL_SHIELD_MIRROR	  	0x0190E8		"Shield.3"
-	DL_HAMMER		  	  		0x0184A8		"Hammer"
-	DL_BOTTLE	          	0x0188E8		"Bottle"
-	DL_BOW			  	  		0x019810		"Bow"
-	DL_OCARINA		  	  	0x019AE0		"Ocarina.1"
-	DL_OCARINA_TIME		  	0x019AE0		"Ocarina.2"
-	DL_HOOKSHOT		  	  	0x019FC0		"Hookshot"
-	DL_BOOMERANG          0x013DF0    "Boomerang"
+	DL_SWORD_SHEATH				0x015D58		"Sheath"																			//be sure to have a dummy polygon on Her
+	DL_LONGSWORD_SHEATH		0x015D58		"Sheath.1"
+	DL_KNIFE_HILT					0x017148		"Hilt.1"																			//broken sword equates to knife
+	DL_KNIFE_BLADE				0x017700		"Blade.1"																			//see line 45 comment.
+	DL_SWORD_HILT					0x0168E8		"Hilt.2"
+	DL_SWORD_BLADE				0x016E48		"Blade.2"
+	DL_LONGSWORD_HILT			0x017148		"Hilt.3"
+	DL_LONGSWORD_BLADE		0x0174E0		"Blade.3"
+	DL_LONGSWORD_BROKEN		0x017700		"Broken.Blade.3"
+	DL_SHIELD_DEKU				0x013DF0		"Shield.1"
+	DL_SHIELD_HYLIAN			0x018BC0		"Shield.2"
+	DL_SHIELD_MIRROR			0x0190E8		"Shield.3"
+	DL_HAMMER							0x0184A8		"Hammer"
+	DL_BOTTLE							0x0188E8		"Bottle"
+	DL_BOW								0x019810		"Bow"
+	DL_OCARINA						0x019AE0		"Ocarina.1"
+	DL_OCARINA_TIME				0x019AE0		"Ocarina.2"
+	DL_HOOKSHOT						0x019FC0		"Hookshot"
+	DL_BOOMERANG					0x013DF0		"Boomerang"
 
 	// Flair
 	DL_UPGRADE_LFOREARM		0x01D688		"Gauntlet.Forearm.L"
@@ -74,10 +74,10 @@ DICTIONARY
 
 	// First Person
 	DL_FPS_LFOREARM				0x01A9D8		"FPS.Forearm.L"
-	DL_FPS_LHAND	   			0x01BAA0		"FPS.Hand.L"
+	DL_FPS_LHAND		 			0x01BAA0		"FPS.Hand.L"
 	DL_FPS_RFOREARM				0x01C510		"FPS.Forearm.R"
-	DL_FPS_RHAND	  			0x01D1C8		"FPS.Hand.R"
-	DL_FPS_RHAND_SHOT  		0x01D1C8		"FPS.Hand.Shot"
+	DL_FPS_RHAND					0x01D1C8		"FPS.Hand.R"
+	DL_FPS_RHAND_SHOT			0x01D1C8		"FPS.Hand.Shot"
 	DL_FPS_HOOKSHOT				0x020728		"FPS.Hookshot"
 
 	// Misc
@@ -180,20 +180,20 @@ OBJECT
 		CallList( DL_FPS_RHAND );
 
 	DL_LFIST_BOOMERANG:
-    CallList( DL_BOOMERANG );
-    CallList( DL_LFIST );
+		CallList( DL_BOOMERANG );
+		CallList( DL_LFIST );
 
 	DL_RFIST_SHIELD_DEKU:
-    CallList( DL_SHIELD_DEKU );
-    CallList( DL_RFIST );
+		CallList( DL_SHIELD_DEKU );
+		CallList( DL_RFIST );
 
 	DL_SHIELD_DEKU_BACK:
 		CallMatrix( MATRIX_SHIELD_BACK );
 		CallList( DL_SHIELD_DEKU );
 
 	DL_SHEATH0_SHIELD_DEKU:
-	  CallList( DL_SWORD_SHEATH );
-    CallList( DL_SHIELD_DEKU_BACK );
+		CallList( DL_SWORD_SHEATH );
+		CallList( DL_SHIELD_DEKU_BACK );
 
 	DL_SWORD_SHIELD_DEKU:
 		CallList( DL_SWORD_SHEATHED );
@@ -236,7 +236,7 @@ OBJECT
 
 	DL_LONG_SHEATH0_SHIELD_DEKU:
 		CallList( DL_LONGSWORD_SHEATH );
-  		CallList( DL_SHIELD_DEKU_BACK );
+			CallList( DL_SHIELD_DEKU_BACK );
 
 	DL_LONGSWORD_SHIELD_DEKU:
 		CallList( DL_LONGSWORD_SHEATHED );
@@ -427,3 +427,4 @@ REPOINT
 	GoTo( VROM_SS_STICK+0x00000358 );				//	Giant's Knife / Biggoron Sword Object File
 	Write16( OBJ_BOY );
 END
+

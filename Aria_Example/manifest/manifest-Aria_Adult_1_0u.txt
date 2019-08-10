@@ -416,3 +416,4 @@ REPOINT
     GoTo( VROM_SS_STICK+0x328 );                //    Giant's Knife / Biggoron Sword Object File
     Write16( OBJ_BOY );
 END
+
