@@ -1,18 +1,7 @@
 # Blender MTL File: 'Neo_Link_Adult.blend'
-# Material Count: 67
+# Material Count: 70
 
 newmtl Belt:white
-Ns 96.078431
-Ka 0.000000 0.000000 0.000000
-Kd 1.000000 1.000000 1.000000
-Ks 0.500000 0.500000 0.500000
-Ke 0.000000 0.000000 0.000000
-Ni 1.000000
-d 0.000000
-illum 6
-map_Kd textures\glove_top.png
-
-newmtl Belt:white_fingers.png
 Ns 96.078431
 Ka 0.000000 0.000000 0.000000
 Kd 1.000000 1.000000 1.000000
@@ -33,6 +22,17 @@ Ni 1.000000
 d 0.000000
 illum 6
 map_Kd textures\glove.png
+
+newmtl Belt:white_glove_top.png
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 0.000000
+illum 6
+map_Kd textures\glove_top.png
 
 newmtl Boomerang.001
 Ns 94.117647
@@ -70,6 +70,19 @@ d 1.000000
 illum 2
 map_Kd textures\Collar.png
 
+newmtl Ma_ZZDECAL
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd textures\06009E60_ZZFORCERGBA16.tga
+uprop c
+vprop c
+
 newmtl Material
 Ns 96.078431
 Ka 1.000000 1.000000 1.000000
@@ -80,6 +93,17 @@ Ni 1.000000
 d 1.000000
 illum 2
 map_Kd textures\Link_Underclothes.png
+
+newmtl Material.001
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.058586 0.016541 0.000141
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd textures\Hat.png
 
 newmtl Tunic_color_ZZENV
 Ns 96.078431
@@ -112,7 +136,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd textures\glove.png
+map_Kd textures\fingers.png
 
 newmtl White_Belt_buckle.png
 Ns 94.117647
@@ -264,7 +288,7 @@ map_Kd textures\Adult\eyes.png
 uprop c
 vprop c
 
-newmtl White_fingers.png
+newmtl White_glove.png
 Ns 94.117647
 Ka 1.000000 1.000000 1.000000
 Kd 0.640000 0.640000 0.640000
@@ -273,7 +297,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd textures\fingers.png
+map_Kd textures\glove.png
 
 newmtl White_glove_top.png
 Ns 94.117647
@@ -651,7 +675,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd textures\060090E8.tga
+map_Kd textures\swordbottom.png
 
 newmtl mtl_060090E8_060095E8.tga
 Ns 94.117647
@@ -732,6 +756,18 @@ map_Kd textures\Back.png
 uprop c
 
 newmtl shine_gold
+Ns 94.117647
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 0.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 0.000000
+illum 3
+map_Kd textures\Gold.png
+texgen on
+
+newmtl shine_gold_shine
 Ns 94.117647
 Ka 1.000000 1.000000 1.000000
 Kd 1.000000 1.000000 0.000000

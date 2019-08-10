@@ -1,5 +1,5 @@
 # Blender MTL File: 'Aria_Hiro_Adult.blend'
-# Material Count: 67
+# Material Count: 72
 
 newmtl Boomerang
 Ns 94.117647
@@ -36,6 +36,19 @@ Ni 1.000000
 d 1.000000
 illum 2
 
+newmtl Ma_ZZDECAL
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd textures\06009E60_ZZFORCERGBA16.tga
+uprop c
+vprop c
+
 newmtl Material
 Ns 96.078431
 Ka 1.000000 1.000000 1.000000
@@ -48,6 +61,17 @@ illum 0
 map_Kd textures\crosshair.png
 uprop c
 vprop c
+
+newmtl Material.001
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.058586 0.016541 0.000141
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd textures\Hat.png
 
 newmtl dark_metal.001
 Ns 96.078431
@@ -156,7 +180,8 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd textures\lining.tga
+map_Kd textures\fan.tga
+uprop c
 vprop c
 
 newmtl generic_String_ZZRGBA16
@@ -180,19 +205,6 @@ Ni 1.000000
 d 1.000000
 illum 2
 map_Kd textures\bolt.tga
-vprop c
-
-newmtl generic_fan
-Ns 96.078431
-Ka 1.000000 1.000000 1.000000
-Kd 1.000000 1.000000 1.000000
-Ks 0.500000 0.500000 0.500000
-Ke 0.000000 0.000000 0.000000
-Ni 1.000000
-d 1.000000
-illum 2
-map_Kd textures\fan.tga
-uprop c
 vprop c
 
 newmtl generic_insigna
@@ -219,6 +231,18 @@ d 1.000000
 illum 2
 map_Kd textures\insignia2.png
 uprop c
+vprop c
+
+newmtl generic_lining
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd textures\lining.tga
 vprop c
 
 newmtl generic_mastersword
@@ -339,30 +363,6 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd textures\hilt.tga
-
-newmtl hilt_sword_gem
-Ns 94.117647
-Ka 1.000000 1.000000 1.000000
-Kd 1.000000 1.000000 1.000000
-Ks 0.500000 0.500000 0.500000
-Ke 0.000000 0.000000 0.000000
-Ni 1.000000
-d 1.000000
-illum 2
-map_Kd textures\gem_ZZPAL2.tga
-uprop c
-vprop c
-
-newmtl hilt_wood
-Ns 94.117647
-Ka 1.000000 1.000000 1.000000
-Kd 1.000000 1.000000 1.000000
-Ks 0.500000 0.500000 0.500000
-Ke 0.000000 0.000000 0.000000
-Ni 1.000000
-d 1.000000
-illum 2
 map_Kd textures\wood.png
 
 newmtl leather
@@ -446,6 +446,55 @@ map_Kd textures\skin.png
 uprop c
 vprop c
 texgen on
+
+newmtl mtl_04000000_TEXGEN_NOCULL
+Ns 94.117647
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 0.000000
+illum 2
+map_Kd textures\04000000.tga
+texgen on
+
+newmtl mtl_060090E8
+Ns 94.117647
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd textures\060095E8.tga
+uprop c
+vprop c
+
+newmtl mtl_060090E8_swordbottom.png
+Ns 94.117647
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd textures\swordbottom.png
+
+newmtl mtl_060095E8
+Ns 94.117647
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd textures\060095E8.tga
+uprop c
+vprop c
 
 newmtl navel_ZZDECAL.ZZENV
 Ns 96.078431
@@ -531,7 +580,8 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd textures\wood.png
+map_Kd textures\shine_ZZFORCERGBA16.tga
+texgen on
 
 newmtl shine_TEXGEN.001_NONE
 Ns 0.000000
@@ -543,7 +593,7 @@ Ni 1.000000
 d 1.000000
 illum 2
 
-newmtl shine_TEXGEN.001_shine.001
+newmtl shine_TEXGEN.001_wood.001
 Ns 0.000000
 Ka 0.200000 0.200000 0.200000
 Kd 0.800000 0.800000 0.800000
@@ -552,8 +602,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd textures\shine_ZZFORCERGBA16.tga
-texgen on
+map_Kd textures\wood.png
 
 newmtl shine_TEXGEN_bottom
 Ns 0.000000
@@ -615,6 +664,18 @@ Ni 1.000000
 d 0.000000
 illum 3
 map_Kd textures\shine_ZZFORCERGBA16.tga
+texgen on
+
+newmtl shine_gold.001
+Ns 94.117647
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 0.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 0.000000
+illum 3
+map_Kd textures\Gold.png
 texgen on
 
 newmtl shine_red_TEXGEN
