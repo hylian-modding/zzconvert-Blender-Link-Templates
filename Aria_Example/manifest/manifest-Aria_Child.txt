@@ -15,7 +15,7 @@ DICTIONARY
 
   SEG                 0x06000000                                         // ram segment
 
-  OBJ_CHILD            0x0015                                            // object_link_child object number
+  OBJ_CHILD           0x0015                                             // object_link_child object number
 
   // Hierarchy
   DL_WAIST            0x011A80  "Limb 1"                                 // this is the name zzconvert automatically uses
