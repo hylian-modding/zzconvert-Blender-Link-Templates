@@ -1,0 +1,640 @@
+// Author AriaHiro64 for 1.2 gc debug.
+// Free for any purpose.
+// May require Editing of of usibility table and tunic colors to get it fully working.
+
+DICTIONARY
+  VROM_CODE            0x00A94000        "system/code"                              // start of code within rom
+  VROM_SS_STICK        E_16                                                         // ovl_Effect_Ss_Stick is effect 16
+  VROM_ARMS_HOOK       A_102                                                        // Arms_Hook is actor 102
+  VROM_OBJ             O_0x14                                                       // object to overwrite
+  VROM_PLAYER          0x00C010B0        "system/ovl_player_actor.zovl"             // start of ovl_player_actor
+  HIERARCHY_CODE       0x00108D10                                                   // Relative to the start of code;
+                                                                                    // Link's hierarchy pointer will
+                                                                                    // be written at this address
+  SEG                  0x06000000                                                   // ram segment
+  OBJ_BOY              0x0014                                                       // object_link_boy object number
+  VROM_PAUSESCREEN     0xBE2730           "system/ovl_kaleido_scope.zovl"           // player overlay
+  USE_YL               0x01
+  USE_AL               0x00
+  USE_BOTH             0x09
+
+  // Hierarchy
+  DL_WAIST                0x00EBE8    "Limb 1"                                         // this is the name zzconvert automatically uses
+  DL_RTHIGH               0x00F260    "Limb 3"
+  DL_RSHIN                0x00F868    "Limb 4"
+  DL_RFOOT                0x00FDE8    "Limb 5"
+  DL_LTHIGH               0x010280    "Limb 6"
+  DL_LSHIN                0x010898    "Limb 7"
+  DL_LFOOT                0x010E18    "Limb 8"
+  DL_HEAD                 0x011D20    "Limb 10"
+  DL_HAT                  0x0126F8    "Limb 11"
+  DL_COLLAR               0x012900    "Limb 12"
+  DL_LSHOULDER            0x012D00    "Limb 13"
+  DL_LFOREARM             0x013228    "Limb 14"
+  DL_RSHOULDER            0x014868    "Limb 16"
+  DL_RFOREARM             0x014D88    "Limb 17"
+  DL_TORSO                0x016188    "Limb 20"
+
+  // Hands
+  DL_LHAND                0x013890    "Limb 15"
+  DL_LFIST                0x013DF0    "Fist.L"
+  DL_LHAND_BOTTLE         0x014310    "Bottle.Hand.L"
+  DL_RHAND                0x0153C0    "Limb 18"
+  DL_RFIST                0x015928    "Fist.R"
+  DL_RHAND_OCARINA        0x0153C0    "Ocarina.Hand.R"                              //cuffs ocarina properly
+
+  // Items
+  DL_SWORD_SHEATH         0x015D58    "Sheath"                                      //be sure to have a dummy polygon on Her
+  DL_LONGSWORD_SHEATH     0x015D58    "Sheath.1"
+  DL_KNIFE_HILT           0x017148    "Hilt.1"                                      //broken sword equates to knife
+  DL_KNIFE_BLADE          0x017700    "Blade.1"                                     //see line 45 comment.
+  DL_SWORD_HILT           0x0168E8    "Hilt.2"
+  DL_SWORD_BLADE          0x016E48    "Blade.2"
+  DL_LONGSWORD_HILT       0x017148    "Hilt.3"
+  DL_LONGSWORD_BLADE      0x0174E0    "Blade.3"
+  DL_LONGSWORD_BROKEN     0x017700    "Broken.Blade.3"
+  DL_SHIELD_DEKU          0x013DF0    "Shield.1"
+  DL_SHIELD_HYLIAN        0x018BC0    "Shield.2"
+  DL_SHIELD_MIRROR        0x0190E8    "Shield.3"
+  DL_HAMMER               0x0184A8    "Hammer"
+  DL_BOTTLE               0x0188E8    "Bottle"
+  DL_BOW                  0x019810    "Bow"
+  DL_OCARINA              0x019AE0    "Ocarina.1"
+  DL_OCARINA_TIME         0x019AE0    "Ocarina.2"
+  DL_HOOKSHOT             0x019FC0    "Hookshot"
+  DL_BOOMERANG            0x013DF0    "Boomerang"
+
+  // Flair
+  DL_UPGRADE_LFOREARM    0x01D688    "Gauntlet.Forearm.L"
+  DL_UPGRADE_LHAND       0x01D9A8    "Gauntlet.Hand.L"
+  DL_UPGRADE_LFIST       0x01DD68    "Gauntlet.Fist.L"
+  DL_UPGRADE_RFOREARM    0x01E048    "Gauntlet.Forearm.R"
+  DL_UPGRADE_RHAND       0x01E368    "Gauntlet.Hand.R"
+  DL_UPGRADE_RFIST       0x01E728    "Gauntlet.Fist.R"
+  DL_BOOT_LIRON          0x01EB38    "Foot.2.L"
+  DL_BOOT_RIRON          0x01EF50    "Foot.2.R"
+  DL_BOOT_LHOVER         0x01F588    "Foot.3.L"
+  DL_BOOT_RHOVER         0x01FC80    "Foot.3.R"
+
+  // First Person
+  DL_FPS_LFOREARM        0x01A9D8    "FPS.Forearm.L"
+  DL_FPS_LHAND           0x01BAA0    "FPS.Hand.L"
+  DL_FPS_RFOREARM        0x01C510    "FPS.Forearm.R"
+  DL_FPS_RHAND           0x01D1C8    "FPS.Hand.R"
+  DL_FPS_RHAND_SHOT      0x01D1C8    "FPS.Hand.Shot"
+  DL_FPS_HOOKSHOT        0x020728    "FPS.Hookshot"
+
+  // Misc
+  DL_HOOKSHOT_CHAIN      0x020BA0    "Hookshot.Chain"
+  DL_HOOKSHOT_HOOK       0x020D78    "Hookshot.Spike"
+  DL_HOOKSHOT_AIM        0x020E58    "Hookshot.Aiming.Reticule"
+  DL_BOW_STRING          0x020F20    "Bow.String"
+  DL_BLADEBREAK          0x0212A0    "Blade.3.Break"
+END
+
+// Matrix function parameters:
+// Matrix( XR, YR, ZR, XT, YT, ZT, XS, YS, ZS );
+
+OBJECT
+  MATRIX_SWORD_BACK:
+    Matrix( 0, 0, 0, -715, -310, 78, 1, 1, 1 );
+
+  MATRIX_SHIELD_BACK:
+    Matrix( 0, 0, 180, 935, 94, 29, 1, 1, 1 );
+
+  DL_SWORD_SHEATHED:
+    CallMatrix( MATRIX_SWORD_BACK );
+    CallList( DL_SWORD_HILT );
+    PopMatrix( 1 );
+    CallList( DL_SWORD_SHEATH );
+
+  DL_SHIELD_HYLIAN_BACK:
+    CallMatrix( MATRIX_SHIELD_BACK );
+    CallList( DL_SHIELD_HYLIAN );
+
+  DL_SHIELD_MIRROR_BACK:
+    CallMatrix( MATRIX_SHIELD_BACK );
+    CallList( DL_SHIELD_MIRROR );
+
+  DL_SWORD_SHIELD_HYLIAN:
+    CallList( DL_SWORD_SHEATHED );
+    CallList( DL_SHIELD_HYLIAN_BACK );
+
+  DL_SWORD_SHIELD_MIRROR:
+    CallList( DL_SWORD_SHEATHED );
+    CallList( DL_SHIELD_MIRROR_BACK );
+
+  DL_SHEATH0_HYLIAN:
+    CallList( DL_SWORD_SHEATH );
+    CallList( DL_SHIELD_HYLIAN_BACK );
+
+  DL_SHEATH0_MIRROR:
+    CallList( DL_SWORD_SHEATH );
+    CallList( DL_SHIELD_MIRROR_BACK );
+
+  DL_LFIST_KNIFE:
+    CallList( DL_KNIFE_HILT );
+    CallList( DL_KNIFE_BLADE );
+    CallList( DL_LFIST );
+
+  DL_LFIST_SWORD:
+    CallList( DL_SWORD_HILT );
+    CallList( DL_SWORD_BLADE );
+    CallList( DL_LFIST );
+
+  DL_LFIST_LONGSWORD:
+    CallList( DL_LONGSWORD_BLADE );
+    CallList( DL_LFIST );
+
+  DL_LFIST_LONGSWORD_BROKEN:
+    CallList( DL_LONGSWORD_HILT );
+    CallList( DL_LONGSWORD_BROKEN );
+    CallList( DL_LFIST );
+
+  DL_LFIST_HAMMER:
+    CallList( DL_HAMMER );
+    CallList( DL_LFIST );
+
+  DL_RFIST_SHIELD_HYLIAN:
+    CallList( DL_SHIELD_HYLIAN );
+    CallList( DL_RFIST );
+
+  DL_RFIST_SHIELD_MIRROR:
+    CallList( DL_SHIELD_MIRROR );
+    CallList( DL_RFIST );
+
+  DL_RFIST_BOW:
+    CallList( DL_BOW );
+    CallList( DL_RFIST );
+
+  DL_RFIST_HOOKSHOT:
+    CallList( DL_HOOKSHOT );
+    CallList( DL_RFIST );
+
+  DL_RHAND_OCARINA_TIME:
+    CallList( DL_OCARINA_TIME );
+    CallList( DL_RHAND_OCARINA );
+
+  DL_FPS_RHAND_BOW:
+    CallList( DL_BOW );
+    CallList( DL_FPS_RHAND_SHOT );
+
+  DL_FPS_LHAND_HOOKSHOT:
+    CallList( DL_FPS_HOOKSHOT );
+    CallList( DL_FPS_RHAND );
+
+  DL_LFIST_BOOMERANG:
+    CallList( DL_BOOMERANG );
+    CallList( DL_LFIST );
+
+  DL_RFIST_SHIELD_DEKU:
+    CallList( DL_SHIELD_DEKU );
+    CallList( DL_RFIST );
+
+  DL_SHIELD_DEKU_BACK:
+    CallMatrix( MATRIX_SHIELD_BACK );
+    CallList( DL_SHIELD_DEKU );
+
+  DL_SHEATH0_SHIELD_DEKU:
+    CallList( DL_SWORD_SHEATH );
+    CallList( DL_SHIELD_DEKU_BACK );
+
+  DL_SWORD_SHIELD_DEKU:
+    CallList( DL_SWORD_SHEATHED );
+    CallList( DL_SHIELD_DEKU_BACK );
+
+  DL_LONGSWORD_SHEATHED:
+    CallList( DL_KNIFE_HILT );
+    CallList( DL_LONGSWORD_SHEATH );
+
+  DL_LONG_SHIELD_HYLIAN_BACK:
+    CallList( DL_LONGSWORD_SHEATH );
+    CallMatrix( MATRIX_SHIELD_BACK );
+    CallList( DL_SHIELD_HYLIAN );
+
+  DL_LONG_SHIELD_MIRROR_BACK:
+    CallList( DL_LONGSWORD_SHEATH );
+    CallMatrix( MATRIX_SHIELD_BACK );
+    CallList( DL_SHIELD_MIRROR );
+
+  DL_LONG_SWORD_SHIELD_HYLIAN:
+    CallList( DL_LONGSWORD_SHEATHED );
+    CallList( DL_SHIELD_HYLIAN_BACK );
+
+  DL_LONG_SWORD_SHIELD_MIRROR:
+    CallList( DL_LONGSWORD_SHEATHED );
+    CallList( DL_SHIELD_MIRROR_BACK );
+
+  DL_LONG_SHEATH0_HYLIAN:
+    CallList( DL_LONGSWORD_SHEATH );
+    CallList( DL_SHIELD_HYLIAN_BACK );
+
+  DL_LONG_SHEATH0_MIRROR:
+    CallList( DL_LONGSWORD_SHEATH );
+    CallList( DL_SHIELD_MIRROR_BACK );
+
+  DL_LONG_SHIELD_DEKU_BACK:
+    CallList( DL_LONGSWORD_SHEATH );
+    CallMatrix( MATRIX_SHIELD_BACK );
+    CallList( DL_SHIELD_DEKU );
+
+  DL_LONG_SHEATH0_SHIELD_DEKU:
+    CallList( DL_LONGSWORD_SHEATH );
+      CallList( DL_SHIELD_DEKU_BACK );
+
+  DL_LONGSWORD_SHIELD_DEKU:
+    CallList( DL_LONGSWORD_SHEATHED );
+    CallList( DL_SHIELD_DEKU_BACK );
+
+  DL_RHAND_OCARINA_FAIRY:
+    CallList( DL_OCARINA );
+    CallList( DL_RHAND_OCARINA );
+
+END
+
+REPOINT
+// code
+  // If using Biggoron Sword Sheath Patch
+  GoTo( VROM_CODE+0x0011F570 );
+  SetAdvance( 4 );
+  Write32( DL_SWORD_SHEATH );               // Master Sword Sheath
+  Write32( DL_SHIELD_DEKU_BACK );           // Master Sword Sheath + Deku Shield
+  Write32( DL_SHIELD_HYLIAN_BACK );         // Master Sword Sheath + Hylian Shield
+  Write32( DL_SHIELD_MIRROR_BACK );         // Master Sword Sheath + Mirror Shield
+  Write32( DL_SWORD_SHEATHED );             // Sheathed Master Sword
+  Write32( DL_SWORD_SHIELD_DEKU );          // Sheathed Master Sword + Deku Shield
+  Write32( DL_SWORD_SHIELD_HYLIAN );        // Sheathed Master Sword + Hylian Shield
+  Write32( DL_SWORD_SHIELD_MIRROR );        // Sheathed Master Sword + Mirror Shield
+  Write32( DL_LONGSWORD_SHEATH );           // Biggoron Sword Sheath
+  Write32( DL_LONG_SHEATH0_SHIELD_DEKU );   // Biggoron Sword Sheath + Deku Shield
+  Write32( DL_LONG_SHEATH0_HYLIAN );        // Biggoron Sword Sheath + Hylian Shield
+  Write32( DL_LONG_SHEATH0_MIRROR );        // Biggoron Sword Sheath + Mirror Shield
+  Write32( DL_LONGSWORD_SHEATHED );         // Sheathed Biggoron Sword
+  Write32( DL_LONGSWORD_SHIELD_DEKU );      // Sheathed Biggoron Sword + Deku Shield
+  Write32( DL_LONG_SWORD_SHIELD_HYLIAN );   // Sheathed Biggoron Sword + Hylian Shield
+  Write32( DL_LONG_SWORD_SHIELD_MIRROR );   // Sheathed Biggoron Sword + Mirror Shield
+
+  //Meat and potatoes
+  GoTo( VROM_CODE+0x00108E88 );
+  SetAdvance( 8 );
+    Write32( DL_RFIST );                    //  Right Fist (High Poly)
+    Write32( DL_RFIST );                    //  Right Fist (Low Poly)
+    Write32( DL_RFIST_SHIELD_DEKU );        //  Right Fist + Deku Shield (High Poly)
+    Write32( DL_RFIST_SHIELD_DEKU );        //  Right Fist + Deku Shield (Low Poly)
+    Write32( DL_RFIST_SHIELD_HYLIAN );      //  Right Fist + Hylian Shield (High Poly)
+    Write32( DL_RFIST_SHIELD_HYLIAN );      //  Right Fist + Hylian Shield (Low Poly)
+    Write32( DL_RFIST_SHIELD_MIRROR );      //  Right Fist + Mirror Shield (High Poly)
+    Write32( DL_RFIST_SHIELD_MIRROR );      //  Right Fist + Mirror Shield (Low Poly)
+    Write32( DL_SWORD_SHEATHED );           //  Sheathed Sword (High Poly)
+    Write32( DL_SWORD_SHEATHED );           //  Sheathed Sword (Low Poly)
+    Write32( DL_SWORD_SHIELD_DEKU);         //  Deku Shield + Sheathed Sword (High Poly)
+    Write32( DL_SWORD_SHIELD_DEKU);         //  Deku Shield + Sheathed Sword (Low Poly)
+    Write32( DL_SWORD_SHIELD_HYLIAN );      //  Hylian Shield + Sheathed Sword (High Poly)
+    Write32( DL_SWORD_SHIELD_HYLIAN );      //  Hylian Shield + Sheathed Sword (Low Poly)
+    Write32( DL_SWORD_SHIELD_MIRROR );      //  Mirror Shield + Sheathed Sword (High Poly)
+    Write32( DL_SWORD_SHIELD_MIRROR );      //  Mirror Shield + Sheathed Sword (Low Poly)
+    Write32( 0x00000000   );                //  ? (High Poly)
+    Write32( 0x00000000 );                  //  ? (Low Poly)
+    Write32( 0x00000000 );                  //  Deku Shield without Sheath (High Poly)
+    Write32( 0x00000000 );                  //  Deku Shield without Sheath (Low Poly)
+    Write32( DL_SWORD_SHEATH );             //  Sword Sheath (High Poly)
+    Write32( DL_SWORD_SHEATH );             //  Sword Sheath (Low Poly)
+    Write32( DL_SHEATH0_SHIELD_DEKU );      //  Deku Shield + Sheath (High Poly)
+    Write32( DL_SHEATH0_SHIELD_DEKU );      //  Deku Shield + Sheath (Low Poly)
+    Write32( DL_SHEATH0_HYLIAN );           //  Hylian Shield + Sheath (High Poly)
+    Write32( DL_SHEATH0_HYLIAN );           //  Hylian Shield + Sheath (Low Poly)
+    Write32( DL_SHEATH0_MIRROR );           //  Mirror Shield + Sheath (High Poly)
+    Write32( DL_SHEATH0_MIRROR );           //  Mirror Shield + Sheath (Low Poly)
+    Write32( 0x00000000 );                  //  ? (High Poly)
+    Write32( 0x00000000 );                  //  ? (Low Poly)
+    Write32( 0x00000000 );                  //  ? (High Poly)
+    Write32( 0x00000000 );                  //  ? (Low Poly)
+    Write32( DL_LFIST_LONGSWORD );          //  Left Fist + Biggoron Sword (High Poly)
+    Write32( DL_LFIST_LONGSWORD );          //  Left Fist + Biggoron Sword (Low Poly)
+    Write32( DL_LFIST_LONGSWORD_BROKEN );   //  Left Fist + Broken Giant's Knife (High Poly)
+    Write32( DL_LFIST_LONGSWORD_BROKEN );   //  Left Fist + Broken Giant's Knife (Low Poly)
+    Write32( DL_LHAND );                    //  Left Hand (High Poly)
+    Write32( DL_LHAND );                    //  Left Hand (Low Poly)
+    Write32( DL_LFIST );                    //  Left Fist (High Poly)
+    Write32( DL_LFIST );                    //  Left Fist (Low Poly)
+    Write32( DL_LFIST_LONGSWORD_BROKEN );   //  Left Fist + Kokiri Sword (High Poly)
+    Write32( DL_LFIST_LONGSWORD_BROKEN );   //  Left Fist + Kokiri Sword (Low Poly)
+    Write32( DL_LFIST_SWORD );              //  Left Fist + Master Sword (High Poly)
+    Write32( DL_LFIST_SWORD );              //  Left Fist + Master Sword (Low Poly)
+    Write32( DL_RHAND );                    //  Right Hand (High Poly)
+    Write32( DL_RHAND );                    //  Right Hand (Low Poly)
+    Write32( DL_RFIST );                    //  Right Fist (High Poly)
+    Write32( DL_RFIST );                    //  Right Fist (Low Poly)
+    Write32( DL_RFIST_BOW );                //  Right Fist + Fairy Bow (and/or Fairy Slinghot?) (High Poly)
+    Write32( DL_RFIST_BOW );                //  Right Fist + Fairy Bow (and/or Fairy Slinghot?) (Low Poly)
+    Write32( DL_SWORD_SHEATHED );           //  Sheathed Sword (High Poly)
+    Write32( DL_SWORD_SHEATHED );           //  Sheathed Sword (Low Poly)
+    Write32( DL_SWORD_SHEATH );             //  Sword Sheath (High Poly)
+    Write32( DL_SWORD_SHEATH );             //  Sword Sheath (Low Poly)
+    Write32( DL_WAIST );                    //  Waist (High Poly)
+    Write32( DL_WAIST );                    //  Waist (Low Poly)
+    Write32( DL_RFIST_BOW );                //  Right Fist + Fairy Bow (and/or Fairy Slinghot?) (High Poly)
+    Write32( DL_RFIST_BOW );                //  Right Fist + Fairy Bow (and/or Fairy Slinghot?) (Low Poly)
+    Write32( DL_RHAND_OCARINA_FAIRY );      //  Right Hand + Fairy Ocarina (High Poly)
+    Write32( DL_RHAND_OCARINA_FAIRY );      //  Right Hand + Fairy Ocarina (Low Poly)
+    Write32( DL_RHAND_OCARINA_TIME );       //  Right Hand + Ocarina of Time (High Poly)
+    Write32( DL_RHAND_OCARINA_TIME );       //  Right Hand + Ocarina of Time (Low Poly)
+    Write32( DL_RFIST_HOOKSHOT );           //  Right Fist + Hookshot / Longshot (High Poly)
+    Write32( DL_RFIST_HOOKSHOT );           //  Right Fist + Hookshot / Longshot (Low Poly)
+    Write32( DL_LFIST_HAMMER );             //  Left Fist + Megaton Hammer (High Poly)
+    Write32( DL_LFIST_HAMMER );             //  Left Fist + Megaton Hammer (Low Poly)
+    Write32( DL_LFIST_BOOMERANG );          //  Left Fist + Boomerang (High Poly)
+    Write32( DL_LFIST_BOOMERANG );          //  Left Fist + Boomerang (Low Poly)
+    Write32( DL_LHAND_BOTTLE );             //  Outstretched Left Hand for Holding Bottles (High Poly)
+    Write32( DL_LHAND_BOTTLE );             //  Outstretched Left Hand for Holding Bottles (Low Poly)
+    Write32( DL_FPS_LFOREARM );             //  FPS Left Forearm
+    Write32( DL_FPS_LHAND );                //  FPS Left Hand
+    Write32( DL_RSHOULDER );                //  Right Shoulder (High Poly)
+    Write32( DL_FPS_RFOREARM );             //  FPS Right Forearm
+    Write32( DL_FPS_RHAND_BOW );            //  FPS Right Hand + Fairy Bow
+
+  GoTo( VROM_CODE+0x001091BC );
+  SetAdvance( 4 );
+    Write32( DL_BOOT_LIRON );              //  Left Iron Boot
+    Write32( DL_BOOT_RIRON );              //  Right Iron Boot
+    Write32( DL_BOOT_LHOVER );             //  Left Hover Boot
+    Write32( DL_BOOT_RHOVER );             //  Right Hover Boot
+
+  GoTo( VROM_CODE+0x00109298 );
+    Write32( DL_BOTTLE );                  //  Empty Bottle
+
+  GoTo( VROM_CODE+0x001092D4 );
+  SetAdvance( 4 );
+    Write32( DL_BOW_STRING );              //  Fairy Bow String
+    Float( 0.0 );                          //  Fairy Bow String Anchor (X Position Float)
+    Float( -360.4 );                       //  Fairy Bow String Anchor (Y Position Float) 0xC3B43333
+
+// Hardcoded Assembly Pointers
+  GoTo( VROM_CODE+0x000728BE );            //  Left Silver/Golden Gauntlet Forearm
+  Hi32( DL_UPGRADE_LFOREARM );
+  GoTo( VROM_CODE+0x000728C2 );
+  Lo32( DL_UPGRADE_LFOREARM );
+
+  GoTo( VROM_CODE+0x000728DA );            //  Right Silver / Golden Gauntlet Forearm
+  Hi32( DL_UPGRADE_RFOREARM );
+  GoTo( VROM_CODE+0x000728DE );
+  Lo32( DL_UPGRADE_RFOREARM );
+
+  GoTo( VROM_CODE+0x000728FA );            //  Left Silver / Golden Gauntlet Hand (Fist)
+  Hi32( DL_UPGRADE_LFIST );
+  GoTo( VROM_CODE+0x0007290E );
+  Lo32( DL_UPGRADE_LFIST );
+
+  GoTo( VROM_CODE+0x00072912 );            //  Left Silver / Golden Gauntlet Hand (Open Hand)
+  Hi32( DL_UPGRADE_LHAND );
+  GoTo( VROM_CODE+0x0007291E );
+  Lo32( DL_UPGRADE_LHAND );
+
+  GoTo( VROM_CODE+0x0007294A );            //  Right Silver / Golden Gauntlet Hand (Fist)
+  Hi32( DL_UPGRADE_RFIST );
+  GoTo( VROM_CODE+0x0007294E );
+  Lo32( DL_UPGRADE_RFIST );
+
+  GoTo( VROM_CODE+0x0007295A );            //  Right Silver / Golden Gauntlet Hand (Open Hand)
+  Hi32( DL_UPGRADE_RHAND );
+  GoTo( VROM_CODE+0x0007295E );
+  Lo32( DL_UPGRADE_RHAND );
+
+  GoTo( VROM_CODE+0x0007359A );            //  FPS Right Hand + FPS Hookshot / Longshot
+  Hi32( DL_FPS_LHAND_HOOKSHOT );
+  GoTo( VROM_CODE+0x0007359E );
+  Lo32( DL_FPS_LHAND_HOOKSHOT );
+
+  GoTo( VROM_CODE+0x00073E56 );            //  Hookshot / Longshot Aiming Reticle
+  Hi32( DL_HOOKSHOT_AIM );
+  GoTo( VROM_CODE+0x00073E5E );
+  Lo32( DL_HOOKSHOT_AIM );
+
+// Arms_Hook
+  GoTo( VROM_ARMS_HOOK+0x00000A6E );       //  Hookshot / Longshot Spike
+  Hi32( DL_HOOKSHOT_HOOK );
+  GoTo( VROM_ARMS_HOOK+0x00000A72 );
+  Lo32( DL_HOOKSHOT_HOOK );
+
+  GoTo( VROM_ARMS_HOOK+0x00000B8A );      //  Hookshot / Longshot Chain
+  Hi32( DL_HOOKSHOT_CHAIN );
+  GoTo( VROM_ARMS_HOOK+0x00000B8E );
+  Lo32( DL_HOOKSHOT_CHAIN );
+
+  GoTo( VROM_ARMS_HOOK+0x00000BE8 );      //  Hookshot / Longshot Object File
+  Write16( OBJ_BOY );
+
+// ovl_Effect_Ss_Stick
+  GoTo( VROM_SS_STICK+0x0000035C );       //  Broken Piece of Giant's Knife
+  Write32( DL_BLADEBREAK );
+
+  GoTo( VROM_SS_STICK+0x00000358 );       //  Giant's Knife / Biggoron Sword Object File
+
+  Write16( OBJ_BOY );
+
+GoTo( VROM_CODE+0xF9134 );
+SetAdvance( 1 );
+//Normal Navi
+Write8( 0xFF );     //Red
+Write8( 0xFF );     //Green
+Write8( 0xFF );     //Blue
+Write8( 0xFF );     //Alpha (transparency)
+GoTo( VROM_CODE+0xF9144 );
+SetAdvance( 1 );
+//NPC Navi
+Write8( 0x96 );     //Red
+Write8( 0x96 );     //Green
+Write8( 0xFF );     //Blue
+Write8( 0xFF );     //Alpha (transparency)
+GoTo( VROM_CODE+0xF914C );
+SetAdvance( 1 );
+//Enemy Navi
+Write8( 0xFF );     //Red
+Write8( 0xFF );     //Green
+Write8( 0x00 );     //Blue
+Write8( 0xFF );     //Alpha (transparency)
+GoTo( VROM_CODE+0xF9154 );
+SetAdvance( 1 );
+//Sign Navi
+Write8( 0x00 );     //Red
+Write8( 0xFF );     //Green
+Write8( 0x00 );     //Blue
+Write8( 0xFF );     //Alpha (transparency)
+GoTo( VROM_CODE+0xF915C );
+SetAdvance( 1 );
+//Checkable Spot Navi
+Write8( 0x00 );     //Red
+Write8( 0xFF );     //Green
+Write8( 0x00 );     //Blue
+Write8( 0xFF );     //Alpha (transparency)
+GoTo( VROM_CODE+0xF916C );
+SetAdvance( 1 );
+//Boss Navi
+Write8( 0xFF );     //Red
+Write8( 0x00 );     //Green
+Write8( 0x00 );     //Blue
+Write8( 0xFF );     //Alpha (transparency)
+
+GoTo( VROM_CODE+0x1091A8‬ );
+SetAdvance( 1 );
+// Kokiri Tunic color
+Write8( 0x1E );     //Red
+Write8( 0x69 );     //Green
+Write8( 0x1B );     //Blue
+// Goron Tunic color
+Write8( 0x64 );     //Red
+Write8( 0x14 );     //Green
+Write8( 0x00 );     //Blue
+// Zora Tunic Color
+Write8( 0x00 );     //Red
+Write8( 0x0C );     //Green
+Write8( 0x64 );     //Blue
+
+GoTo( VROM_CODE+0x1091B4‬‬ );
+SetAdvance( 1 );
+// Silver Gauntlet color
+Write8( 0xFF );     //Red
+Write8( 0xFF );     //Green
+Write8( 0xFF );     //Blue
+// GoLden Gauntlet color
+Write8( 0xFE );     //Red
+Write8( 0xCF );     //Green
+Write8( 0x0F );     //Blue
+
+GoTo( VROM_PAUSESCREEN+0x173DC );
+SetAdvance( 1 );
+// item usability table
+Write8( USE_YL );    // Deku Sticks
+Write8( USE_BOTH );  // Deku Nuts
+Write8( USE_BOTH );  // Bombs
+Write8( USE_AL );    // Fairy Bow
+Write8( USE_AL );    // Fire Arrows
+Write8( USE_BOTH );  // Din's Fire
+Write8( USE_YL );    // Fairy Slingshot
+Write8( USE_BOTH );  // Ocarina
+Write8( USE_BOTH );  // Bombachus
+Write8( USE_AL );     // Hookshot
+Write8( USE_AL );    // Ice Arrows
+Write8( USE_BOTH );  // Farore's Wind
+Write8( USE_BOTH );  // Boomerang
+Write8( USE_BOTH );  // Lens of Truth
+Write8( USE_YL );    // Magic Beans
+Write8( USE_BOTH );  // Megaton Hammer
+Write8( USE_AL );    // Light Arrows
+Write8( USE_BOTH );  // Nayru's Love
+Write8( USE_BOTH );  // Bottle 1
+Write8( USE_BOTH );  // Bottle 2
+Write8( USE_BOTH );  // Bottle 3
+Write8( USE_BOTH );  // Bottle 4
+Write8( USE_AL );    // Adult Trade Slot
+Write8( USE_YL );    // Child Trade Slot
+Write8( USE_AL );    // Unused (Bullet Bag / Quiver)
+Write8( USE_YL );    // Kokiri Sword
+Write8( USE_AL );    // Master Sword
+Write8( USE_AL );    // Bigoron's Sword
+Write8( USE_BOTH );  // Bomb Bag
+Write8( USE_BOTH );  // Deku Shield
+Write8( USE_BOTH );  // Hylian Shield
+Write8( USE_BOTH );  // Mirror Shield
+Write8( USE_AL );    // Unused (Strength Upgrade)
+Write8( USE_BOTH );  // Kokiri Tunic
+Write8( USE_BOTH );  // Goron Tunic
+Write8( USE_BOTH );  // Zora Tunic
+Write8( USE_BOTH );  // Scale
+Write8( USE_BOTH );  // Kokiri Boots
+Write8( USE_AL );    // Iron Boots
+Write8( USE_AL );    // Hover boots
+
+//item highlight table
+
+Write8( USE_YL );    //	Deku Sticks
+Write8( USE_BOTH );  // Deku Nuts
+Write8( USE_BOTH );  // Bombs
+Write8( USE_AL );    //	Bow
+Write8( USE_AL );    //	Fire Arrows
+Write8( USE_BOTH );  // Din's Fire
+Write8( USE_YL );    //	Slingshot
+Write8( USE_BOTH );  // Fairy Ocarina
+Write8( USE_BOTH );  // Ocarina of Time
+Write8( USE_BOTH );  // Bombchus
+Write8( USE_AL );    //	Hookshot
+Write8( USE_AL );    //	Longshot
+Write8( USE_AL );    //	Ice Arrows
+Write8( USE_BOTH );  // Farore's Wind
+Write8( USE_BOTH );  // Boomerang
+Write8( USE_BOTH );  // Lens of Truth
+Write8( USE_YL );    //	Magic Beans
+Write8( USE_BOTH );  // Megaton Hammer
+Write8( USE_AL );    //	Light Arrows
+Write8( USE_BOTH );  //	Nayru's Love
+Write8( USE_BOTH );  // Empty Bottle
+Write8( USE_BOTH );  // Red Potion
+Write8( USE_BOTH );  // Green Potion
+Write8( USE_BOTH );  // Blue Potion
+Write8( USE_BOTH );  // Fairy
+Write8( USE_BOTH );  // Fish
+Write8( USE_BOTH );  // Milk
+Write8( USE_BOTH );  // Letter in a Bottle
+Write8( USE_BOTH );  // Blue Fire
+Write8( USE_BOTH );  // Bug
+Write8( USE_BOTH );  // Big Poe
+Write8( USE_BOTH );  // Lon-Lon Milk (Half)
+Write8( USE_BOTH );  // Poe
+Write8( USE_YL );    // Weird Egg
+Write8( USE_YL );    // Chicken
+Write8( USE_YL );    // Zelda's Letter
+Write8( USE_YL );    //	Keaton Mask
+Write8( USE_YL );    //	Skull Mask
+Write8( USE_YL );    //	Spooky Mask
+Write8( USE_YL );    //	Bunny Hood
+Write8( USE_YL );    //	Goron Mask
+Write8( USE_YL );    //	Zora Mask
+Write8( USE_YL );    //	Gerudo Mask
+Write8( USE_YL );    //	Mask of Truth
+Write8( USE_YL );    //	SOLD OUT
+Write8( USE_AL );    //	Pocket Egg
+Write8( USE_AL );    //	Pocket Cucco
+Write8( USE_AL );    //	Cojiro
+Write8( USE_AL );    //	Odd Mushroom
+Write8( USE_AL );    //	Odd Potion
+Write8( USE_AL );    //	Poacher's Saw
+Write8( USE_AL );    //	Goron's Sword (Broken)
+Write8( USE_AL );    //	Prescription
+Write8( USE_AL );    //	Eyeball Frog
+Write8( USE_AL );    //	Eye Drops
+Write8( USE_AL );    //	Claim Check
+Write8( USE_AL );    //	?
+Write8( USE_AL );    //	?
+Write8( USE_AL );    //	?
+Write8( USE_YL );    //	Kokiri Sword
+Write8( USE_AL );    //	Master Sword
+Write8( USE_AL );    //	Big Goron Sword
+Write8( USE_BOTH );  // Deku Shield
+Write8( USE_BOTH );  // Hylian Shield
+Write8( USE_BOTH );  // Mirror Shield
+Write8( USE_BOTH );  // Kokiri Tunic
+Write8( USE_BOTH );  // Goron Tunic
+Write8( USE_BOTH );  // Zora Tunic
+Write8( USE_BOTH );  // Kokiri Boots
+Write8( USE_AL );    //	Iron Boots
+Write8( USE_AL );    //	Hover Boots
+Write8( USE_YL );    //	Bullet Bag 30
+Write8( USE_YL );    //	Bullet Bag 40
+Write8( USE_YL );    //	Bullet Bag 50
+Write8( USE_AL );    //	Quiver 30
+Write8( USE_AL );    //	Quiver 40
+Write8( USE_AL );    //	Quiver 50
+Write8( USE_BOTH );  // Bomb Bag 20
+Write8( USE_BOTH );  //	Bomb Bag 30
+Write8( USE_BOTH );  //	Bomb Bag 40
+Write8( USE_YL );    //	Goron Bracelet
+Write8( USE_AL );    //	Silver Gauntlets
+Write8( USE_AL );    //	Golden Gauntlets
+Write8( USE_BOTH );  // Silver Scale
+Write8( USE_BOTH );  //	Golden Scale
+Write8( USE_BOTH );  //	Unused
+Write8( USE_BOTH );  //	Unused
+Write8( USE_BOTH );  //	Unused
+
+END
+
