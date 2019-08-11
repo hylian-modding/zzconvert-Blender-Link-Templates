@@ -10,9 +10,9 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 0.000000
 illum 6
-map_Kd textures\fingers.png
+map_Kd textures\glove.png
 
-newmtl Belt:white_glove.png
+newmtl Belt:white_fingers.png
 Ns 96.078431
 Ka 0.000000 0.000000 0.000000
 Kd 1.000000 1.000000 1.000000
@@ -21,7 +21,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 0.000000
 illum 6
-map_Kd textures\glove.png
+map_Kd textures\fingers.png
 
 newmtl Belt:white_glove_top.png
 Ns 96.078431
@@ -136,7 +136,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd textures\fingers.png
+map_Kd textures\glove.png
 
 newmtl White_Belt_buckle.png
 Ns 94.117647
@@ -288,7 +288,7 @@ map_Kd textures\Adult\eyes.png
 uprop c
 vprop c
 
-newmtl White_glove.png
+newmtl White_fingers.png
 Ns 94.117647
 Ka 1.000000 1.000000 1.000000
 Kd 0.640000 0.640000 0.640000
@@ -297,7 +297,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd textures\glove.png
+map_Kd textures\fingers.png
 
 newmtl White_glove_top.png
 Ns 94.117647
@@ -508,7 +508,7 @@ vprop c
 newmtl m_TEXGEN
 Ns 96.078431
 Ka 1.000000 1.000000 1.000000
-Kd 1.000000 0.000000 0.000000
+Kd 1.000000 1.000000 0.000000
 Ks 1.000000 1.000000 1.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.000000
@@ -675,9 +675,11 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd textures\swordbottom.png
+map_Kd textures\060095E8.tga
+uprop c
+vprop c
 
-newmtl mtl_060090E8_060095E8.tga
+newmtl mtl_060090E8_swordbottom.png
 Ns 94.117647
 Ka 1.000000 1.000000 1.000000
 Kd 1.000000 1.000000 1.000000
@@ -686,9 +688,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd textures\060095E8.tga
-uprop c
-vprop c
+map_Kd textures\swordbottom.png
 
 newmtl mtl_060091E0
 Ns 96.078431

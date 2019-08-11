@@ -1,22 +1,26 @@
 DICTIONARY
     //
-    // For use with decompressed 1.0 U OoT only!
+    // For use with decompressed 1.0 U and J OoT only!
     //
-    VROM_CODE             0x00A87000           // start of code within rom
-    TABLE_OBJECT          0xE7F58              // start of object table within code
-    TABLE_ACTOR           0xD7490              // start of actor table within code
-    TABLE_PARTICLE        0xD6BA0              // start of particle table within code
-    VROM_SS_STICK         E_16                 // ovl_Effect_Ss_Stick is effect 16
-    VROM_ARMS_HOOK        A_102                // Arms_Hook is actor 102
-    VROM_OBJ              O_0x14               // object to overwrite
+        VROM_CODE             0x00A87000           // start of code within rom
+        TABLE_OBJECT          0xE7F58              // start of object table within code
+        TABLE_ACTOR           0xD7490              // start of actor table within code
+        TABLE_PARTICLE        0xD6BA0              // start of particle table within code
+        VROM_SS_STICK         E_16                 // ovl_Effect_Ss_Stick is effect 16
+        VROM_ARMS_HOOK        A_102                // Arms_Hook is actor 102
+        VROM_OBJ              O_0x14               // object to overwrite
 
-    HIERARCHY_CODE        0xE65A0              // Relative to the start of code;
-                                               // Link's hierarchy pointer will
-                                               // be written at this address
+        HIERARCHY_CODE        0xE65A0              // Relative to the start of code;
+                                                   // Link's hierarchy pointer will
+                                                   // be written at this address
 
-    SEG                   0x06000000           // ram segment
+        SEG                   0x06000000           // ram segment
 
-    OBJ_BOY               0x0014               // object_link_boy object number
+        OBJ_BOY               0x0014               // object_link_boy object number
+        VROM_PAUSESCREEN      0xBB11E0             // player overlay
+        USE_YL                0x01
+        USE_AL                0x00
+        USE_BOTH              0x09
 
     // Hierarchy
     DL_WAIST              0x00EBE8    "Limb 1" // this is the name zzconvert automatically uses
@@ -329,4 +333,212 @@ REPOINT
 
     GoTo( VROM_SS_STICK+0x328 );                //    Giant's Knife / Biggoron Sword Object File
     Write16( OBJ_BOY );
+
+    GoTo( VROM_CODE+0xD7184‬ );
+    SetAdvance( 1 );
+    //Normal Navi
+    Write8( 0xFF );     //Red
+    Write8( 0xFF );     //Green
+    Write8( 0xFF );     //Blue
+    Write8( 0xFF );     //Alpha (transparency)
+    GoTo( VROM_CODE+0xD7194 );
+    SetAdvance( 1 );
+    //NPC Navi
+    Write8( 0x96 );     //Red
+    Write8( 0x96 );     //Green
+    Write8( 0xFF );     //Blue
+    Write8( 0xFF );     //Alpha (transparency)
+    GoTo( VROM_CODE+0xD719C );
+    SetAdvance( 1 );
+    //Enemy Navi
+    Write8( 0xFF );     //Red
+    Write8( 0xFF );     //Green
+    Write8( 0x00 );     //Blue
+    Write8( 0xFF );     //Alpha (transparency)
+    GoTo( VROM_CODE+0xD718C );
+    SetAdvance( 1 );
+    //Sign Navi
+    Write8( 0x00 );     //Red
+    Write8( 0xFF );     //Green
+    Write8( 0x00 );     //Blue
+    Write8( 0xFF );     //Alpha (transparency)
+    GoTo( VROM_CODE+0xD71AC );
+    SetAdvance( 1 );
+    //Checkable Spot Navi
+    Write8( 0x00 );     //Red
+    Write8( 0xFF );     //Green
+    Write8( 0x00 );     //Blue
+    Write8( 0xFF );     //Alpha (transparency)
+    GoTo( VROM_CODE+0xD71BC );
+    SetAdvance( 1 );
+    //Boss Navi
+    Write8( 0xFF );     //Red
+    Write8( 0xFF );     //Green
+    Write8( 0x00 );     //Blue
+    Write8( 0xFF );     //Alpha (transparency)
+
+
+    GoTo( VROM_CODE+0xE6A38‬ );
+    SetAdvance( 1 );
+    // Kokiri Tunic color
+    Write8( 0x1E );     //Red
+    Write8( 0x69 );     //Green
+    Write8( 0x1B );     //Blue
+    // Goron Tunic color
+    Write8( 0x64 );     //Red
+    Write8( 0x14 );     //Green
+    Write8( 0x00 );     //Blue
+    // Zora Tunic Color
+    Write8( 0x00 );     //Red
+    Write8( 0x0C );     //Green
+    Write8( 0x64 );     //Blue
+
+    GoTo( VROM_CODE+0xE6A44‬‬‬ );
+    SetAdvance( 1 );
+    // Silver Gauntlet color
+    Write8( 0xFF );     //Red
+    Write8( 0xFF );     //Green
+    Write8( 0xFF );     //Blue
+    // GoLden Gauntlet color
+    Write8( 0xFE );     //Red
+    Write8( 0xCF );     //Green
+    Write8( 0x0F );     //Blue
+
+    // item usability table
+
+  GoTo( VROM_PAUSESCREEN+0x0165B4 );
+  SetAdvance( 1 );
+  // item usability table
+  Write8( USE_YL );    // Deku Sticks
+  Write8( USE_BOTH );  // Deku Nuts
+  Write8( USE_BOTH );  // Bombs
+  Write8( USE_AL );    // Fairy Bow
+  Write8( USE_AL );    // Fire Arrows
+  Write8( USE_BOTH );  // Din's Fire
+  Write8( USE_YL );    // Fairy Slingshot
+  Write8( USE_BOTH );  // Ocarina
+  Write8( USE_BOTH );  // Bombachus
+  Write8( USE_AL );    // Hookshot
+  Write8( USE_AL );    // Ice Arrows
+  Write8( USE_BOTH );  // Farore's Wind
+  Write8( USE_YL );    // Boomerang
+  Write8( USE_BOTH );  // Lens of Truth
+  Write8( USE_YL );    // Magic Beans
+  Write8( USE_AL );    // Megaton Hammer
+  Write8( USE_AL );    // Light Arrows
+  Write8( USE_BOTH );  // Nayru's Love
+  Write8( USE_BOTH );  // Bottle 1
+  Write8( USE_BOTH );  // Bottle 2
+  Write8( USE_BOTH );  // Bottle 3
+  Write8( USE_BOTH );  // Bottle 4
+  Write8( USE_AL );    // Adult Trade Slot
+  Write8( USE_YL );    // Child Trade Slot
+  Write8( USE_AL );    // Unused (Bullet Bag / Quiver)
+  Write8( USE_YL );    // Kokiri Sword
+  Write8( USE_AL );    // Master Sword
+  Write8( USE_AL );    // Bigoron's Sword
+  Write8( USE_BOTH );  // Bomb Bag
+  Write8( USE_YL );    // Deku Shield
+  Write8( USE_BOTH );  // Hylian Shield
+  Write8( USE_AL );    // Mirror Shield
+  Write8( USE_AL );    // Unused (Strength Upgrade)
+  Write8( USE_AL );  // Kokiri Tunic
+  Write8( USE_AL );  // Goron Tunic
+  Write8( USE_AL );  // Zora Tunic
+  Write8( USE_BOTH );  // Scale
+  Write8( USE_BOTH );  // Kokiri Boots
+  Write8( USE_AL );    // Iron Boots
+  Write8( USE_AL );    // Hover boots
+    //item highlight table
+  Write8( USE_YL );    //	Deku Sticks
+  Write8( USE_BOTH );  // Deku Nuts
+  Write8( USE_BOTH );  // Bombs
+  Write8( USE_AL );    //	Bow
+  Write8( USE_AL );    //	Fire Arrows
+  Write8( USE_BOTH );  // Din's Fire
+  Write8( USE_YL );    //	Slingshot
+  Write8( USE_BOTH );  // Fairy Ocarina
+  Write8( USE_BOTH );  // Ocarina of Time
+  Write8( USE_BOTH );  // Bombchus
+  Write8( USE_AL );    //	Hookshot
+  Write8( USE_AL );    //	Longshot
+  Write8( USE_AL );    //	Ice Arrows
+  Write8( USE_BOTH );  // Farore's Wind
+  Write8( USE_YL );    // Boomerang
+  Write8( USE_BOTH );  // Lens of Truth
+  Write8( USE_YL );    //	Magic Beans
+  Write8( USE_AL );    // Megaton Hammer
+  Write8( USE_AL );    //	Light Arrows
+  Write8( USE_BOTH );  //	Nayru's Love
+  Write8( USE_BOTH );  // Empty Bottle
+  Write8( USE_BOTH );  // Red Potion
+  Write8( USE_BOTH );  // Green Potion
+  Write8( USE_BOTH );  // Blue Potion
+  Write8( USE_BOTH );  // Fairy
+  Write8( USE_BOTH );  // Fish
+  Write8( USE_BOTH );  // Milk
+  Write8( USE_BOTH );  // Letter in a Bottle
+  Write8( USE_BOTH );  // Blue Fire
+  Write8( USE_BOTH );  // Bug
+  Write8( USE_BOTH );  // Big Poe
+  Write8( USE_BOTH );  // Lon-Lon Milk (Half)
+  Write8( USE_BOTH );  // Poe
+  Write8( USE_YL );    // Weird Egg
+  Write8( USE_YL );    // Chicken
+  Write8( USE_YL );    // Zelda's Letter
+  Write8( USE_YL );    //	Keaton Mask
+  Write8( USE_YL );    //	Skull Mask
+  Write8( USE_YL );    //	Spooky Mask
+  Write8( USE_YL );    //	Bunny Hood
+  Write8( USE_YL );    //	Goron Mask
+  Write8( USE_YL );    //	Zora Mask
+  Write8( USE_YL );    //	Gerudo Mask
+  Write8( USE_YL );    //	Mask of Truth
+  Write8( USE_YL );    //	SOLD OUT
+  Write8( USE_AL );    //	Pocket Egg
+  Write8( USE_AL );    //	Pocket Cucco
+  Write8( USE_AL );    //	Cojiro
+  Write8( USE_AL );    //	Odd Mushroom
+  Write8( USE_AL );    //	Odd Potion
+  Write8( USE_AL );    //	Poacher's Saw
+  Write8( USE_AL );    //	Goron's Sword (Broken)
+  Write8( USE_AL );    //	Prescription
+  Write8( USE_AL );    //	Eyeball Frog
+  Write8( USE_AL );    //	Eye Drops
+  Write8( USE_AL );    //	Claim Check
+  Write8( USE_AL );    //	?
+  Write8( USE_AL );    //	?
+  Write8( USE_AL );    //	?
+  Write8( USE_YL );    //	Kokiri Sword
+  Write8( USE_AL );    //	Master Sword
+  Write8( USE_AL );    //	Big Goron Sword
+  Write8( USE_YL );    // Deku Shield
+  Write8( USE_BOTH );  // Hylian Shield
+  Write8( USE_AL );    // Mirror Shield
+  Write8( USE_BOTH );  // Kokiri Tunic
+  Write8( USE_AL );    // Goron Tunic
+  Write8( USE_AL );    // Zora Tunic
+  Write8( USE_BOTH );  // Kokiri Boots
+  Write8( USE_AL );    //	Iron Boots
+  Write8( USE_AL );    //	Hover Boots
+  Write8( USE_YL );    //	Bullet Bag 30
+  Write8( USE_YL );    //	Bullet Bag 40
+  Write8( USE_YL );    //	Bullet Bag 50
+  Write8( USE_AL );    //	Quiver 30
+  Write8( USE_AL );    //	Quiver 40
+  Write8( USE_AL );    //	Quiver 50
+  Write8( USE_BOTH );  // Bomb Bag 20
+  Write8( USE_BOTH );  //	Bomb Bag 30
+  Write8( USE_BOTH );  //	Bomb Bag 40
+  Write8( USE_YL );    //	Goron Bracelet
+  Write8( USE_AL );    //	Silver Gauntlets
+  Write8( USE_AL );    //	Golden Gauntlets
+  Write8( USE_BOTH );  // Silver Scale
+  Write8( USE_BOTH );  //	Golden Scale
+  Write8( USE_BOTH );  //	Unused
+  Write8( USE_BOTH );  //	Unused
+  Write8( USE_BOTH );  //	Unused
+
+
 END
+

@@ -466,9 +466,9 @@ REPOINT
     GoTo( VROM_CODE+0xE6A38‬ );
     SetAdvance( 1 );
     // Kokiri Tunic color
-    Write8( 0x11 );     //Red
-    Write8( 0x11 );     //Green
-    Write8( 0x11 );     //Blue
+    Write8( 0x1E );     //Red
+    Write8( 0x69 );     //Green
+    Write8( 0x1B );     //Blue
     // Goron Tunic color
     Write8( 0x64 );     //Red
     Write8( 0x14 );     //Green
