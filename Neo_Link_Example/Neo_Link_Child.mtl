@@ -1,5 +1,5 @@
 # Blender MTL File: 'Neo_Link_Child.blend'
-# Material Count: 49
+# Material Count: 50
 
 newmtl Boomerang.001
 Ns 94.117647
@@ -25,6 +25,19 @@ d 0.800000
 illum 2
 map_Kd textures\3DFAB164_c.png
 texgen on
+
+newmtl Material.002
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 0
+map_Kd C:\Users\ariah\Documents\GitHub\Arias-Templates-For-z64.me-ZZCONVERT\Aria_Example\textures\crosshair.png
+uprop c
+vprop c
 
 newmtl Slingshot_String_NOCULL
 Ns 96.078431
@@ -446,10 +459,11 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 0.000000
 illum 2
-map_Kd textures\06005D80.tga
+map_Kd textures\06008DE0.tga
+vprop c
 map_d textures\\06008DE0.tga
 
-newmtl mtl_06008DE0_06008DE0.tga
+newmtl mtl_06008DE0_06005D80.tga
 Ns 96.078431
 Ka 1.000000 1.000000 1.000000
 Kd 1.000000 1.000000 1.000000
@@ -458,8 +472,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 0.000000
 illum 2
-map_Kd textures\06008DE0.tga
-vprop c
+map_Kd textures\06005D80.tga
 map_d textures\\06008DE0.tga
 
 newmtl mtl_06008DE0_Gold.png
@@ -601,10 +614,11 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd textures\04000000.tga
-texgen on
+map_Kd textures\insignia.png
+uprop c
+vprop c
 
-newmtl sword_TEXGEN_insignia.png
+newmtl sword_TEXGEN_04000000.tga
 Ns 0.000000
 Ka 0.200000 0.200000 0.200000
 Kd 1.000000 1.000000 1.000000
@@ -613,9 +627,8 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd textures\insignia.png
-uprop c
-vprop c
+map_Kd textures\04000000.tga
+texgen on
 
 newmtl sword_TEXGEN_insignia2.png
 Ns 0.000000

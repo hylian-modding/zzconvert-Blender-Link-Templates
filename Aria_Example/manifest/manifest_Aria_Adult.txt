@@ -77,6 +77,7 @@ DICTIONARY
   DL_BOOT_RHOVER         0x01FC80    "Foot.3.R"
 
   // First Person
+  DL_CROSS               0x000000	   "Crosshair"
   DL_FPS_LFOREARM        0x01A9D8    "FPS.Forearm.L"
   DL_FPS_LHAND           0x01BAA0    "FPS.Hand.L"
   DL_FPS_RFOREARM        0x01C510    "FPS.Forearm.R"
@@ -176,6 +177,7 @@ OBJECT
     CallList( DL_RHAND_OCARINA );
 
   DL_FPS_RHAND_BOW:
+    CallList( DL_CROSS );
     CallList( DL_BOW );
     CallList( DL_FPS_RHAND_SHOT );
 

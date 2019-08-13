@@ -79,6 +79,8 @@ DICTIONARY
   DL_MASK_BUNNY       0x01F290  "Mask.Bunny"
 
   // First-Person
+
+  DL_CROSS            0x000000  "Crosshair"
   DL_FPS_RIGHT_ARM    0x01B998  "FPS.Forearm.R"
 
   // Misc
@@ -170,6 +172,7 @@ OBJECT
     CallList( DL_RHAND_OCARINA );
 
   DL_FPS_RARM_SLINGSHOT:
+    CallList( DL_CROSS );
     CallList( DL_SLINGSHOT );
     CallList( DL_FPS_RIGHT_ARM );
 

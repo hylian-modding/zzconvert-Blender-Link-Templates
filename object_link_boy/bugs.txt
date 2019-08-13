@@ -1,0 +1,6 @@
+Mirror Shield Symbols (Wtf?)
+FPS Hookshot Texture (Wtf?)
+Hookshot Aiming Reticule Matrix (Add ZZBBMTX)
+Fix Hair Normals
+
+---On Hardware
