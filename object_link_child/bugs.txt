@@ -1,0 +1,4 @@
+Normals on Face (Could be fixed, I guess.)
+
+-- On hardware
+Bottle weirdness

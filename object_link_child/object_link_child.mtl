@@ -1,0 +1,789 @@
+# Blender MTL File: 'object_link_child.blend'
+# Material Count: 61
+
+newmtl Boomerang
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 0.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+
+newmtl Collar_ZZENV_NOCULL
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.080220 0.502886 0.002428
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+
+newmtl Sheath_black
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.000000 0.000000 0.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd textures\06006608_ZZPAL2.tga
+vprop c
+
+newmtl Slingshot_String_NOCULL
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 0.610496
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+
+newmtl mtl_04000000_TEXGEN
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 0.000000
+illum 2
+map_Kd textures\04000000_ZZFORCERGBA16.tga
+texgen on
+map_d textures\\04000000_ZZFORCERGBA16.tga
+
+newmtl mtl_04000200_TEXGEN
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.896269 0.000000 0.119538
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 0.000000
+illum 2
+map_Kd textures\04000200_ZZFORCERGBA16.tga
+texgen on
+map_d textures\\04000200_ZZFORCERGBA16.tga
+
+newmtl mtl_04000400
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 0.000000
+illum 2
+map_Kd textures\04000400_ZZFORCERGBA16.tga
+map_d textures\\04000400_ZZFORCERGBA16.tga
+
+newmtl mtl_04001400
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 0.000000
+illum 2
+map_Kd C:\Users\Nick\Dropbox\Z64\zzplayas_blender_templates\object_link_child\textures\04001400.tga
+uprop c
+vprop c
+map_d C:\\Users\\Nick\\Dropbox\\Z64\\zzplayas_blender_templates\\object_link_child\\textures\\04001400.tga
+
+newmtl mtl_04001800_TEXGEN
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 0.698100
+illum 2
+map_Kd textures\04001800_ZZFORCERGBA16.tga
+texgen on
+scaleS 0.022950
+scaleT 0.022950
+map_d textures\\04001800_ZZFORCERGBA16.tga
+
+newmtl mtl_04001800_ZZENV_TEXGEN
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 0.698100
+illum 2
+map_Kd textures\04001800_ZZFORCERGBA16.tga
+texgen on
+scaleS 0.022950
+scaleT 0.022950
+map_d textures\\04001800_ZZFORCERGBA16.tga
+
+newmtl mtl_04001A00
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.930111 0.371238 0.152926
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 0.000000
+illum 1
+map_Kd C:\Users\Nick\Dropbox\Z64\zzplayas_blender_templates\object_link_child\textures\04001A00.tga
+map_d C:\\Users\\Nick\\Dropbox\\Z64\\zzplayas_blender_templates\\object_link_child\\textures\\04001A00.tga
+
+newmtl mtl_04001A00_yellow
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 0.212231
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd C:\Users\Nick\Dropbox\Z64\zzplayas_blender_templates\object_link_child\textures\04001A00.tga
+
+newmtl mtl_04001A40
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 0.000000
+illum 2
+map_Kd C:\Users\Nick\Dropbox\Z64\zzplayas_blender_templates\object_link_child\textures\04001A40.tga
+uprop c
+vprop c
+map_d C:\\Users\\Nick\\Dropbox\\Z64\\zzplayas_blender_templates\\object_link_child\\textures\\04001A40.tga
+
+newmtl mtl_04001C40_ZZENV
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.012983 0.141263 0.010960
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 0.000000
+illum 2
+map_Kd C:\Users\Nick\Dropbox\Z64\zzplayas_blender_templates\object_link_child\textures\04001C40_ZZTUNIC.tga
+map_d C:\\Users\\Nick\\Dropbox\\Z64\\zzplayas_blender_templates\\object_link_child\\textures\\04001C40_ZZTUNIC.tga
+
+newmtl mtl_04001D40_ZZENV
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.012983 0.141263 0.010960
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 0.000000
+illum 2
+map_Kd C:\Users\Nick\Dropbox\Z64\zzplayas_blender_templates\object_link_child\textures\04001D40_ZZTUNIC.tga
+map_d C:\\Users\\Nick\\Dropbox\\Z64\\zzplayas_blender_templates\\object_link_child\\textures\\04001D40_ZZTUNIC.tga
+
+newmtl mtl_04001F40_ZZENV
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.012983 0.141263 0.010960
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 0.000000
+illum 2
+map_Kd C:\Users\Nick\Dropbox\Z64\zzplayas_blender_templates\object_link_child\textures\04001F40_ZZTUNIC.tga
+map_d C:\\Users\\Nick\\Dropbox\\Z64\\zzplayas_blender_templates\\object_link_child\\textures\\04001F40_ZZTUNIC.tga
+
+newmtl mtl_06005000_ZZENV_NOCULL
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.012983 0.141263 0.010960
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 0.000000
+illum 2
+map_Kd C:\Users\Nick\Dropbox\Z64\zzplayas_blender_templates\object_link_child\textures\06005000_ZZTUNIC.tga
+map_d C:\\Users\\Nick\\Dropbox\\Z64\\zzplayas_blender_templates\\object_link_child\\textures\\06005000_ZZTUNIC.tga
+
+newmtl mtl_06005600
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd textures\06005600_ZZPAL1.tga
+uprop c
+vprop c
+
+newmtl mtl_06005680
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd textures\06005680_ZZPAL1.tga
+uprop c
+vprop c
+
+newmtl mtl_06005A80
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd textures\06005A80_ZZPAL0.tga
+uprop c
+vprop c
+
+newmtl mtl_06005B80
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd textures\06005B80_ZZPAL1.tga
+vprop c
+
+newmtl mtl_06005F80
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd textures\06005F80_ZZPAL1.tga
+
+newmtl mtl_06006380
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd textures\06006380_ZZPAL0.tga
+
+newmtl mtl_06006480
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd textures\texture_0600DB08_ZZPAL0.png
+uprop c
+vprop c
+
+newmtl mtl_06006608
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd textures\06006608_ZZPAL2.tga
+vprop c
+
+newmtl mtl_06006908
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd C:\Users\Nick\Dropbox\Z64\zzplayas_blender_templates\object_link_child\textures\texture_0600A3F0.png
+uprop c
+vprop c
+
+newmtl mtl_06006BE0
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd textures\06006BE0_ZZPAL2.tga
+
+newmtl mtl_06006CE0
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd textures\06006CE0_ZZPAL2.tga
+
+newmtl mtl_060070E0
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd textures\060070E0_ZZPAL2.tga
+
+newmtl mtl_060071E0
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 0.000000
+illum 2
+map_Kd C:\Users\Nick\Dropbox\Z64\zzplayas_blender_templates\object_link_child\textures\060071E0.tga
+map_d C:\\Users\\Nick\\Dropbox\\Z64\\zzplayas_blender_templates\\object_link_child\\textures\\060071E0.tga
+
+newmtl mtl_060079E0
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 0.000000
+illum 2
+map_Kd C:\Users\Nick\Dropbox\Z64\zzplayas_blender_templates\object_link_child\textures\060079E0.tga
+map_d C:\\Users\\Nick\\Dropbox\\Z64\\zzplayas_blender_templates\\object_link_child\\textures\\060079E0.tga
+
+newmtl mtl_060089E0
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 0.000000
+illum 2
+map_Kd C:\Users\Nick\Dropbox\Z64\zzplayas_blender_templates\object_link_child\textures\060089E0.tga
+map_d C:\\Users\\Nick\\Dropbox\\Z64\\zzplayas_blender_templates\\object_link_child\\textures\\060089E0.tga
+
+newmtl mtl_06008DE0
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 0.000000
+illum 2
+map_Kd C:\Users\Nick\Dropbox\Z64\zzplayas_blender_templates\object_link_child\textures\06008DE0.tga
+vprop c
+map_d C:\\Users\\Nick\\Dropbox\\Z64\\zzplayas_blender_templates\\object_link_child\\textures\\06008DE0.tga
+
+newmtl mtl_060091E0
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 0.000000
+illum 2
+map_Kd C:\Users\Nick\Dropbox\Z64\zzplayas_blender_templates\object_link_child\textures\060091E0.tga
+uprop c
+vprop c
+map_d C:\\Users\\Nick\\Dropbox\\Z64\\zzplayas_blender_templates\\object_link_child\\textures\\060091E0.tga
+
+newmtl mtl_060095E0
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 0.000000
+illum 2
+map_Kd textures\060095E0_ZZPAL0.tga
+uprop c
+vprop c
+map_d textures\\060095E0_ZZPAL0.tga
+
+newmtl mtl_06009DE0_TEXGEN_NOCULL
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 0.000000
+illum 2
+map_Kd textures\06009DE0_ZZFORCERGBA16.tga
+texgen on
+scaleS 0.004590
+scaleT 0.006120
+map_d textures\\06009DE0_ZZFORCERGBA16.tga
+
+newmtl mtl_06009E60_ZZDECAL
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 0.000000
+illum 2
+map_Kd textures\06009E60_ZZFORCERGBA16.tga
+uprop c
+vprop c
+map_d textures\\06009E60_ZZFORCERGBA16.tga
+
+newmtl mtl_0600A260_NOCULL
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 0.000000
+illum 2
+map_Kd C:\Users\Nick\Dropbox\Z64\zzplayas_blender_templates\object_link_child\textures\0600A260.tga
+vprop c
+map_d C:\\Users\\Nick\\Dropbox\\Z64\\zzplayas_blender_templates\\object_link_child\\textures\\0600A260.tga
+
+newmtl mtl_0600A2E0_NOCULL
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 0.000000
+illum 2
+map_Kd C:\Users\Nick\Dropbox\Z64\zzplayas_blender_templates\object_link_child\textures\0600A2E0.tga
+uprop c
+vprop c
+map_d C:\\Users\\Nick\\Dropbox\\Z64\\zzplayas_blender_templates\\object_link_child\\textures\\0600A2E0.tga
+
+newmtl mtl_0600A360_NOCULL
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 0.000000
+illum 2
+map_Kd C:\Users\Nick\Dropbox\Z64\zzplayas_blender_templates\object_link_child\textures\0600A360.tga
+uprop c
+vprop c
+map_d C:\\Users\\Nick\\Dropbox\\Z64\\zzplayas_blender_templates\\object_link_child\\textures\\0600A360.tga
+
+newmtl mtl_0600A560_brown
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.212231 0.051269 0.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 0
+map_Kd C:\Users\Nick\Dropbox\Z64\zzplayas_blender_templates\object_link_child\textures\0600A560.tga
+uprop c
+vprop c
+
+newmtl mtl_0600A560_yellow
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.212231 0.212231 0.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 0
+map_Kd C:\Users\Nick\Dropbox\Z64\zzplayas_blender_templates\object_link_child\textures\0600A560.tga
+uprop c
+vprop c
+map_d C:\\Users\\Nick\\Dropbox\\Z64\\zzplayas_blender_templates\\object_link_child\\textures\\0600A560.tga
+
+newmtl mtl_0600B560_NOCULL
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 0.000000
+illum 2
+map_Kd C:\Users\Nick\Dropbox\Z64\zzplayas_blender_templates\object_link_child\textures\0600B560.tga
+uprop c
+vprop c
+map_d C:\\Users\\Nick\\Dropbox\\Z64\\zzplayas_blender_templates\\object_link_child\\textures\\0600B560.tga
+
+newmtl mtl_0600B960_NOCULL
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 0.000000
+illum 2
+map_Kd C:\Users\Nick\Dropbox\Z64\zzplayas_blender_templates\object_link_child\textures\0600B960.tga
+uprop c
+vprop c
+map_d C:\\Users\\Nick\\Dropbox\\Z64\\zzplayas_blender_templates\\object_link_child\\textures\\0600B960.tga
+
+newmtl mtl_0600B9E0_NOCULL
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 0.000000
+illum 2
+map_Kd C:\Users\Nick\Dropbox\Z64\zzplayas_blender_templates\object_link_child\textures\0600B9E0.tga
+uprop c
+vprop c
+map_d C:\\Users\\Nick\\Dropbox\\Z64\\zzplayas_blender_templates\\object_link_child\\textures\\0600B9E0.tga
+
+newmtl mtl_0600BDE0_NOCULL
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 0.000000
+illum 2
+map_Kd C:\Users\Nick\Dropbox\Z64\zzplayas_blender_templates\object_link_child\textures\0600BDE0.tga
+uprop c
+vprop c
+map_d C:\\Users\\Nick\\Dropbox\\Z64\\zzplayas_blender_templates\\object_link_child\\textures\\0600BDE0.tga
+
+newmtl mtl_0600CDE0_NOCULL
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 0.000000
+illum 2
+map_Kd C:\Users\Nick\Dropbox\Z64\zzplayas_blender_templates\object_link_child\textures\0600CDE0.tga
+uprop c
+vprop c
+map_d C:\\Users\\Nick\\Dropbox\\Z64\\zzplayas_blender_templates\\object_link_child\\textures\\0600CDE0.tga
+
+newmtl mtl_0600DDE0_NOCULL
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 0.000000
+illum 2
+map_Kd C:\Users\Nick\Dropbox\Z64\zzplayas_blender_templates\object_link_child\textures\0600DDE0.tga
+uprop c
+vprop c
+map_d C:\\Users\\Nick\\Dropbox\\Z64\\zzplayas_blender_templates\\object_link_child\\textures\\0600DDE0.tga
+
+newmtl mtl_0600E5E0_NOCULL
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 0.000000
+illum 2
+map_Kd C:\Users\Nick\Dropbox\Z64\zzplayas_blender_templates\object_link_child\textures\0600E5E0.tga
+uprop c
+vprop c
+map_d C:\\Users\\Nick\\Dropbox\\Z64\\zzplayas_blender_templates\\object_link_child\\textures\\0600E5E0.tga
+
+newmtl mtl_0600E660_NOCULL
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 0.000000
+illum 2
+map_Kd C:\Users\Nick\Dropbox\Z64\zzplayas_blender_templates\object_link_child\textures\0600E660.tga
+vprop c
+map_d C:\\Users\\Nick\\Dropbox\\Z64\\zzplayas_blender_templates\\object_link_child\\textures\\0600E660.tga
+
+newmtl mtl_0600E860_NOCULL
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 0.000000
+illum 2
+map_Kd C:\Users\Nick\Dropbox\Z64\zzplayas_blender_templates\object_link_child\textures\0600E860.tga
+uprop c
+vprop c
+map_d C:\\Users\\Nick\\Dropbox\\Z64\\zzplayas_blender_templates\\object_link_child\\textures\\0600E860.tga
+
+newmtl mtl_0600E8E0_NOCULL
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 0.000000
+illum 2
+map_Kd C:\Users\Nick\Dropbox\Z64\zzplayas_blender_templates\object_link_child\textures\0600E8E0.tga
+uprop c
+vprop c
+map_d C:\\Users\\Nick\\Dropbox\\Z64\\zzplayas_blender_templates\\object_link_child\\textures\\0600E8E0.tga
+
+newmtl mtl_0600E960_NOCULL
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 0.000000
+illum 2
+map_Kd C:\Users\Nick\Dropbox\Z64\zzplayas_blender_templates\object_link_child\textures\0600E960.tga
+uprop c
+vprop c
+map_d C:\\Users\\Nick\\Dropbox\\Z64\\zzplayas_blender_templates\\object_link_child\\textures\\0600E960.tga
+
+newmtl mtl_0600F160_NOCULL
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 0.000000
+illum 2
+map_Kd C:\Users\Nick\Dropbox\Z64\zzplayas_blender_templates\object_link_child\textures\0600F160.tga
+uprop c
+vprop c
+map_d C:\\Users\\Nick\\Dropbox\\Z64\\zzplayas_blender_templates\\object_link_child\\textures\\0600F160.tga
+
+newmtl mtl_0600F960_NOCULL
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 0.000000
+illum 2
+map_Kd C:\Users\Nick\Dropbox\Z64\zzplayas_blender_templates\object_link_child\textures\0600F960.tga
+uprop c
+vprop c
+map_d C:\\Users\\Nick\\Dropbox\\Z64\\zzplayas_blender_templates\\object_link_child\\textures\\0600F960.tga
+
+newmtl mtl_06010160_NOCULL
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 0.000000
+illum 2
+map_Kd C:\Users\Nick\Dropbox\Z64\zzplayas_blender_templates\object_link_child\textures\06010160.tga
+uprop c
+vprop c
+map_d C:\\Users\\Nick\\Dropbox\\Z64\\zzplayas_blender_templates\\object_link_child\\textures\\06010160.tga
+
+newmtl mtl_06010960_NOCULL
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 0.000000
+illum 2
+map_Kd C:\Users\Nick\Dropbox\Z64\zzplayas_blender_templates\object_link_child\textures\06010960.tga
+vprop c
+map_d C:\\Users\\Nick\\Dropbox\\Z64\\zzplayas_blender_templates\\object_link_child\\textures\\06010960.tga
+
+newmtl mtl_06010B60_NOCULL
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 0.000000
+illum 2
+map_Kd C:\Users\Nick\Dropbox\Z64\zzplayas_blender_templates\object_link_child\textures\06010B60.tga
+map_d C:\\Users\\Nick\\Dropbox\\Z64\\zzplayas_blender_templates\\object_link_child\\textures\\06010B60.tga
+
+newmtl mtl_06010D60_NOCULL
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 0.000000
+illum 2
+map_Kd C:\Users\Nick\Dropbox\Z64\zzplayas_blender_templates\object_link_child\textures\06010D60.tga
+uprop c
+vprop c
+map_d C:\\Users\\Nick\\Dropbox\\Z64\\zzplayas_blender_templates\\object_link_child\\textures\\06010D60.tga
+
+newmtl mtl_08000000
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd C:\Users\Nick\Dropbox\Z64\zzplayas_blender_templates\object_link_child\textures\eyes.png
+uprop c
+vprop c
+
+newmtl mtl_09000000
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd C:\Users\Nick\Dropbox\Z64\zzplayas_blender_templates\object_link_child\textures\mouth.png
+uprop c
+vprop c
