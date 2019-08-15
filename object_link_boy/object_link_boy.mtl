@@ -11,7 +11,7 @@ Ni 1.000000
 d 1.000000
 illum 2
 
-newmtl Hookshot.Aim
+newmtl Hookshot
 Ns 96.078431
 Ka 1.000000 1.000000 1.000000
 Kd 1.000000 0.000000 0.000000
@@ -34,9 +34,9 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 0.000000
 illum 2
-map_Kd textures\04000000.tga
+map_Kd textures\04000000_ZZFORCERGBA16.tga
 texgen on
-map_d textures\\04000000.tga
+map_d textures\\04000000_ZZFORCERGBA16.tga
 
 newmtl mtl_04000200_TEXGEN
 Ns 96.078431
@@ -196,7 +196,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd textures\06005200.tga
+map_Kd textures\060096E8.tga
 uprop c
 vprop c
 
@@ -237,8 +237,6 @@ Ni 1.000000
 d 1.000000
 illum 2
 map_Kd textures\06005E80.tga
-uprop c
-vprop c
 
 newmtl mtl_06006080
 Ns 96.078431
@@ -315,7 +313,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd textures\06007180.tga
+map_Kd textures\06005000.tga
 uprop c
 vprop c
 
@@ -369,8 +367,6 @@ Ni 1.000000
 d 1.000000
 illum 2
 map_Kd textures\06007880.tga
-uprop c
-vprop c
 
 newmtl mtl_06007C80
 Ns 96.078431
@@ -595,7 +591,7 @@ map_Kd textures\060095E8.tga
 uprop c
 vprop c
 
-newmtl mtl_060096E8
+newmtl mtl_060096E8_NOCULL
 Ns 96.078431
 Ka 1.000000 1.000000 1.000000
 Kd 1.000000 1.000000 1.000000
@@ -606,7 +602,7 @@ d 1.000000
 illum 2
 map_Kd textures\060096E8.tga
 
-newmtl mtl_060096E8_060096E8.tga
+newmtl mtl_060096E8_NOCULL_060096E8.tga
 Ns 96.078431
 Ka 1.000000 1.000000 1.000000
 Kd 1.000000 1.000000 1.000000
@@ -650,9 +646,9 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 0.000000
 illum 2
-map_Kd textures\0600A968.tga
+map_Kd textures\0600A968 (1).tga
 uprop c
-map_d textures\\0600A968.tga
+map_d textures\\0600A968 (1).tga
 
 newmtl mtl_0600B168_blue
 Ns 96.078431
@@ -663,7 +659,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 0.000000
 illum 2
-map_Kd textures\0600B168.tga
+map_Kd textures\\0600B168.tga
 map_d textures\\0600B168.tga
 
 newmtl mtl_0600B168_red
@@ -675,7 +671,6 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd textures\0600B168.tga
 
 newmtl mtl_0600B168_yellow
 Ns 96.078431
@@ -686,7 +681,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd textures\0600B168.tga
+map_Kd textures\\0600B168.tga
 
 newmtl mtl_0600B1A8
 Ns 96.078431
@@ -697,9 +692,9 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 0.000000
 illum 2
-map_Kd textures\0600B1A8.tga
+map_Kd textures\0600B1A8_ZZFORCERGBA16.tga
 uprop c
-map_d textures\\0600B1A8.tga
+map_d textures\\0600B1A8_ZZFORCERGBA16.tga
 
 newmtl mtl_0600B228
 Ns 96.078431
@@ -934,7 +929,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd textures\04000000.tga
+map_Kd textures\04000000_ZZFORCERGBA16.tga
 texgen on
 
 newmtl mtl_TEXGEN_red
@@ -946,5 +941,5 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd textures\04000000.tga
+map_Kd textures\04000000_ZZFORCERGBA16.tga
 texgen on

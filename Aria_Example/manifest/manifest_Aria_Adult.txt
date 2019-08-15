@@ -489,7 +489,7 @@ Write8( 0x14 );     //Green
 Write8( 0x00 );     //Blue
 // Zora Tunic Color
 Write8( 0x00 );     //Red
-Write8( 0x0C );     //Green
+Write8( 0x3C );     //Green
 Write8( 0x64 );     //Blue
 
 GoTo( VROM_CODE+0x1091B4‬‬ );

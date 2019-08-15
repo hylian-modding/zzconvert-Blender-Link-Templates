@@ -1,5 +1,5 @@
 # Blender MTL File: 'Aria_Hiro_Adult.blend'
-# Material Count: 75
+# Material Count: 76
 
 newmtl Boomerang
 Ns 94.117647
@@ -72,32 +72,6 @@ Ni 1.000000
 d 1.000000
 illum 2
 map_Kd textures\Hat.png
-
-newmtl Material_ZZDECAL
-Ns 96.078431
-Ka 1.000000 1.000000 1.000000
-Kd 0.640000 0.640000 0.640000
-Ks 0.500000 0.500000 0.500000
-Ke 0.000000 0.000000 0.000000
-Ni 1.000000
-d 1.000000
-illum 2
-map_Kd textures\insignia (2).png
-uprop c
-vprop c
-
-newmtl Material_ZZDECAL_06009968.tga
-Ns 96.078431
-Ka 1.000000 1.000000 1.000000
-Kd 0.640000 0.640000 0.640000
-Ks 0.500000 0.500000 0.500000
-Ke 0.000000 0.000000 0.000000
-Ni 1.000000
-d 1.000000
-illum 2
-map_Kd textures\insignia (1).png
-uprop c
-vprop c
 
 newmtl Material__ZZDECAL_
 Ns 96.078431
@@ -407,7 +381,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd textures\mamory.png
+map_Kd textures\groove.png
 uprop c
 vprop c
 
@@ -467,21 +441,8 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 0.000000
 illum 2
-map_Kd textures\04000000.tga
-texgen on
 
 newmtl mtl_060090E8
-Ns 94.117647
-Ka 1.000000 1.000000 1.000000
-Kd 1.000000 1.000000 1.000000
-Ks 0.500000 0.500000 0.500000
-Ke 0.000000 0.000000 0.000000
-Ni 1.000000
-d 1.000000
-illum 2
-map_Kd textures\swordbottom.png
-
-newmtl mtl_060090E8_060095E8.tga
 Ns 94.117647
 Ka 1.000000 1.000000 1.000000
 Kd 1.000000 1.000000 1.000000
@@ -493,6 +454,17 @@ illum 2
 map_Kd textures\060095E8.tga
 uprop c
 vprop c
+
+newmtl mtl_060090E8_swordbottom.png
+Ns 94.117647
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd textures\swordbottom.png
 
 newmtl mtl_060095E8
 Ns 94.117647
@@ -507,7 +479,68 @@ map_Kd textures\060095E8.tga
 uprop c
 vprop c
 
-newmtl navel_ZZDECAL.ZZENV
+newmtl mtl_060096E8_NOCULL
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd C:\Users\ariah\Documents\GitHub\Arias-Templates-For-z64.me-ZZCONVERT\object_link_boy\textures\060096E8.tga
+
+newmtl mtl_06009968_ZZDECAL.001
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 0.000000
+illum 2
+map_Kd C:\Users\ariah\Documents\GitHub\Arias-Templates-For-z64.me-ZZCONVERT\object_link_boy\textures\06009968.tga
+vprop c
+map_d C:\\Users\\ariah\\Documents\\GitHub\\Arias-Templates-For-z64.me-ZZCONVERT\\object_link_boy\\textures\\06009968.tga
+
+newmtl mtl_0600A968_ZZDECAL.001
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 0.000000
+illum 2
+map_Kd C:\Users\ariah\Documents\GitHub\Arias-Templates-For-z64.me-ZZCONVERT\object_link_boy\textures\0600A968.tga
+uprop c
+map_d C:\\Users\\ariah\\Documents\\GitHub\\Arias-Templates-For-z64.me-ZZCONVERT\\object_link_boy\\textures\\0600A968.tga
+
+newmtl mtl_TEXGEN_mirror.001
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.610496 0.752942 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd textures\shine_ZZFORCERGBA16.tga
+texgen on
+
+newmtl mtl_TEXGEN_red.001
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.679543 0.000000 0.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd textures\shine_ZZFORCERGBA16.tga
+texgen on
+
+newmtl navel_ZZDECAL_ZZENV.001
 Ns 96.078431
 Ka 1.000000 1.000000 1.000000
 Kd 1.000000 1.000000 1.000000
@@ -641,18 +674,6 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-
-newmtl shine_TEXGEN_shine
-Ns 0.000000
-Ka 0.200000 0.200000 0.200000
-Kd 0.800000 0.800000 0.800000
-Ks 0.000000 0.000000 0.000000
-Ke 0.000000 0.000000 0.000000
-Ni 1.000000
-d 1.000000
-illum 2
-map_Kd textures\shine_ZZFORCERGBA16.tga
-texgen on
 
 newmtl shine_TEXGEN_wood.001
 Ns 0.000000
@@ -821,17 +842,6 @@ d 1.000000
 illum 2
 map_Kd textures\Back.png
 uprop c
-
-newmtl strap_NOCULL_060096E8.tga.002
-Ns 96.078431
-Ka 1.000000 1.000000 1.000000
-Kd 0.800000 0.800000 0.800000
-Ks 0.500000 0.500000 0.500000
-Ke 0.000000 0.000000 0.000000
-Ni 1.000000
-d 1.000000
-illum 2
-map_Kd textures\060096E8.tga
 
 newmtl strap_NOCULL_string
 Ns 96.078431

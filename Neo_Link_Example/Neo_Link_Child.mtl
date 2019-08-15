@@ -39,32 +39,6 @@ map_Kd C:\Users\ariah\Documents\GitHub\Arias-Templates-For-z64.me-ZZCONVERT\Aria
 uprop c
 vprop c
 
-newmtl Material_ZZDECAL
-Ns 96.078431
-Ka 1.000000 1.000000 1.000000
-Kd 0.640000 0.640000 0.640000
-Ks 0.500000 0.500000 0.500000
-Ke 0.000000 0.000000 0.000000
-Ni 1.000000
-d 1.000000
-illum 2
-map_Kd C:\Users\ariah\Documents\GitHub\Preliminary-Skins\Neo_Link_Example\textures\insignia.png
-uprop c
-vprop c
-
-newmtl Material_ZZDECAL_06009968.tga
-Ns 96.078431
-Ka 1.000000 1.000000 1.000000
-Kd 0.640000 0.640000 0.640000
-Ks 0.500000 0.500000 0.500000
-Ke 0.000000 0.000000 0.000000
-Ni 1.000000
-d 1.000000
-illum 2
-map_Kd C:\Users\ariah\Documents\GitHub\Arias-Templates-For-z64.me-ZZCONVERT\Aria_Example\textures\insignia (1).png
-uprop c
-vprop c
-
 newmtl Slingshot_String_NOCULL
 Ns 96.078431
 Ka 1.000000 1.000000 1.000000
@@ -145,11 +119,11 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 0.000000
 illum 6
-map_Kd textures\unknown.png
+map_Kd textures\unknown (1).png
 uprop c
 vprop c
 
-newmtl lambert8SG_unknown_(1).png
+newmtl lambert8SG_unknown.png
 Ns 96.078431
 Ka 0.000000 0.000000 0.000000
 Kd 1.000000 1.000000 1.000000
@@ -158,7 +132,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 0.000000
 illum 6
-map_Kd textures\unknown (1).png
+map_Kd textures\unknown.png
 uprop c
 vprop c
 
@@ -461,8 +435,8 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 0.000000
 illum 2
-map_Kd textures\Gold.png
-texgen on
+map_Kd textures\06008DE0.tga
+vprop c
 map_d textures\\06008DE0.tga
 
 newmtl mtl_06008DE0_06005D80.tga
@@ -477,7 +451,7 @@ illum 2
 map_Kd textures\06005D80.tga
 map_d textures\\06008DE0.tga
 
-newmtl mtl_06008DE0_06008DE0.tga
+newmtl mtl_06008DE0_Gold.png
 Ns 96.078431
 Ka 1.000000 1.000000 1.000000
 Kd 1.000000 1.000000 1.000000
@@ -486,8 +460,8 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 0.000000
 illum 2
-map_Kd textures\06008DE0.tga
-vprop c
+map_Kd textures\Gold.png
+texgen on
 map_d textures\\06008DE0.tga
 
 newmtl mtl_060091E0
@@ -518,20 +492,44 @@ uprop c
 vprop c
 map_d textures\\FPS.tga
 
-newmtl mtl_0601BF80
+newmtl mtl_060096E8_NOCULL
 Ns 96.078431
 Ka 1.000000 1.000000 1.000000
-Kd 0.640000 0.640000 0.640000
+Kd 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd C:\Users\ariah\Documents\GitHub\Preliminary-Skins\Neo_Link_Example\textures\060096E8.tga
+
+newmtl mtl_06009968_ZZDECAL.001
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
 Ks 0.500000 0.500000 0.500000
 Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 0.000000
 illum 2
-map_Kd textures\Gold.png
-texgen on
-map_d textures\\0601BF80.tga
+map_Kd C:\Users\ariah\Documents\GitHub\Preliminary-Skins\Neo_Link_Example\textures\06009968.tga
+vprop c
+map_d C:\\Users\\ariah\\Documents\\GitHub\\Preliminary-Skins\\Neo_Link_Example\\textures\\06009968.tga
 
-newmtl mtl_0601BF80_0601BF80.tga
+newmtl mtl_0600A968_ZZDECAL.001
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 0.000000
+illum 2
+map_Kd C:\Users\ariah\Documents\GitHub\Preliminary-Skins\Neo_Link_Example\textures\insignia.png
+uprop c
+map_d C:\\Users\\ariah\\Documents\\GitHub\\Preliminary-Skins\\Neo_Link_Example\\textures\\insignia.png
+
+newmtl mtl_0601BF80
 Ns 96.078431
 Ka 1.000000 1.000000 1.000000
 Kd 0.640000 0.640000 0.640000
@@ -543,6 +541,19 @@ illum 2
 map_Kd textures\0601BF80.tga
 uprop c
 vprop c
+map_d textures\\0601BF80.tga
+
+newmtl mtl_0601BF80_Gold.png
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 0.000000
+illum 2
+map_Kd textures\Gold.png
+texgen on
 map_d textures\\0601BF80.tga
 
 newmtl mtl_08000000
@@ -571,6 +582,30 @@ map_Kd textures\Child\mouth.png
 uprop c
 vprop c
 
+newmtl mtl_TEXGEN_mirror.001
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.610496 0.752942 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd C:\Users\ariah\Documents\GitHub\Preliminary-Skins\Neo_Link_Example\textures\04000000.tga
+texgen on
+
+newmtl mtl_TEXGEN_red.001
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.679543 0.680000 0.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd C:\Users\ariah\Documents\GitHub\Preliminary-Skins\Neo_Link_Example\textures\04000000.tga
+texgen on
+
 newmtl shield:lambert2SG2
 Ns 96.078431
 Ka 0.500000 0.500000 0.500000
@@ -582,18 +617,6 @@ d 0.000000
 illum 6
 map_Kd textures\Back.png
 uprop c
-
-newmtl shine_TEXGEN
-Ns 0.000000
-Ka 0.200000 0.200000 0.200000
-Kd 0.800000 0.800000 0.800000
-Ks 0.000000 0.000000 0.000000
-Ke 0.000000 0.000000 0.000000
-Ni 1.000000
-d 1.000000
-illum 2
-map_Kd C:\Users\ariah\Documents\GitHub\Arias-Templates-For-z64.me-ZZCONVERT\Aria_Example\textures\shine_ZZFORCERGBA16.tga
-texgen on
 
 newmtl shine_gold
 Ns 94.117647
@@ -607,18 +630,6 @@ illum 3
 map_Kd textures\shine_ZZFORCERGBA16.tga
 texgen on
 
-newmtl shine_gold_shine.001
-Ns 94.117647
-Ka 1.000000 1.000000 1.000000
-Kd 1.000000 1.000000 0.000000
-Ks 0.500000 0.500000 0.500000
-Ke 0.000000 0.000000 0.000000
-Ni 1.000000
-d 0.000000
-illum 3
-map_Kd C:\Users\ariah\Documents\GitHub\Arias-Templates-For-z64.me-ZZCONVERT\Aria_Example\textures\shine_ZZFORCERGBA16.tga
-texgen on
-
 newmtl shine_red_TEXGEN
 Ns 94.117647
 Ka 1.000000 1.000000 1.000000
@@ -630,14 +641,3 @@ d 0.000000
 illum 2
 map_Kd textures\shine_ZZFORCERGBA16.tga
 texgen on
-
-newmtl strap_NOCULL
-Ns 96.078431
-Ka 1.000000 1.000000 1.000000
-Kd 0.800000 0.800000 0.800000
-Ks 0.500000 0.500000 0.500000
-Ke 0.000000 0.000000 0.000000
-Ni 1.000000
-d 1.000000
-illum 2
-map_Kd C:\Users\ariah\Documents\GitHub\Arias-Templates-For-z64.me-ZZCONVERT\object_link_boy\textures\060096E8.tga
