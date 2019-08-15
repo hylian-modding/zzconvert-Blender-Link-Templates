@@ -1,16 +1,16 @@
 DICTIONARY
-	VROM_CODE			0x00A94000	"system/code"					// start of code within rom
-	VROM_SS_STICK		E_16		    							// ovl_Effect_Ss_Stick is effect 16
-	VROM_ARMS_HOOK		A_102		 								// Arms_Hook is actor 102
-	VROM_OBJ			O_0x14		  								// object to overwrite
-	VROM_PLAYER      	0x00C010B0	"system/ovl_player_actor.zovl"  // start of ovl_player_actor
-	HIERARCHY_CODE		0x00108D10									// Relative to the start of code;
-																	// Link's hierarchy pointer will
-																	// be written at this address
+	VROM_CODE			    0x00A94000	// start of code within rom
+	VROM_SS_STICK		  E_16		    // ovl_Effect_Ss_Stick is effect 16
+	VROM_ARMS_HOOK		A_102		    // Arms_Hook is actor 102
+	VROM_OBJ			    O_0x14		  // object to overwrite
 
-	SEG					0x06000000									// ram segment
+	HIERARCHY_CODE		0x00108D10	// Relative to the start of code;
+									              // Link's hierarchy pointer will
+									              // be written at this address
 
-	OBJ_BOY				0x0014										// object_link_boy object number
+	SEG					      0x06000000	// ram segment
+
+	OBJ_BOY				    0x0014		  // object_link_boy object number
 
 	// Hierarchy
 	DL_WAIST			  0x00EBE8	"Limb 1" // this is the name zzconvert automatically uses
