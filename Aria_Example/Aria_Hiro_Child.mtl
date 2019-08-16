@@ -316,7 +316,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd C:\Users\ariah\Documents\GitHub\Arias-Templates-For-z64.me-ZZCONVERT\object_link_boy\textures\04000000.tga
+map_Kd C:\Users\ariah\Documents\GitHub\Arias-Templates-For-z64.me-ZZCONVERT\object_link_boy\textures\04000000_ZZFORCERGBA16.tga
 texgen on
 
 newmtl mtl_TEXGEN_red
@@ -328,7 +328,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd C:\Users\ariah\Documents\GitHub\Arias-Templates-For-z64.me-ZZCONVERT\object_link_boy\textures\04000000.tga
+map_Kd C:\Users\ariah\Documents\GitHub\Arias-Templates-For-z64.me-ZZCONVERT\object_link_boy\textures\04000000_ZZFORCERGBA16.tga
 texgen on
 
 newmtl pants_TEXGEN
@@ -388,10 +388,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd textures\skin.png
-uprop c
-vprop c
-texgen on
+map_Kd textures\String_ZZRGBA16.png
 
 newmtl skin_TEXGEN_NONE
 Ns 96.078431
@@ -403,17 +400,6 @@ Ni 1.000000
 d 1.000000
 illum 2
 map_Kd textures\\skin.png
-
-newmtl skin_TEXGEN_String_ZZRGBA16
-Ns 96.078431
-Ka 1.000000 1.000000 1.000000
-Kd 1.000000 1.000000 1.000000
-Ks 0.500000 0.500000 0.500000
-Ke 0.000000 0.000000 0.000000
-Ni 1.000000
-d 1.000000
-illum 2
-map_Kd textures\String_ZZRGBA16.png
 
 newmtl skin_TEXGEN_ear
 Ns 96.078431
@@ -508,6 +494,20 @@ illum 2
 map_Kd textures\Child\mouth.png
 uprop c
 vprop c
+
+newmtl skin_TEXGEN_skin.png
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd textures\skin.png
+uprop c
+vprop c
+texgen on
 
 newmtl sword_TEXGEN
 Ns 0.000000

@@ -1,4 +1,4 @@
-# Blender MTL File: 'Aria_Hiro_Adult.blend'
+# Blender MTL File: 'Aria_Hiro_Adult_Experimental.blend'
 # Material Count: 76
 
 newmtl Boomerang
@@ -62,17 +62,6 @@ map_Kd textures\crosshair.png
 uprop c
 vprop c
 
-newmtl Material.001
-Ns 96.078431
-Ka 1.000000 1.000000 1.000000
-Kd 0.058586 0.016541 0.000141
-Ks 0.500000 0.500000 0.500000
-Ke 0.000000 0.000000 0.000000
-Ni 1.000000
-d 1.000000
-illum 2
-map_Kd textures\Hat.png
-
 newmtl Material__ZZDECAL_
 Ns 96.078431
 Ka 1.000000 1.000000 1.000000
@@ -117,34 +106,12 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd textures\fingers.tga
+map_Kd textures\skin.png
+uprop c
 vprop c
+texgen on
 
-newmtl finger.003
-Ns 94.117647
-Ka 1.000000 1.000000 1.000000
-Kd 1.000000 1.000000 1.000000
-Ks 0.500000 0.500000 0.500000
-Ke 0.000000 0.000000 0.000000
-Ni 1.000000
-d 1.000000
-illum 2
-map_Kd textures\fingers.tga
-vprop c
-
-newmtl finger.004
-Ns 94.117647
-Ka 1.000000 1.000000 1.000000
-Kd 1.000000 1.000000 1.000000
-Ks 0.500000 0.500000 0.500000
-Ke 0.000000 0.000000 0.000000
-Ni 1.000000
-d 1.000000
-illum 2
-map_Kd textures\fingers.tga
-vprop c
-
-newmtl finger_skin.png
+newmtl finger_fingers.tga
 Ns 94.117647
 Ka 1.000000 1.000000 1.000000
 Kd 1.000000 1.000000 1.000000
@@ -153,10 +120,32 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd textures\skin.png
-uprop c
+map_Kd textures\fingers.tga
 vprop c
-texgen on
+
+newmtl finger_fingers.tga.003
+Ns 94.117647
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd textures\fingers.tga
+vprop c
+
+newmtl finger_fingers.tga.004
+Ns 94.117647
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd textures\fingers.tga
+vprop c
 
 newmtl gauntlets_ZZENV
 Ns 94.117647
@@ -191,9 +180,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd textures\fan.tga
-uprop c
-vprop c
+map_Kd textures\mastersword.png
 
 newmtl generic_String_ZZRGBA16
 Ns 96.078431
@@ -218,6 +205,19 @@ illum 2
 map_Kd textures\bolt.tga
 vprop c
 
+newmtl generic_fan
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd textures\fan.tga
+uprop c
+vprop c
+
 newmtl generic_lining
 Ns 96.078431
 Ka 1.000000 1.000000 1.000000
@@ -229,17 +229,6 @@ d 1.000000
 illum 2
 map_Kd textures\lining.tga
 vprop c
-
-newmtl generic_mastersword
-Ns 96.078431
-Ka 1.000000 1.000000 1.000000
-Kd 1.000000 1.000000 1.000000
-Ks 0.500000 0.500000 0.500000
-Ke 0.000000 0.000000 0.000000
-Ni 1.000000
-d 1.000000
-illum 2
-map_Kd textures\mastersword.png
 
 newmtl generic_ocarina
 Ns 96.078431
@@ -280,6 +269,28 @@ map_Kd textures\sheath.png
 uprop c
 vprop c
 
+newmtl generic_string.003
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd textures\String_ZZRGBA16.png
+
+newmtl generic_string.004
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd textures\String_ZZRGBA16.png
+
 newmtl generic_wood_back
 Ns 96.078431
 Ka 1.000000 1.000000 1.000000
@@ -317,7 +328,7 @@ d 1.000000
 illum 2
 map_Kd textures\HANF SIDE.tga
 
-newmtl grip.003
+newmtl grip_grip
 Ns 94.117647
 Ka 1.000000 1.000000 1.000000
 Kd 1.000000 1.000000 1.000000
@@ -396,28 +407,6 @@ d 1.000000
 illum 2
 map_Kd textures\String_ZZRGBA16.png
 
-newmtl leather_red.003
-Ns 96.078431
-Ka 1.000000 1.000000 1.000000
-Kd 1.000000 1.000000 1.000000
-Ks 0.500000 0.500000 0.500000
-Ke 0.000000 0.000000 0.000000
-Ni 1.000000
-d 1.000000
-illum 2
-map_Kd textures\String_ZZRGBA16.png
-
-newmtl leather_red.004
-Ns 96.078431
-Ka 1.000000 1.000000 1.000000
-Kd 1.000000 1.000000 1.000000
-Ks 0.500000 0.500000 0.500000
-Ke 0.000000 0.000000 0.000000
-Ni 1.000000
-d 1.000000
-illum 2
-map_Kd textures\String_ZZRGBA16.png
-
 newmtl leather_red_skin.png
 Ns 96.078431
 Ka 1.000000 1.000000 1.000000
@@ -432,7 +421,7 @@ uprop c
 vprop c
 texgen on
 
-newmtl mtl_04000000_TEXGEN_NOCULL
+newmtl mtl_04000000
 Ns 94.117647
 Ka 1.000000 1.000000 1.000000
 Kd 1.000000 1.000000 1.000000
@@ -441,8 +430,21 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 0.000000
 illum 2
+map_Kd textures\shine_ZZFORCERGBA16.tga
+texgen on
 
 newmtl mtl_060090E8
+Ns 94.117647
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd textures\swordbottom.png
+
+newmtl mtl_060090E8_060095E8.tga
 Ns 94.117647
 Ka 1.000000 1.000000 1.000000
 Kd 1.000000 1.000000 1.000000
@@ -454,17 +456,6 @@ illum 2
 map_Kd textures\060095E8.tga
 uprop c
 vprop c
-
-newmtl mtl_060090E8_swordbottom.png
-Ns 94.117647
-Ka 1.000000 1.000000 1.000000
-Kd 1.000000 1.000000 1.000000
-Ks 0.500000 0.500000 0.500000
-Ke 0.000000 0.000000 0.000000
-Ni 1.000000
-d 1.000000
-illum 2
-map_Kd textures\swordbottom.png
 
 newmtl mtl_060095E8
 Ns 94.117647
@@ -540,7 +531,7 @@ illum 2
 map_Kd textures\shine_ZZFORCERGBA16.tga
 texgen on
 
-newmtl navel_ZZDECAL_ZZENV.001
+newmtl navel_ZZDECAL_ZZENV
 Ns 96.078431
 Ka 1.000000 1.000000 1.000000
 Kd 1.000000 1.000000 1.000000
@@ -565,7 +556,30 @@ illum 2
 map_Kd textures\leather.png
 texgen on
 
+newmtl pants_TEXGEN_Hat.png
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.187821 0.049707 0.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd textures\Hat.png
+
 newmtl seam_ZZDECAL_ZZENV.001
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.367228 0.367228 0.367228
+Ks 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd textures\shine_ZZFORCERGBA16.tga
+texgen on
+
+newmtl seam_ZZDECAL_ZZENV.001_groove.001
 Ns 96.078431
 Ka 1.000000 1.000000 1.000000
 Kd 0.367228 0.367228 0.367228
@@ -591,18 +605,6 @@ map_Kd textures\mamory.png
 uprop c
 vprop c
 
-newmtl seam_ZZDECAL_ZZENV.001_shine
-Ns 96.078431
-Ka 1.000000 1.000000 1.000000
-Kd 0.367228 0.367228 0.367228
-Ks 1.000000 1.000000 1.000000
-Ke 0.000000 0.000000 0.000000
-Ni 1.000000
-d 1.000000
-illum 2
-map_Kd textures\shine_ZZFORCERGBA16.tga
-texgen on
-
 newmtl shine_TEXGEN
 Ns 0.000000
 Ka 0.200000 0.200000 0.200000
@@ -615,55 +617,17 @@ illum 2
 map_Kd textures\shine_ZZFORCERGBA16.tga
 texgen on
 
-newmtl shine_TEXGEN.001
+newmtl shine_TEXGEN_Back.png
 Ns 0.000000
 Ka 0.200000 0.200000 0.200000
-Kd 1.000000 1.000000 1.000000
-Ks 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd textures\shine_ZZFORCERGBA16.tga
-texgen on
-
-newmtl shine_TEXGEN.001_bottom
-Ns 0.000000
-Ka 0.200000 0.200000 0.200000
-Kd 1.000000 1.000000 1.000000
-Ks 1.000000 1.000000 1.000000
-Ke 0.000000 0.000000 0.000000
-Ni 1.000000
-d 1.000000
-illum 2
-map_Kd textures\bottom.png
+map_Kd textures\Back.png
 uprop c
-vprop c
-
-newmtl shine_TEXGEN.001_shine2.png
-Ns 0.000000
-Ka 0.200000 0.200000 0.200000
-Kd 1.000000 1.000000 1.000000
-Ks 1.000000 1.000000 1.000000
-Ke 0.000000 0.000000 0.000000
-Ni 1.000000
-d 1.000000
-illum 2
-map_Kd textures\shine2.png
-texgen on
-
-newmtl shine_TEXGEN.001_top.png
-Ns 0.000000
-Ka 0.200000 0.200000 0.200000
-Kd 1.000000 1.000000 1.000000
-Ks 1.000000 1.000000 1.000000
-Ke 0.000000 0.000000 0.000000
-Ni 1.000000
-d 1.000000
-illum 2
-map_Kd textures\top.png
-uprop c
-vprop c
 
 newmtl shine_TEXGEN_NONE
 Ns 0.000000
@@ -674,6 +638,56 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
+
+newmtl shine_TEXGEN_bottom
+Ns 0.000000
+Ka 0.200000 0.200000 0.200000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd textures\bottom.png
+uprop c
+vprop c
+
+newmtl shine_TEXGEN_shine.001
+Ns 0.000000
+Ka 0.200000 0.200000 0.200000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd textures\shine_ZZFORCERGBA16.tga
+texgen on
+
+newmtl shine_TEXGEN_shine2.png
+Ns 0.000000
+Ka 0.200000 0.200000 0.200000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd textures\shine2.png
+texgen on
+
+newmtl shine_TEXGEN_top.png
+Ns 0.000000
+Ka 0.200000 0.200000 0.200000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd textures\top.png
+uprop c
+vprop c
 
 newmtl shine_TEXGEN_wood.001
 Ns 0.000000
@@ -698,7 +712,7 @@ illum 3
 map_Kd textures\shine_ZZFORCERGBA16.tga
 texgen on
 
-newmtl shine_gold.001
+newmtl shine_gold_Gold.png
 Ns 94.117647
 Ka 1.000000 1.000000 1.000000
 Kd 1.000000 1.000000 0.000000
@@ -840,18 +854,6 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd textures\Back.png
-uprop c
-
-newmtl strap_NOCULL_string
-Ns 96.078431
-Ka 1.000000 1.000000 1.000000
-Kd 0.800000 0.800000 0.800000
-Ks 0.500000 0.500000 0.500000
-Ke 0.000000 0.000000 0.000000
-Ni 1.000000
-d 1.000000
-illum 2
 map_Kd textures\String_ZZRGBA16.png
 
 newmtl strap_NOCULL_wood
@@ -888,7 +890,7 @@ d 1.000000
 illum 2
 map_Kd textures\fist.tga
 
-newmtl thumb.003
+newmtl thumb_fist.tga
 Ns 94.117647
 Ka 1.000000 1.000000 1.000000
 Kd 1.000000 1.000000 1.000000
