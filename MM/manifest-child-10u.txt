@@ -45,12 +45,8 @@ DICTIONARY
     DL_HILT_GILDED              0x017058        "Hilt.3"
     DL_BLADE_GILDED             0x017310        "Blade.3"
     DL_SHEATH_RAZOR             0x017338        "Sheath.2"
-    DL_GK_HILT_RAZOR            0x04001D00      "Hilt.2"
-    DL_GK_BLADE_RAZOR           0x04002168      "Blade.2"
     DL_SHIELD_HERO              0x017458        "Shield.1"
     DL_SHEATH_KOKIRI            0x017700        "Sheath.1"
-    DL_GK_HILT_KOKIRI           0x040021A8      "Hilt.1"
-    DL_GK_BLADE_KOKIRI          0x040028C0      "Blade.1"
     DL_HOOKSHOT                 0x017858        "Hookshot"
     DL_BOW                      0x0181C8        "Bow"
     DL_HOOKSHOT_SPIKE           0x01D960        "Hookshot.Spike"
@@ -61,6 +57,12 @@ DICTIONARY
 
     // Misc
     DL_BOW_STRING               0x017818         "Bow.String"
+    
+    // External dependencies (gameplay_keep)
+    GK_HILT_KOKIRI              0x040021A8      // Kokiri Sword Handle
+    GK_HILT_RAZOR               0x04001D00      // Razor Sword Handle
+    GK_BLADE_KOKIRI             0x040028C0      // Kokiri Sword Blade
+    GK_BLADE_RAZOR              0x04002168      // Razor Sword Blade
 END
 
 // Matrix function parameters:
@@ -89,13 +91,13 @@ OBJECT
 
       DL_SWORD_KOKIRI_SHEATHED: // Sheathed Kokiri Sword
           CallMatrix( MATRIX_SWORD_BACK_A );
-          CallList( DL_GK_HILT_KOKIRI );
+          CallList( GK_HILT_KOKIRI );
           PopMatrix( 1 );
           CallList( DL_SHEATH_KOKIRI );
 
       DL_SWORD_RAZOR_SHEATHED: // Sheathed Razor Sword
           CallMatrix( MATRIX_SWORD_BACK_B );
-          CallList( DL_GK_HILT_RAZOR );
+          CallList( GK_HILT_RAZOR );
           PopMatrix( 1 );
           CallList( DL_SHEATH_RAZOR );
 
@@ -106,13 +108,13 @@ OBJECT
           CallList( DL_SHEATH_GILDED );
 
       DL_LFIST_KOKIRI_SWORD: // Left Fist + Kokiri Sword
-        CallList( DL_GK_HILT_KOKIRI );
-        CallList( DL_GK_BLADE_KOKIRI );
+        CallList( GK_HILT_KOKIRI );
+        CallList( GK_BLADE_KOKIRI );
         CallList( DL_LFIST );
 
       DL_LFIST_RAZOR_SWORD: // Left Fist + Razor Sword
-        CallList( DL_GK_HILT_RAZOR );
-        CallList( DL_GK_BLADE_RAZOR );
+        CallList( GK_HILT_RAZOR );
+        CallList( GK_BLADE_RAZOR );
         CallList( DL_LFIST );
 
       DL_LFIST_GILDED_SWORD: // Left Fist + Gilded Sword
