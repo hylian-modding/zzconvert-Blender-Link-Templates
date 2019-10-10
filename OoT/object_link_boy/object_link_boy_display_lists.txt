@@ -1,0 +1,74 @@
+***Left and Right are determined from Link's Point of View***
+0600EBE8 : Waist
+0600F260 : Right Thigh
+0600F868 : Right Shin
+0600FDE8 : Right Foot
+06010280 : Left Thigh
+06010898 : Left Shin
+06010E18 : Left Foot
+06011D20 : Head
+060126F8 : Hat
+06012900 : Collar
+06012D00 : Left Shoulder
+06013228 : Left Forearm
+06013890 : Left Hand
+06013DF0 : Left Fist
+06014310 : Outstretched Left Hand (Used for holding bottles.)
+06014868 : Right Shoulder
+06014D88 : Right Forearm
+060153C0 : Right Hand
+06015928 : Right Fist
+06015D58 : Master Sword Sheath
+06016188 : Torso
+060168E8 : Master Sword Hilt
+06016E48 : Master Sword Blade
+06017148 : Biggoron Sword Hilt
+060174E0 : Biggoron Sword Blade
+06017700 : Broken Giant's Knife Blade
+060184A8 : Megaton Hammer
+060188E8 : Empty Bottle
+06018BC0 : Hylian Shield
+060190E8 : Mirror Shield
+06019810 : Fairy Bow
+06019AE0 : Ocarina of Time
+06019FC0 : Hookshot / Longshot
+0601A9D8 : FPS Left Forearm
+0601BAA0 : FPS Left Hand
+0601C510 : FPS Right Forearm
+0601D1C8 : FPS Right Hand
+0601D688 : Left Silver / Golden Gauntlet Forearm
+0601D9A8 : Left Silver / Golden Gauntlet Hand (Open Hand)
+0601DD68 : Left Silver / Golden Gauntlet Hand (Fist)
+0601E048 : Right Silver / Golden Gauntlet Forearm
+0601E368 : Right Silver / Golden Gauntlet Hand (Open Hand)
+0601E728 : Right Silver / Golden Gauntlet Hand (Fist)
+0601EB38 : Left Iron Boot
+0601EF50 : Right Iron Boot
+0601F588 : Left Hover Boot
+0601FC80 : Right Hover Boot
+06020728 : FPS Hookshot / Longshot
+06020BA0 : Hookshot / Longshot Chain
+06020D78 : Hookshot / Longshot Spike
+06020E58 : Hookshot / Longshot Aiming Reticule
+06020F20 : Fairy Bow String
+060212A0 : Broken Piece of Giant's Knife
+06021380 : Hilt Matrix
+060213B0 : Shield Matrix
+06021400 : Sheathed Master Sword
+06021428 : Rotated Hylian Shield
+06021448 : Rotated Mirror Shield
+06021468 : Hylian Shield + Sheathed Master Sword
+06021478 : Hylian Shield + Master Sword Sheath
+06021488 : Mirror Shield + Sheathed Master Sword
+06021498 : Mirror Shield + Master Sword Sheath
+060214A8 : Left Fist + Master Sword
+060214C0 : Left Fist + Biggoron Sword
+060214D8 : Left Fist + Broken Giant's Knife
+060214F0 : Left Fist + Megaton Hammer
+06021500 : Right Fist + Hylian Shield
+06021510 : Right Fist + Mirror Shield
+06021520 : Right Fist + Fairy Bow
+06021530 : Right Fist + Hookshot / Longshot
+06021540 : Right Hand + Ocarina of Time
+06021550 : FPS Right Hand + Fairy Bow
+06021560 : FPS Right Hand + FPS Hookshot / Longshot
