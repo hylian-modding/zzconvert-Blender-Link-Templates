@@ -83,8 +83,8 @@ OBJECT
           Matrix( 0, 0, 0, -480, -240, -14, 1, 1, 1 );
 
       DL_SHIELD_MIRROR_COMBINED: // Combined Face and Body
-          CallList(DL_SHIELD_MIRROR_FACE);
           CallList(DL_SHIELD_MIRROR);
+          CallList(DL_SHIELD_MIRROR_FACE);
 
       DL_SHIELD_HERO_BACK: // Rotated Hero's Shield
           CallMatrix( MATRIX_SHIELD_HERO_BACK );
