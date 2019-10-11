@@ -153,11 +153,13 @@ OBJECT
 
       DL_FPS_RARM_HOOKSHOT:
             CallList( DL_HOOKSHOT );
-            CallList( DL_FPS_RIGHT_ARM );
+            CallList( DL_RFIST );
+            CallList( DL_RFOREARM );
 
       DL_FPS_RARM_BOW:
-            CallList( DL_BOW );
-            CallList( DL_FPS_RIGHT_ARM );
+            CallList( DL_HOOKSHOT );
+            CallList( DL_RFIST );
+            CallList( DL_RFOREARM );
 END
 
 REPOINT
