@@ -113,53 +113,53 @@ OBJECT
           CallList( DL_SHEATH_GILDED );
 
       DL_LFIST_KOKIRI_SWORD: // Left Fist + Kokiri Sword
-        CallList( GK_HILT_KOKIRI );
-        CallList( GK_BLADE_KOKIRI );
-        CallList( DL_LFIST );
+          CallList( GK_HILT_KOKIRI );
+          CallList( GK_BLADE_KOKIRI );
+          CallList( DL_LFIST );
 
       DL_LFIST_RAZOR_SWORD: // Left Fist + Razor Sword
-        CallList( GK_HILT_RAZOR );
-        CallList( GK_BLADE_RAZOR );
-        CallList( DL_LFIST );
+          CallList( GK_HILT_RAZOR );
+          CallList( GK_BLADE_RAZOR );
+          CallList( DL_LFIST );
 
       DL_LFIST_GILDED_SWORD: // Left Fist + Gilded Sword
-        CallList( DL_HILT_GILDED );
-        CallList( DL_BLADE_GILDED );
-        CallList( DL_LFIST );
+          CallList( DL_HILT_GILDED );
+          CallList( DL_BLADE_GILDED );
+          CallList( DL_LFIST );
 
       DL_LFIST_GFSWORD_SWORD: // Left Fist + Great Fairy's Sword
-        CallList( DL_BLADE_GFSWORD );
-        CallList( DL_LFIST );
+          CallList( DL_BLADE_GFSWORD );
+          CallList( DL_LFIST );
 
       DL_RFIST_SHIELD_HERO: // Right Fist + Hero's Shield
-            CallList( DL_SHIELD_HERO );
-            CallList( DL_RFIST );
+          CallList( DL_SHIELD_HERO );
+          CallList( DL_RFIST );
 
       DL_RFIST_SHIELD_MIRROR: // Right Fist + Mirror Shield
-            CallList( DL_SHIELD_MIRROR_COMBINED );
-            CallList( DL_RFIST );
+          CallList( DL_SHIELD_MIRROR_COMBINED );
+          CallList( DL_RFIST );
 
       DL_RFIST_HOOKSHOT: // Right Fist + Hookshot
-            CallList( DL_HOOKSHOT );
-            CallList( DL_RFIST );
+          CallList( DL_HOOKSHOT );
+          CallList( DL_RFIST );
 
       DL_RFIST_BOW: // Right Fist + Bow
-            CallList( DL_BOW );
-            CallList( DL_RFIST );
+          CallList( DL_BOW );
+          CallList( DL_RFIST );
 
       DL_RHAND_OCARINA_TIME:
-        CallList( DL_OCARINA_TIME );
-        CallList( DL_RHAND );
+          CallList( DL_OCARINA_TIME );
+          CallList( DL_RHAND );
 
       DL_FPS_RARM_HOOKSHOT:
-            CallList( DL_HOOKSHOT );
-            CallList( DL_RFIST );
-            CallList( DL_RFOREARM );
+          CallList( DL_HOOKSHOT );
+          CallList( DL_RFIST );
+          CallList( DL_RFOREARM );
 
       DL_FPS_RARM_BOW:
-            CallList( DL_HOOKSHOT );
-            CallList( DL_RFIST );
-            CallList( DL_RFOREARM );
+          CallList( DL_BOW );
+          CallList( DL_RFIST );
+          CallList( DL_RFOREARM );
 END
 
 REPOINT
