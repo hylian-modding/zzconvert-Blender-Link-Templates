@@ -153,6 +153,9 @@ OBJECT
       DL_FPS_RARM_BOW:
             CallList( DL_BOW );
             CallList( DL_FPS_RIGHT_ARM );
+			
+      DL_DF_COMMAND: // just an ordinary DF command
+          HexString(DF 00 00 00 00 00 00 00);	
 END
 
 REPOINT
@@ -226,6 +229,26 @@ REPOINT
       Write32(DL_FPS_RARM_HOOKSHOT);
       GoTo(0x00C572D4);                    // Hero's Bow String
       Write32(DL_BOW_STRING);
+
+      // FPS Glitch Fix (Thanks Fkualol!)
+      GoTo(0x00C567E4);
+      Write32(DL_DF_COMMAND);
+
+      // Swordless fix	(Thanks Nick!)	  
+      GoTo(0x00C565E4);
+      Write32(DL_DF_COMMAND);                   // Sheathed Sword + Shield	  
+      GoTo(0x00C565BC);
+      Write32(DL_DF_COMMAND);                   // Sheathed Sword	  
+
+      // Unknown Pointers (?)
+      GoTo(0x00C56594);
+      Write32(DL_DF_COMMAND);
+      GoTo(0x00C56598);
+      Write32(DL_DF_COMMAND);
+      GoTo(0x00C565C0);
+      Write32(DL_DF_COMMAND);
+      GoTo(0x00C565E8);
+      Write32(DL_DF_COMMAND);
 
       // Hookshot Spike
       GoTo(0x00D3BC4E);
