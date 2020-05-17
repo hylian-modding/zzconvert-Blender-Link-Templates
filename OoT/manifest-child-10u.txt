@@ -7,6 +7,8 @@ DICTIONARY
     TABLE_ACTOR           0xD7490              // start of actor table within code
     TABLE_PARTICLE        0xD6BA0              // start of particle table within code
     VROM_ITEM_SHIELD      A_238                // start of Item_Shield
+    VROM_GRAVE_CHILD      A_364                // graveyard kid
+    VROM_GUARD            A_179                // kakariko guard
     VROM_SS_STICK         E_16                 // ovl_Effect_Ss_Stick is effect 16
     VROM_PLAYER           0xBCDB70             // start of ovl_player_actor within rom
     VROM_OBJ              O_0x15               // object to overwrite
@@ -265,6 +267,18 @@ REPOINT
       Hi32( DL_SHIELD_DEKU_ODD );
       GoTo( VROM_ITEM_SHIELD+0x7F2 );
       Lo32( DL_SHIELD_DEKU_ODD );
+
+      // En_Cs (Graveyard Kid Spooky Mask)
+      GoTo( VROM_GRAVE_CHILD+0xE62);
+      Hi32( LUT_DL_MASK_SPOOKY );
+      GoTo( VROM_GRAVE_CHILD+0xE66);
+      Lo32( LUT_DL_MASK_SPOOKY );
+      
+      // En_Heishi2 (Kakariko Guard Keaton Mask)
+      GoTo( VROM_GUARD+0x1EA2);
+      Hi32( LUT_DL_MASK_KEATON );
+      GoTo( VROM_GUARD+0x1EA6);
+      Lo32( LUT_DL_MASK_KEATON );
 
       // ovl_player_actor
       GoTo( VROM_PLAYER+0x2253C );
