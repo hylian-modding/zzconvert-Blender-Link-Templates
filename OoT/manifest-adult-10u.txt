@@ -43,7 +43,7 @@ DICTIONARY
     DL_RFIST              0x015928    "Fist.R"
 
     // Items
-    DL_SWORD_SHEATH       0x015D58    "Limb 19"
+    DL_SWORD_SHEATH       0x015D58    "Sheath"
     DL_SWORD_HILT         0x0168E8    "Hilt.2"
     DL_SWORD_BLADE        0x016E48    "Blade.2"
     DL_LONGSWORD_HILT     0x017148    "Hilt.3"
