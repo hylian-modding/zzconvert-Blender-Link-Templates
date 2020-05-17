@@ -46,7 +46,7 @@ DICTIONARY
     DL_RFIST              0x017E90    "Fist.R"
 
     // Equipment
-    DL_SWORD_SHEATH       0x0180A0    "Limb 19"
+    DL_SWORD_SHEATH       0x0180A0    "Sheath"
     DL_SWORD_HILT         0x0183C8    "Hilt.1"
     DL_SWORD_BLADE        0x018678    "Blade.1"
     DL_MASTER_SWORD       0x018FC8    "Blade.2"
