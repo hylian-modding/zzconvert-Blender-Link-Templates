@@ -9,6 +9,7 @@ DICTIONARY
     VROM_ITEM_SHIELD      A_238                // start of Item_Shield
     VROM_GRAVE_CHILD      A_364                // graveyard kid
     VROM_GUARD            A_179                // kakariko guard
+    VROM_RUNNING_MAN      A_354                // running man
     VROM_SS_STICK         E_16                 // ovl_Effect_Ss_Stick is effect 16
     VROM_PLAYER           0xBCDB70             // start of ovl_player_actor within rom
     VROM_OBJ              O_0x15               // object to overwrite
@@ -270,15 +271,21 @@ REPOINT
 
       // En_Cs (Graveyard Kid Spooky Mask)
       GoTo( VROM_GRAVE_CHILD+0xE62);
-      Hi32( LUT_DL_MASK_SPOOKY );
+      Hi32( DL_MASK_SPOOKY );
       GoTo( VROM_GRAVE_CHILD+0xE66);
-      Lo32( LUT_DL_MASK_SPOOKY );
+      Lo32( DL_MASK_SPOOKY );
       
       // En_Heishi2 (Kakariko Guard Keaton Mask)
       GoTo( VROM_GUARD+0x1EA2);
-      Hi32( LUT_DL_MASK_KEATON );
+      Hi32( DL_MASK_KEATON );
       GoTo( VROM_GUARD+0x1EA6);
-      Lo32( LUT_DL_MASK_KEATON );
+      Lo32( DL_MASK_KEATON );
+      
+      // En_Mm (Running Man Bunny Hood)
+      GoTo( VROM_RUNNING_MAN+0x1142);
+      Hi32( DL_MASK_BUNNY );
+      GoTo( VROM_RUNNING_MAN+0x1146);
+      Lo32( DL_MASK_BUNNY );
 
       // ovl_player_actor
       GoTo( VROM_PLAYER+0x2253C );
