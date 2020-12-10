@@ -40,7 +40,7 @@ DICTIONARY
     DL_RFIST                    0x00FD08        "Fist.R"
 
     // Equipment
-	  DL_SHIELD_MIRROR_FACE       0x015F98		    "Shield.2.Face"
+    DL_SHIELD_MIRROR_FACE       0x015F98	"Shield.2.Face"
     DL_SHIELD_MIRROR            0x016480        "Shield.2"
     DL_BLADE_GFSWORD            0x016898        "Sword.4"
     DL_SHEATH_GILDED            0x016B80        "Sheath.3"
@@ -58,7 +58,7 @@ DICTIONARY
     DL_FPS_RIGHT_ARM            0x017EC0        "FPS.Forearm.R"
 
     // Misc
-    DL_BOW_STRING               0x017818        "Bow.String"
+    DL_BOW_STRING               0x017818         "Bow.String"
     
     // External dependencies (gameplay_keep)
     GK_HILT_KOKIRI              0x040021A8      // Kokiri Sword Handle
@@ -72,7 +72,21 @@ END
 
 OBJECT POOL=0x5000,0x800 
   LUT_ZZ_MODLOADER:
-	HexString(4D 4F 44 4C 4F 41 44 45 52 36 34 01 FF FF FF FF);
+	HexString(4D 4F 44 4C 4F 41 44 45 52 36 34 04 06 00 54 20);
+	
+				
+      MATRIX_SHIELD_MIRROR_BACK: // Mirror Shield Matrix
+          Matrix( 0, 0, 182, 552, 0, -50, 1, 1, 1 );
+
+      MATRIX_SHIELD_HERO_BACK: // Hero Shield Matrix
+          Matrix( 0, 0, 182, 552, 0, 0, 1, 1, 1 );
+
+      MATRIX_SWORD_BACK_A: // Kokiri / Gilded Hilt Matrix
+          Matrix( 0, 0, 0, -578, -221, -32, 1, 1, 1 );
+
+      MATRIX_SWORD_BACK_B: // Razor Hilt Matrix
+          Matrix( 0, 0, 0, -480, -240, -14, 1, 1, 1 );
+	
 		LUT_DL_WAIST:
 			CallList( DL_WAIST );
 
@@ -177,18 +191,6 @@ OBJECT POOL=0x5000,0x800
 			
 		LUT_DL_BOW_STRING:
 			CallList( DL_BOW_STRING );
-			
-      MATRIX_SHIELD_MIRROR_BACK: // Mirror Shield Matrix
-          Matrix( 0, 0, 182, 552, 0, -50, 1, 1, 1 );
-
-      MATRIX_SHIELD_HERO_BACK: // Hero Shield Matrix
-          Matrix( 0, 0, 182, 552, 0, 0, 1, 1, 1 );
-
-      MATRIX_SWORD_BACK_A: // Kokiri / Gilded Hilt Matrix
-          Matrix( 0, 0, 0, -578, -221, -32, 1, 1, 1 );
-
-      MATRIX_SWORD_BACK_B: // Razor Hilt Matrix
-          Matrix( 0, 0, 0, -480, -240, -14, 1, 1, 1 );
 
       DL_SHIELD_HERO_BACK: // Rotated Hero's Shield
           CallMatrix( MATRIX_SHIELD_HERO_BACK );
