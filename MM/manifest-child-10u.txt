@@ -39,6 +39,7 @@ DICTIONARY
     DL_RFIST                    0x00FD08        "Fist.R"
 
     // Equipment
+	DL_SHIELD_MIRROR_FACE       0x015F98		"Shield.2.Face"
     DL_SHIELD_MIRROR            0x016480        "Shield.2"
     DL_BLADE_GFSWORD            0x016898        "Sword.4"
     DL_SHEATH_GILDED            0x016B80        "Sheath.3"
@@ -84,10 +85,14 @@ OBJECT
       DL_SHIELD_HERO_BACK: // Rotated Hero's Shield
           CallMatrix( MATRIX_SHIELD_HERO_BACK );
           CallList( DL_SHIELD_HERO );
-
+	  
+	  DL_SHIELD_MIRROR_COMBINED: // Combined Face and Body
+          CallList(LUT_DL_SHIELD_MIRROR);
+          CallList(LUT_DL_SHIELD_MIRROR_FACE);
+		  
       DL_SHIELD_MIRROR_BACK: // Rotated Mirror Shield
           CallMatrix( MATRIX_SHIELD_MIRROR_BACK );
-          CallList( DL_SHIELD_MIRROR );
+          CallList( DL_SHIELD_MIRROR_COMBINED );
 
       DL_SWORD_KOKIRI_SHEATHED: // Sheathed Kokiri Sword
           CallMatrix( MATRIX_SWORD_BACK_A );
