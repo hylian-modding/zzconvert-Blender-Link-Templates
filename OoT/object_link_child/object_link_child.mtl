@@ -90,10 +90,10 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 0.000000
 illum 2
-map_Kd C:\Users\Nick\Dropbox\Z64\zzplayas_blender_templates\object_link_child\textures\04001400.tga
+map_Kd textures\04001400.tga
 uprop c
 vprop c
-map_d C:\\Users\\Nick\\Dropbox\\Z64\\zzplayas_blender_templates\\object_link_child\\textures\\04001400.tga
+map_d textures\\04001400.tga
 
 newmtl mtl_04001800_TEXGEN
 Ns 96.078431
@@ -134,8 +134,8 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 0.000000
 illum 1
-map_Kd C:\Users\Nick\Dropbox\Z64\zzplayas_blender_templates\object_link_child\textures\04001A00.tga
-map_d C:\\Users\\Nick\\Dropbox\\Z64\\zzplayas_blender_templates\\object_link_child\\textures\\04001A00.tga
+map_Kd textures\04001A00.tga
+map_d textures\\04001A00.tga
 
 newmtl mtl_04001A00_yellow
 Ns 96.078431
@@ -146,7 +146,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd C:\Users\Nick\Dropbox\Z64\zzplayas_blender_templates\object_link_child\textures\04001A00.tga
+map_Kd textures\04001A00.tga
 
 newmtl mtl_04001A40
 Ns 96.078431
@@ -157,10 +157,10 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 0.000000
 illum 2
-map_Kd C:\Users\Nick\Dropbox\Z64\zzplayas_blender_templates\object_link_child\textures\04001A40.tga
+map_Kd textures\04001A40.tga
 uprop c
 vprop c
-map_d C:\\Users\\Nick\\Dropbox\\Z64\\zzplayas_blender_templates\\object_link_child\\textures\\04001A40.tga
+map_d textures\\04001A40.tga
 
 newmtl mtl_04001C40_ZZENV
 Ns 96.078431
@@ -171,8 +171,8 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 0.000000
 illum 2
-map_Kd C:\Users\Nick\Dropbox\Z64\zzplayas_blender_templates\object_link_child\textures\04001C40_ZZTUNIC.tga
-map_d C:\\Users\\Nick\\Dropbox\\Z64\\zzplayas_blender_templates\\object_link_child\\textures\\04001C40_ZZTUNIC.tga
+map_Kd textures\04001C40_ZZTUNIC.tga
+map_d textures\\04001C40_ZZTUNIC.tga
 
 newmtl mtl_04001D40_ZZENV
 Ns 96.078431
@@ -183,8 +183,8 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 0.000000
 illum 2
-map_Kd C:\Users\Nick\Dropbox\Z64\zzplayas_blender_templates\object_link_child\textures\04001D40_ZZTUNIC.tga
-map_d C:\\Users\\Nick\\Dropbox\\Z64\\zzplayas_blender_templates\\object_link_child\\textures\\04001D40_ZZTUNIC.tga
+map_Kd textures\04001D40_ZZTUNIC.tga
+map_d textures\\04001D40_ZZTUNIC.tga
 
 newmtl mtl_04001F40_ZZENV
 Ns 96.078431
@@ -195,8 +195,8 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 0.000000
 illum 2
-map_Kd C:\Users\Nick\Dropbox\Z64\zzplayas_blender_templates\object_link_child\textures\04001F40_ZZTUNIC.tga
-map_d C:\\Users\\Nick\\Dropbox\\Z64\\zzplayas_blender_templates\\object_link_child\\textures\\04001F40_ZZTUNIC.tga
+map_Kd textures\04001F40_ZZTUNIC.tga
+map_d textures\\04001F40_ZZTUNIC.tga
 
 newmtl mtl_06005000_ZZENV_NOCULL
 Ns 96.078431
@@ -207,8 +207,8 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 0.000000
 illum 2
-map_Kd C:\Users\Nick\Dropbox\Z64\zzplayas_blender_templates\object_link_child\textures\06005000_ZZTUNIC.tga
-map_d C:\\Users\\Nick\\Dropbox\\Z64\\zzplayas_blender_templates\\object_link_child\\textures\\06005000_ZZTUNIC.tga
+map_Kd textures\06005000_ZZTUNIC.tga
+map_d textures\\06005000_ZZTUNIC.tga
 
 newmtl mtl_06005600
 Ns 96.078431
@@ -317,7 +317,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd C:\Users\Nick\Dropbox\Z64\zzplayas_blender_templates\object_link_child\textures\texture_0600A3F0.png
+map_Kd textures\texture_0600A3F0.png
 uprop c
 vprop c
 
@@ -363,8 +363,8 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 0.000000
 illum 2
-map_Kd C:\Users\Nick\Dropbox\Z64\zzplayas_blender_templates\object_link_child\textures\060071E0.tga
-map_d C:\\Users\\Nick\\Dropbox\\Z64\\zzplayas_blender_templates\\object_link_child\\textures\\060071E0.tga
+map_Kd textures\060071E0.tga
+map_d textures\\060071E0.tga
 
 newmtl mtl_060079E0
 Ns 96.078431
@@ -375,8 +375,8 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 0.000000
 illum 2
-map_Kd C:\Users\Nick\Dropbox\Z64\zzplayas_blender_templates\object_link_child\textures\060079E0.tga
-map_d C:\\Users\\Nick\\Dropbox\\Z64\\zzplayas_blender_templates\\object_link_child\\textures\\060079E0.tga
+map_Kd textures\060079E0.tga
+map_d textures\\060079E0.tga
 
 newmtl mtl_060089E0
 Ns 96.078431
@@ -387,8 +387,8 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 0.000000
 illum 2
-map_Kd C:\Users\Nick\Dropbox\Z64\zzplayas_blender_templates\object_link_child\textures\060089E0.tga
-map_d C:\\Users\\Nick\\Dropbox\\Z64\\zzplayas_blender_templates\\object_link_child\\textures\\060089E0.tga
+map_Kd textures\060089E0.tga
+map_d textures\\060089E0.tga
 
 newmtl mtl_06008DE0
 Ns 96.078431
@@ -399,9 +399,9 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 0.000000
 illum 2
-map_Kd C:\Users\Nick\Dropbox\Z64\zzplayas_blender_templates\object_link_child\textures\06008DE0.tga
+map_Kd textures\06008DE0.tga
 vprop c
-map_d C:\\Users\\Nick\\Dropbox\\Z64\\zzplayas_blender_templates\\object_link_child\\textures\\06008DE0.tga
+map_d textures\\06008DE0.tga
 
 newmtl mtl_060091E0
 Ns 96.078431
@@ -412,10 +412,10 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 0.000000
 illum 2
-map_Kd C:\Users\Nick\Dropbox\Z64\zzplayas_blender_templates\object_link_child\textures\060091E0.tga
+map_Kd textures\060091E0.tga
 uprop c
 vprop c
-map_d C:\\Users\\Nick\\Dropbox\\Z64\\zzplayas_blender_templates\\object_link_child\\textures\\060091E0.tga
+map_d textures\\060091E0.tga
 
 newmtl mtl_060095E0
 Ns 96.078431
@@ -469,9 +469,9 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 0.000000
 illum 2
-map_Kd C:\Users\Nick\Dropbox\Z64\zzplayas_blender_templates\object_link_child\textures\0600A260.tga
+map_Kd textures\0600A260.tga
 vprop c
-map_d C:\\Users\\Nick\\Dropbox\\Z64\\zzplayas_blender_templates\\object_link_child\\textures\\0600A260.tga
+map_d textures\\0600A260.tga
 
 newmtl mtl_0600A2E0_NOCULL
 Ns 96.078431
@@ -482,10 +482,10 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 0.000000
 illum 2
-map_Kd C:\Users\Nick\Dropbox\Z64\zzplayas_blender_templates\object_link_child\textures\0600A2E0.tga
+map_Kd textures\0600A2E0.tga
 uprop c
 vprop c
-map_d C:\\Users\\Nick\\Dropbox\\Z64\\zzplayas_blender_templates\\object_link_child\\textures\\0600A2E0.tga
+map_d textures\\0600A2E0.tga
 
 newmtl mtl_0600A360_NOCULL
 Ns 96.078431
@@ -496,10 +496,10 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 0.000000
 illum 2
-map_Kd C:\Users\Nick\Dropbox\Z64\zzplayas_blender_templates\object_link_child\textures\0600A360.tga
+map_Kd textures\0600A360.tga
 uprop c
 vprop c
-map_d C:\\Users\\Nick\\Dropbox\\Z64\\zzplayas_blender_templates\\object_link_child\\textures\\0600A360.tga
+map_d textures\\0600A360.tga
 
 newmtl mtl_0600A560_brown
 Ns 96.078431
@@ -510,7 +510,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 0
-map_Kd C:\Users\Nick\Dropbox\Z64\zzplayas_blender_templates\object_link_child\textures\0600A560.tga
+map_Kd textures\0600A560.tga
 uprop c
 vprop c
 
@@ -523,10 +523,10 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 0
-map_Kd C:\Users\Nick\Dropbox\Z64\zzplayas_blender_templates\object_link_child\textures\0600A560.tga
+map_Kd textures\0600A560.tga
 uprop c
 vprop c
-map_d C:\\Users\\Nick\\Dropbox\\Z64\\zzplayas_blender_templates\\object_link_child\\textures\\0600A560.tga
+map_d textures\\0600A560.tga
 
 newmtl mtl_0600B560_NOCULL
 Ns 96.078431
@@ -537,10 +537,10 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 0.000000
 illum 2
-map_Kd C:\Users\Nick\Dropbox\Z64\zzplayas_blender_templates\object_link_child\textures\0600B560.tga
+map_Kd textures\0600B560.tga
 uprop c
 vprop c
-map_d C:\\Users\\Nick\\Dropbox\\Z64\\zzplayas_blender_templates\\object_link_child\\textures\\0600B560.tga
+map_d textures\\0600B560.tga
 
 newmtl mtl_0600B960_NOCULL
 Ns 96.078431
@@ -551,10 +551,10 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 0.000000
 illum 2
-map_Kd C:\Users\Nick\Dropbox\Z64\zzplayas_blender_templates\object_link_child\textures\0600B960.tga
+map_Kd textures\0600B960.tga
 uprop c
 vprop c
-map_d C:\\Users\\Nick\\Dropbox\\Z64\\zzplayas_blender_templates\\object_link_child\\textures\\0600B960.tga
+map_d textures\\0600B960.tga
 
 newmtl mtl_0600B9E0_NOCULL
 Ns 96.078431
@@ -565,10 +565,10 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 0.000000
 illum 2
-map_Kd C:\Users\Nick\Dropbox\Z64\zzplayas_blender_templates\object_link_child\textures\0600B9E0.tga
+map_Kd textures\0600B9E0.tga
 uprop c
 vprop c
-map_d C:\\Users\\Nick\\Dropbox\\Z64\\zzplayas_blender_templates\\object_link_child\\textures\\0600B9E0.tga
+map_d textures\\0600B9E0.tga
 
 newmtl mtl_0600BDE0_NOCULL
 Ns 96.078431
@@ -579,10 +579,10 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 0.000000
 illum 2
-map_Kd C:\Users\Nick\Dropbox\Z64\zzplayas_blender_templates\object_link_child\textures\0600BDE0.tga
+map_Kd textures\0600BDE0.tga
 uprop c
 vprop c
-map_d C:\\Users\\Nick\\Dropbox\\Z64\\zzplayas_blender_templates\\object_link_child\\textures\\0600BDE0.tga
+map_d textures\\0600BDE0.tga
 
 newmtl mtl_0600CDE0_NOCULL
 Ns 96.078431
@@ -593,10 +593,10 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 0.000000
 illum 2
-map_Kd C:\Users\Nick\Dropbox\Z64\zzplayas_blender_templates\object_link_child\textures\0600CDE0.tga
+map_Kd textures\0600CDE0.tga
 uprop c
 vprop c
-map_d C:\\Users\\Nick\\Dropbox\\Z64\\zzplayas_blender_templates\\object_link_child\\textures\\0600CDE0.tga
+map_d textures\\0600CDE0.tga
 
 newmtl mtl_0600DDE0_NOCULL
 Ns 96.078431
@@ -607,10 +607,10 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 0.000000
 illum 2
-map_Kd C:\Users\Nick\Dropbox\Z64\zzplayas_blender_templates\object_link_child\textures\0600DDE0.tga
+map_Kd textures\0600DDE0.tga
 uprop c
 vprop c
-map_d C:\\Users\\Nick\\Dropbox\\Z64\\zzplayas_blender_templates\\object_link_child\\textures\\0600DDE0.tga
+map_d textures\\0600DDE0.tga
 
 newmtl mtl_0600E5E0_NOCULL
 Ns 96.078431
@@ -621,10 +621,10 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 0.000000
 illum 2
-map_Kd C:\Users\Nick\Dropbox\Z64\zzplayas_blender_templates\object_link_child\textures\0600E5E0.tga
+map_Kd textures\0600E5E0.tga
 uprop c
 vprop c
-map_d C:\\Users\\Nick\\Dropbox\\Z64\\zzplayas_blender_templates\\object_link_child\\textures\\0600E5E0.tga
+map_d textures\\0600E5E0.tga
 
 newmtl mtl_0600E660_NOCULL
 Ns 96.078431
@@ -635,9 +635,9 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 0.000000
 illum 2
-map_Kd C:\Users\Nick\Dropbox\Z64\zzplayas_blender_templates\object_link_child\textures\0600E660.tga
+map_Kd textures\0600E660.tga
 vprop c
-map_d C:\\Users\\Nick\\Dropbox\\Z64\\zzplayas_blender_templates\\object_link_child\\textures\\0600E660.tga
+map_d textures\\0600E660.tga
 
 newmtl mtl_0600E860_NOCULL
 Ns 96.078431
@@ -648,10 +648,10 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 0.000000
 illum 2
-map_Kd C:\Users\Nick\Dropbox\Z64\zzplayas_blender_templates\object_link_child\textures\0600E860.tga
+map_Kd textures\0600E860.tga
 uprop c
 vprop c
-map_d C:\\Users\\Nick\\Dropbox\\Z64\\zzplayas_blender_templates\\object_link_child\\textures\\0600E860.tga
+map_d textures\\0600E860.tga
 
 newmtl mtl_0600E8E0_NOCULL
 Ns 96.078431
@@ -662,10 +662,10 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 0.000000
 illum 2
-map_Kd C:\Users\Nick\Dropbox\Z64\zzplayas_blender_templates\object_link_child\textures\0600E8E0.tga
+map_Kd textures\0600E8E0.tga
 uprop c
 vprop c
-map_d C:\\Users\\Nick\\Dropbox\\Z64\\zzplayas_blender_templates\\object_link_child\\textures\\0600E8E0.tga
+map_d textures\\0600E8E0.tga
 
 newmtl mtl_0600E960_NOCULL
 Ns 96.078431
@@ -676,10 +676,10 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 0.000000
 illum 2
-map_Kd C:\Users\Nick\Dropbox\Z64\zzplayas_blender_templates\object_link_child\textures\0600E960.tga
+map_Kd textures\0600E960.tga
 uprop c
 vprop c
-map_d C:\\Users\\Nick\\Dropbox\\Z64\\zzplayas_blender_templates\\object_link_child\\textures\\0600E960.tga
+map_d textures\\0600E960.tga
 
 newmtl mtl_0600F160_NOCULL
 Ns 96.078431
@@ -690,10 +690,10 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 0.000000
 illum 2
-map_Kd C:\Users\Nick\Dropbox\Z64\zzplayas_blender_templates\object_link_child\textures\0600F160.tga
+map_Kd textures\0600F160.tga
 uprop c
 vprop c
-map_d C:\\Users\\Nick\\Dropbox\\Z64\\zzplayas_blender_templates\\object_link_child\\textures\\0600F160.tga
+map_d textures\\0600F160.tga
 
 newmtl mtl_0600F960_NOCULL
 Ns 96.078431
@@ -704,10 +704,10 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 0.000000
 illum 2
-map_Kd C:\Users\Nick\Dropbox\Z64\zzplayas_blender_templates\object_link_child\textures\0600F960.tga
+map_Kd textures\0600F960.tga
 uprop c
 vprop c
-map_d C:\\Users\\Nick\\Dropbox\\Z64\\zzplayas_blender_templates\\object_link_child\\textures\\0600F960.tga
+map_d textures\\0600F960.tga
 
 newmtl mtl_06010160_NOCULL
 Ns 96.078431
@@ -718,10 +718,10 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 0.000000
 illum 2
-map_Kd C:\Users\Nick\Dropbox\Z64\zzplayas_blender_templates\object_link_child\textures\06010160.tga
+map_Kd textures\06010160.tga
 uprop c
 vprop c
-map_d C:\\Users\\Nick\\Dropbox\\Z64\\zzplayas_blender_templates\\object_link_child\\textures\\06010160.tga
+map_d textures\\06010160.tga
 
 newmtl mtl_06010960_NOCULL
 Ns 96.078431
@@ -732,9 +732,9 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 0.000000
 illum 2
-map_Kd C:\Users\Nick\Dropbox\Z64\zzplayas_blender_templates\object_link_child\textures\06010960.tga
+map_Kd textures\06010960.tga
 vprop c
-map_d C:\\Users\\Nick\\Dropbox\\Z64\\zzplayas_blender_templates\\object_link_child\\textures\\06010960.tga
+map_d textures\\06010960.tga
 
 newmtl mtl_06010B60_NOCULL
 Ns 96.078431
@@ -745,8 +745,8 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 0.000000
 illum 2
-map_Kd C:\Users\Nick\Dropbox\Z64\zzplayas_blender_templates\object_link_child\textures\06010B60.tga
-map_d C:\\Users\\Nick\\Dropbox\\Z64\\zzplayas_blender_templates\\object_link_child\\textures\\06010B60.tga
+map_Kd textures\06010B60.tga
+map_d textures\\06010B60.tga
 
 newmtl mtl_06010D60_NOCULL
 Ns 96.078431
@@ -757,10 +757,10 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 0.000000
 illum 2
-map_Kd C:\Users\Nick\Dropbox\Z64\zzplayas_blender_templates\object_link_child\textures\06010D60.tga
+map_Kd textures\06010D60.tga
 uprop c
 vprop c
-map_d C:\\Users\\Nick\\Dropbox\\Z64\\zzplayas_blender_templates\\object_link_child\\textures\\06010D60.tga
+map_d textures\\06010D60.tga
 
 newmtl mtl_08000000
 Ns 96.078431
@@ -771,7 +771,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd C:\Users\Nick\Dropbox\Z64\zzplayas_blender_templates\object_link_child\textures\eyes.png
+map_Kd textures\eyes.png
 uprop c
 vprop c
 
@@ -784,6 +784,6 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd C:\Users\Nick\Dropbox\Z64\zzplayas_blender_templates\object_link_child\textures\mouth.png
+map_Kd textures\mouth.png
 uprop c
 vprop c

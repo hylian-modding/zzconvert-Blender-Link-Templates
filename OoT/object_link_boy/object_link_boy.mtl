@@ -196,9 +196,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd textures\06005200.tga
-uprop c
-vprop c
+map_Kd textures\060096E8.tga
 
 newmtl mtl_06005280_ZZENV_NOCULL
 Ns 96.078431
@@ -289,7 +287,6 @@ Ni 1.000000
 d 1.000000
 illum 2
 map_Kd textures\06006580.tga
-uprop c
 vprop c
 
 newmtl mtl_06006980
@@ -315,7 +312,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd textures\06007180.tga
+map_Kd textures\06005000.tga
 uprop c
 vprop c
 
@@ -650,8 +647,9 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 0.000000
 illum 2
-map_Kd textures\0600A968.tga
+map_Kd textures\mirrorshield_crescent.png
 uprop c
+vprop c
 map_d textures\\0600A968.tga
 
 newmtl mtl_0600B168_blue
