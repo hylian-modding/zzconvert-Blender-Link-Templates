@@ -247,10 +247,10 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd E:\Modding\Zelda64\Tools\zzplayas\Banks\textures\CI8_0600C978_pal0600C578.tga
+map_Kd E:\Modding\Zelda64\Tools\zzplayas\Banks\textures\CI8_0600C778_pal0600C578.tga
 vprop c
 
-newmtl mtl_0600C978.001_CI8_0600C778_pal0600C578.tga
+newmtl mtl_0600C978.001_CI8_0600C978_pal0600C578.tga
 Ns 96.078431
 Ka 1.000000 1.000000 1.000000
 Kd 0.640000 0.640000 0.640000
@@ -259,7 +259,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd E:\Modding\Zelda64\Tools\zzplayas\Banks\textures\CI8_0600C778_pal0600C578.tga
+map_Kd E:\Modding\Zelda64\Tools\zzplayas\Banks\textures\CI8_0600C978_pal0600C578.tga
 vprop c
 
 newmtl mtl_0600E678
@@ -477,7 +477,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 0.000000
 illum 2
-map_Kd E:\Modding\Zelda64\Tools\zzplayas\Banks\textures\RGBA16_06010028.tga
+map_Kd textures\CI8_06005F00_pal06005000.tga
 vprop c
 map_d textures\\06010228.tga
 
@@ -490,10 +490,11 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd E:\Modding\Zelda64\Tools\zzplayas\Banks\textures\RGBA16_06010028.tga
+map_Kd E:\Modding\Zelda64\Tools\zzplayas\Banks\textures\RGBA16_06010228.tga
+uprop c
 vprop c
 
-newmtl mtl_06010228_NOCULL.001_RGBA16_06010228.tga.001
+newmtl mtl_06010228_NOCULL.001_RGBA16_06010028.tga.001
 Ns 96.078431
 Ka 1.000000 1.000000 1.000000
 Kd 0.640000 0.640000 0.640000
@@ -502,11 +503,10 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd E:\Modding\Zelda64\Tools\zzplayas\Banks\textures\RGBA16_06010228.tga
-uprop c
+map_Kd E:\Modding\Zelda64\Tools\zzplayas\Banks\textures\RGBA16_06010028.tga
 vprop c
 
-newmtl mtl_06010228_NOCULL_RGBA16_06010228.tga.001
+newmtl mtl_06010228_NOCULL_CI8_06005D00_pal06005000.tga
 Ns 96.078431
 Ka 1.000000 1.000000 1.000000
 Kd 0.640000 0.640000 0.640000
@@ -515,8 +515,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 0.000000
 illum 2
-map_Kd E:\Modding\Zelda64\Tools\zzplayas\Banks\textures\RGBA16_06010228.tga
-uprop c
+map_Kd textures\CI8_06005D00_pal06005000.tga
 vprop c
 map_d textures\\06010228.tga
 
